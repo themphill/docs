@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>../../../application/modules/sourcetrak/resources/js/views/view.editDomainSet.js - Sourcetrak</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="icon" href="../assets/favicon.ico">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+                <h1><img src="../assets/css/logo.png" title="Sourcetrak" width="117" height="52"></h1>
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/aa.html">aa</a></li>
+                                <li><a href="../classes/act_on.html">act_on</a></li>
+                                <li><a href="../classes/Collections.Activities.html">Collections.Activities</a></li>
+                                <li><a href="../classes/Collections.DomainSets.html">Collections.DomainSets</a></li>
+                                <li><a href="../classes/Collections.Locations.html">Collections.Locations</a></li>
+                                <li><a href="../classes/Collections.PaginatedActivities.html">Collections.PaginatedActivities</a></li>
+                                <li><a href="../classes/Collections.PaginatedLocations.html">Collections.PaginatedLocations</a></li>
+                                <li><a href="../classes/Collections.Patterns.html">Collections.Patterns</a></li>
+                                <li><a href="../classes/Collections.Pools.html">Collections.Pools</a></li>
+                                <li><a href="../classes/Collections.ReplacementNumbers.html">Collections.ReplacementNumbers</a></li>
+                                <li><a href="../classes/Collections.Routing.html">Collections.Routing</a></li>
+                                <li><a href="../classes/Collections.Schedules.html">Collections.Schedules</a></li>
+                                <li><a href="../classes/Collections.SubCollection.html">Collections.SubCollection</a></li>
+                                <li><a href="../classes/hubspot.html">hubspot</a></li>
+                                <li><a href="../classes/Mixins.AudioFileUploadBtn.html">Mixins.AudioFileUploadBtn</a></li>
+                                <li><a href="../classes/Mixins.Autosave.html">Mixins.Autosave</a></li>
+                                <li><a href="../classes/Mixins.Autoset.html">Mixins.Autoset</a></li>
+                                <li><a href="../classes/Mixins.ClientPagination.html">Mixins.ClientPagination</a></li>
+                                <li><a href="../classes/Mixins.HighlightInvalid.html">Mixins.HighlightInvalid</a></li>
+                                <li><a href="../classes/Mixins.Loading.html">Mixins.Loading</a></li>
+                                <li><a href="../classes/Mixins.Transform.html">Mixins.Transform</a></li>
+                                <li><a href="../classes/Models.Activity.html">Models.Activity</a></li>
+                                <li><a href="../classes/Models.Location.html">Models.Location</a></li>
+                                <li><a href="../classes/Models.Pattern.html">Models.Pattern</a></li>
+                                <li><a href="../classes/Models.Pool.html">Models.Pool</a></li>
+                                <li><a href="../classes/Models.Routing.html">Models.Routing</a></li>
+                                <li><a href="../classes/Models.Schedule.html">Models.Schedule</a></li>
+                                <li><a href="../classes/Models.State.html">Models.State</a></li>
+                                <li><a href="../classes/Models.SubModel.html">Models.SubModel</a></li>
+                                <li><a href="../classes/op.html">op</a></li>
+                                <li><a href="../classes/Validator.html">Validator</a></li>
+                                <li><a href="../classes/Views.Activity.html">Views.Activity</a></li>
+                                <li><a href="../classes/Views.ActivityAdd.html">Views.ActivityAdd</a></li>
+                                <li><a href="../classes/Views.ActivityCreate.html">Views.ActivityCreate</a></li>
+                                <li><a href="../classes/Views.ActivityDestroy.html">Views.ActivityDestroy</a></li>
+                                <li><a href="../classes/Views.ActivityDisplay.html">Views.ActivityDisplay</a></li>
+                                <li><a href="../classes/Views.ActivityEdit.html">Views.ActivityEdit</a></li>
+                                <li><a href="../classes/Views.ActivityEditAdvanced.html">Views.ActivityEditAdvanced</a></li>
+                                <li><a href="../classes/Views.ActivityList.html">Views.ActivityList</a></li>
+                                <li><a href="../classes/Views.ActivityPool.html">Views.ActivityPool</a></li>
+                                <li><a href="../classes/Views.ActivityPoolEdit.html">Views.ActivityPoolEdit</a></li>
+                                <li><a href="../classes/Views.AdvancedOptionsModal.html">Views.AdvancedOptionsModal</a></li>
+                                <li><a href="../classes/Views.CopyToClipboard.html">Views.CopyToClipboard</a></li>
+                                <li><a href="../classes/Views.DeleteLocationModal.html">Views.DeleteLocationModal</a></li>
+                                <li><a href="../classes/Views.DomainSetItem.html">Views.DomainSetItem</a></li>
+                                <li><a href="../classes/Views.DomainsPopover.html">Views.DomainsPopover</a></li>
+                                <li><a href="../classes/Views.EditPoolToolbar.html">Views.EditPoolToolbar</a></li>
+                                <li><a href="../classes/Views.Graph.html">Views.Graph</a></li>
+                                <li><a href="../classes/Views.listControls.html">Views.listControls</a></li>
+                                <li><a href="../classes/Views.LocationItem.html">Views.LocationItem</a></li>
+                                <li><a href="../classes/Views.LocationsList.html">Views.LocationsList</a></li>
+                                <li><a href="../classes/Views.Main.html">Views.Main</a></li>
+                                <li><a href="../classes/Views.Modal.html">Views.Modal</a></li>
+                                <li><a href="../classes/Views.Modal2.html">Views.Modal2</a></li>
+                                <li><a href="../classes/Views.ModalPageView.html">Views.ModalPageView</a></li>
+                                <li><a href="../classes/Views.Numbers.html">Views.Numbers</a></li>
+                                <li><a href="../classes/Views.PageView.html">Views.PageView</a></li>
+                                <li><a href="../classes/Views.Poolbar.html">Views.Poolbar</a></li>
+                                <li><a href="../classes/Views.PoolsDashboard.html">Views.PoolsDashboard</a></li>
+                                <li><a href="../classes/Views.PoolsList.html">Views.PoolsList</a></li>
+                                <li><a href="../classes/Views.PoolsListItem.html">Views.PoolsListItem</a></li>
+                                <li><a href="../classes/Views.Popover.html">Views.Popover</a></li>
+                                <li><a href="../classes/Views.SearchBox.html">Views.SearchBox</a></li>
+                                <li><a href="../classes/Views.SnippetModal.html">Views.SnippetModal</a></li>
+                                <li><a href="../classes/Views.Toolbar.html">Views.Toolbar</a></li>
+                                <li><a href="../classes/Views.VersionHashError.html">Views.VersionHashError</a></li>
+                                <li><a href="../classes/Views.Wizard.html">Views.Wizard</a></li>
+                            </ul>
+                
+                            <ul id="api-modules" class="apis modules">
+                                <li><a href="../modules/Carbon.html">Carbon</a></li>
+                                <li><a href="../modules/Integration.html">Integration</a></li>
+                                <li><a href="../modules/SourceTrak.html">SourceTrak</a></li>
+                                <li><a href="../modules/Sourcetrak.html">Sourcetrak</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: ../../../application/modules/sourcetrak/resources/js/views/view.editDomainSet.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+Ibp.Sourcetrak.Views.EditDomainSet = Ibp.Carbon.Views.PageView.extend({
+    mixins: [&#x27;Autosave&#x27;, &#x27;HighlightInvalid&#x27;],
+    name: &#x27;editDomainSet&#x27;,
+    el: &#x27;#sourcetrak-editDomainSet&#x27;,
+    template: Ibp.Sourcetrak.Templates.edit_domain_set,
+
+    /**
+     * Object containing this view&#x27;s associated views
+     *
+     * @property views
+     */
+    views: {},
+
+    /**
+    * A subCollection object that is an array of objects,
+    * each representing a domain model
+    *
+    * @property domainsSubCollection
+    * @type SubCollection
+    */
+    domainsSubCollection: null,
+
+    /**
+    * DOM container for domain set&#x27;s domains list
+    *
+    * @property domainsEl
+    * @type String
+    */
+    nameEl: &#x27;.js-edit-name&#x27;,
+
+    /**
+    * DOM container for main number select
+    *
+    * @property mainNumberEl
+    * @type String
+    */
+    mainNumberEl: &#x27;.js-edit-main-number&#x27;,
+
+    /**
+    * DOM container for domain set&#x27;s domains list
+    *
+    * @property domainsEl
+    * @type String
+    */
+    domainsEl: &#x27;.js-edit-domains&#x27;,
+
+    /**
+    * DOM container for number replacement number
+    *
+    * @property replaceNumberEl
+    * @type String
+    */
+    replaceNumberEl: &#x27;#replace_number&#x27;,
+
+    /**
+    * DOM container for number replacement class
+    *
+    * @property replaceClassEl
+    * @type String
+    */
+    replaceClassEl: &#x27;#replace_class&#x27;,
+
+    /**
+    * DOM container for number replacement id
+    *
+    * @property replaceIdEl
+    * @type String
+    */
+    replaceIdEl: &#x27;#replace_id&#x27;,
+
+    /**
+    * DOM container for set of elements that comprise
+    * the presentation &amp; functionality for adding a new
+    * domain to the domain set model.
+    *
+    * @property domainForm
+    * @type String
+    */
+    domainForm: &#x27;.js-domain-form&#x27;,
+
+    /**
+     * DOM container for one-to-one activity list
+     *
+     * @property otoContainerEl
+     * @type String
+     */
+    otoContainerEl: &#x27;.js-oto-activity-list&#x27;,
+
+    /**
+     * DOM container for pool activity list
+     *
+     * @property poolContainerEl
+     * @type String
+     */
+    poolContainerEl: &#x27;.js-pool-activity-list&#x27;,
+
+    /**
+     * DOM container for locations list
+     *
+     * @property locationsListContainerEl
+     * @type String
+     */
+    locationsListContainerEl: &#x27;.js-locations-section&#x27;,
+
+    /**
+     * References locationsListContainerEl
+     *
+     * @property $locationsListContainer
+     * @type jQuery Object
+     */
+    $locationsListContainer: null,
+    /**
+     * Eventhub subscriptions handlers
+     *
+     * @property subscriptions
+     */
+
+    subscriptions: {
+        &#x27;deleteDomainSetModal&#x27;   : &#x27;renderDeleteDomainSetModal&#x27;,
+        &#x27;getAdvancedOptionsModal&#x27;: &#x27;renderAdvancedOptionsModal&#x27;,
+        &#x27;getTestModal&#x27;           : &#x27;renderTestModal&#x27;,
+        &#x27;refreshActivitiesList&#x27;  : &#x27;handleRefreshActivitiesList&#x27;
+    },
+
+    /**
+     * DOM Event handlers
+     *
+     * @property events
+     */
+    events:  {
+        &#x27;click .js-cancel&#x27;: &#x27;hideNewDomainForm&#x27;,
+        &#x27;click .js-add&#x27;   : &#x27;showNewDomainForm&#x27;
+    },
+
+    /**
+     * Init
+     *
+     * @method init
+     */
+    init: function () {
+        this.domainsSubCollection = this.model.getDomains();
+
+        // if this is a new model, we want to know the first time it is synced so we can show the add activity cards
+        if (this.model.isNew()) {
+            this.listenToOnce(this.model, &#x27;sync&#x27;, this.renderLists);
+        }
+
+        this.render();
+    },
+
+    /**
+     * Render
+     *
+     * @method render
+     * @return this view
+     */
+    render: function () {
+        var data = {
+            domainsList: [],
+            model: this.model.toJSON(),
+            mainNumber: this.model.get(&#x27;phone_number&#x27;)
+        };
+
+        this.$el.html(this.template(data));
+
+        this.$locationsListContainer = this.$(this.locationsListContainerEl);
+
+        this.renderToolbar();
+        this.renderName();
+        this.renderDomains();
+        this.renderMainNumber();
+        this.renderFindAndReplace();
+        this.renderLists();
+
+        this.$(&#x27;i[title]&#x27;).tooltip({placement: &#x27;right&#x27;});
+
+        return this;
+    },
+
+    /**
+     * renderToolbar
+     *
+     * @method renderToolbar
+     */
+    renderToolbar: function () {
+        this.views.toolbar = new Ibp.Sourcetrak.Views.DomainSetToolbar({
+            model: this.model
+        });
+    },
+
+    /**
+     * RenderAdvancedOptionsModal displays the modal overlay that will contain configuration
+     * options such as negative keywords, IP exclusions, and Toggle A tag on mobile.
+     *
+     * @method renderAdvancedOptionsModal
+     */
+    renderAdvancedOptionsModal: function ()  {
+        this.publish(&#x27;modal:render&#x27;, {name: &#x27;advancedOptions&#x27;, data: {model: this.model}});
+    },
+
+    /**
+     * RenderDeleteDomainSetModal displays teh modal overlay that will ask a
+     * user to confirm that they actually want to delete this entire Domain Set.
+     * Once the user confirms, this function publishes a deleteDomainSet event and
+     * acts upon the model specified in the data object.
+     *
+     * @method renderDeleteDomainSetModal
+     */
+    renderDeleteDomainSetModal: function() {
+        this.publish(&#x27;modal:render&#x27;, {name: &#x27;deleteDomainSet&#x27;, data: {model: this.model}});
+    },
+
+    /**
+     * Renders the configuration test modal that allows users to input
+     * request parameters and match activities.
+     *
+     * @method renderTestModal
+     */
+    renderTestModal: function() {
+        this.publish(&#x27;modal:render&#x27;, {name: &#x27;testDomainSet&#x27;, data: {model: this.model}});
+    },
+
+    /**
+     * Renders the domain set name editable label
+     *
+     * @method renderName
+     */
+    renderName: function () {
+        this.views.name = new Ibp.Carbon.Views.EditableLabel({
+            $container: this.$(this.nameEl),
+            model: this.model,
+            labelAttribute: &#x27;name&#x27;
+        });
+    },
+
+    /**
+     * Renders the main number editable select list
+     *
+     * @method renderMainNumber
+     */
+    renderMainNumber: function () {
+        this.views.mainNumber = new Ibp.Sourcetrak.Views.MainNumberSelect({
+            $container: this.$(this.mainNumberEl),
+            selectName: &#x27;Main Number&#x27;,
+            selectAttribute: &#x27;phone_number&#x27;,
+            selectPlaceholder: &#x27;Select Main Number...&#x27;,
+            model: this.model,
+            tooltipDirection: &#x27;top&#x27;
+        });
+    },
+
+    /**
+     * Renders the number replacement options editable labels
+     *
+     * @method renderFindAndReplace
+     */
+    renderFindAndReplace: function() {
+        var _this = this,
+            findAndReplaceProperties = [
+                {
+                    el: this.replaceClassEl,
+                    label: &#x27;CSS Class&#x27;,
+                    attribute: &#x27;css_class&#x27;,
+                    placeholder: &#x27;Enter Class&#x27;,
+                    maskPhoneNumber: false
+                },
+                {
+                    el: this.replaceIdEl,
+                    label: &#x27;CSS ID&#x27;,
+                    attribute: &#x27;css_id&#x27;,
+                    placeholder: &#x27;Enter ID&#x27;,
+                    maskPhoneNumber: false
+                }
+            ];
+
+        // render replacement number
+        if (this.model.isMultiNumber()) {
+            this.views.replacement_number = new Ibp.Sourcetrak.Views.MultiNumberLabel({
+                $container: $(this.replaceNumberEl)
+            });
+        }
+        else {
+            this.views.replacement_number = new Ibp.Sourcetrak.Views.MultiNumberEditableLabel({
+                $container: this.$(this.replaceNumberEl),
+                labelName: &#x27;Number&#x27;,
+                labelAttribute: &#x27;phone_number&#x27;,
+                labelPlaceholder: &#x27;Enter Phone Number&#x27;,
+                model: this.model.getWhitelist().at(0),
+                maskPhoneNumber: true
+            });
+        }
+
+        // render class and id
+        _.each(findAndReplaceProperties, function (property) {
+            _this.views[property.attribute] = new Ibp.Carbon.Views.EditableLabel({
+                $container: _this.$(property.el),
+                labelName: property.label,
+                labelAttribute: property.attribute,
+                labelPlaceholder: property.placeholder,
+                model: _this.model,
+                maskPhoneNumber: property.maskPhoneNumber
+            });
+        });
+    },
+
+    /**
+     * Renders the list of domains to the template
+     *
+     * @method renderDomains
+     */
+    renderDomains: function () {
+        this.views.domains = new Ibp.Sourcetrak.Views.EditDomains({
+            $container: this.$(this.domainsEl),
+            collection: this.model.getDomains()
+        });
+    },
+
+    /**
+     * Handles the rendering of the locations and lists for both oto activites
+     * and pool activities.
+     *
+     * @method renderLists
+     */
+    renderLists: function () {
+        // Render both activities lists
+        this.renderOtoActivitiesList();
+        this.renderPoolActivitiesList();
+
+        // Render the locations list
+        this.renderLocationsList();
+    },
+
+    /**
+     * Handles the rendering of the Pool Activities List
+     *
+     * @method renderPoolActivitiesList
+     */
+    renderPoolActivitiesList: function () {
+        // if view already exists, blow it away before rendering fresh version
+        if (this.views.poolActivityList) {
+            this.views.poolActivityList.unrender();
+        }
+
+        // render the activity list that will contain only pooled activities
+        this.views.poolActivityList = new Ibp.Sourcetrak.Views.ActivityList({
+            $container: this.$(this.poolContainerEl),
+            namespace: &#x27;pool&#x27;,
+            label: &#x27;Pool Activities&#x27;,
+            domainSet: this.model,
+            isOto: false
+        });
+    },
+
+    /**
+     * Handles the rendering of the OtO Activities List
+     *
+     * @method renderOtoActivitiesList
+     */
+    renderOtoActivitiesList: function () {
+        // if view already exists, blow it away before rendering fresh version
+        if (this.views.otoActivityList) {
+            this.views.otoActivityList.unrender();
+        }
+
+        // render the activity list that will contain only one-to-one activities
+        this.views.otoActivityList = new Ibp.Sourcetrak.Views.ActivityList({
+            $container: this.$(this.otoContainerEl),
+            namespace: &#x27;oto&#x27;,
+            label: &#x27;One-To-One Activities&#x27;,
+            domainSet: this.model,
+            isOto: true
+        });
+    },
+
+    /**
+     * Renders locations to the template.
+     *
+     * @method renderLocationsList
+     */
+    renderLocationsList: function () {
+        if (this.views.locationsList) {
+            this.views.locationsList.unrender();
+        }
+
+        this.views.locationsList = new Ibp.Sourcetrak.Views.LocationsList({
+            $container: this.$locationsListContainer,
+            domainSet: this.model
+        });
+    },
+
+    /**
+     * Renders only the list with the activity that was just synced.
+     *
+     * @method handleActivitiesListRefresh
+     * @params model {Backbone Model}
+     */
+    handleRefreshActivitiesList: function (model) {
+        if (model.get(&#x27;one_to_one&#x27;)) {
+            this.renderOtoActivitiesList();
+        } else {
+            this.renderPoolActivitiesList();
+        }
+    },
+
+    /**
+     * hideNewDomainForm
+     * Hides the add new domain form from view
+     *
+     * @method hideNewDomainForm
+     */
+    hideNewDomainForm: function () {
+        $(this.domainForm).addClass(&#x27;hidden&#x27;);
+    },
+
+    /**
+     * showNewDomainForm
+     * renders the form for adding a new domain to the domain set
+     *
+     * @method showNewDomainForm
+     */
+    showNewDomainForm: function () {
+        $(this.domainForm).removeClass(&quot;hidden&quot;).find(&#x27;input&#x27;).focus();
+    },
+
+    /**
+     * Remove clears the edit element and removes listeners
+     *
+     * @method remove
+     * @return this view
+     */
+    remove: function() {
+        if (this.model.isNew()) {
+            this.model.trigger(&#x27;remove&#x27;, this.model);
+        }
+
+        this.$el.html(&#x27;&#x27;);
+        this.stopListening();
+        this.undelegateEvents();
+
+        return this;
+    }
+});
+
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

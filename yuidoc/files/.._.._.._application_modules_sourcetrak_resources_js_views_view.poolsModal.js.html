@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>../../../application/modules/sourcetrak/resources/js/views/view.poolsModal.js - Sourcetrak</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="icon" href="../assets/favicon.ico">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+                <h1><img src="../assets/css/logo.png" title="Sourcetrak" width="117" height="52"></h1>
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/aa.html">aa</a></li>
+                                <li><a href="../classes/act_on.html">act_on</a></li>
+                                <li><a href="../classes/Collections.Activities.html">Collections.Activities</a></li>
+                                <li><a href="../classes/Collections.DomainSets.html">Collections.DomainSets</a></li>
+                                <li><a href="../classes/Collections.Locations.html">Collections.Locations</a></li>
+                                <li><a href="../classes/Collections.PaginatedActivities.html">Collections.PaginatedActivities</a></li>
+                                <li><a href="../classes/Collections.PaginatedLocations.html">Collections.PaginatedLocations</a></li>
+                                <li><a href="../classes/Collections.Patterns.html">Collections.Patterns</a></li>
+                                <li><a href="../classes/Collections.Pools.html">Collections.Pools</a></li>
+                                <li><a href="../classes/Collections.ReplacementNumbers.html">Collections.ReplacementNumbers</a></li>
+                                <li><a href="../classes/Collections.Routing.html">Collections.Routing</a></li>
+                                <li><a href="../classes/Collections.Schedules.html">Collections.Schedules</a></li>
+                                <li><a href="../classes/Collections.SubCollection.html">Collections.SubCollection</a></li>
+                                <li><a href="../classes/hubspot.html">hubspot</a></li>
+                                <li><a href="../classes/Mixins.AudioFileUploadBtn.html">Mixins.AudioFileUploadBtn</a></li>
+                                <li><a href="../classes/Mixins.Autosave.html">Mixins.Autosave</a></li>
+                                <li><a href="../classes/Mixins.Autoset.html">Mixins.Autoset</a></li>
+                                <li><a href="../classes/Mixins.ClientPagination.html">Mixins.ClientPagination</a></li>
+                                <li><a href="../classes/Mixins.HighlightInvalid.html">Mixins.HighlightInvalid</a></li>
+                                <li><a href="../classes/Mixins.Loading.html">Mixins.Loading</a></li>
+                                <li><a href="../classes/Mixins.Transform.html">Mixins.Transform</a></li>
+                                <li><a href="../classes/Models.Activity.html">Models.Activity</a></li>
+                                <li><a href="../classes/Models.Location.html">Models.Location</a></li>
+                                <li><a href="../classes/Models.Pattern.html">Models.Pattern</a></li>
+                                <li><a href="../classes/Models.Pool.html">Models.Pool</a></li>
+                                <li><a href="../classes/Models.Routing.html">Models.Routing</a></li>
+                                <li><a href="../classes/Models.Schedule.html">Models.Schedule</a></li>
+                                <li><a href="../classes/Models.State.html">Models.State</a></li>
+                                <li><a href="../classes/Models.SubModel.html">Models.SubModel</a></li>
+                                <li><a href="../classes/op.html">op</a></li>
+                                <li><a href="../classes/Validator.html">Validator</a></li>
+                                <li><a href="../classes/Views.Activity.html">Views.Activity</a></li>
+                                <li><a href="../classes/Views.ActivityAdd.html">Views.ActivityAdd</a></li>
+                                <li><a href="../classes/Views.ActivityCreate.html">Views.ActivityCreate</a></li>
+                                <li><a href="../classes/Views.ActivityDestroy.html">Views.ActivityDestroy</a></li>
+                                <li><a href="../classes/Views.ActivityDisplay.html">Views.ActivityDisplay</a></li>
+                                <li><a href="../classes/Views.ActivityEdit.html">Views.ActivityEdit</a></li>
+                                <li><a href="../classes/Views.ActivityEditAdvanced.html">Views.ActivityEditAdvanced</a></li>
+                                <li><a href="../classes/Views.ActivityList.html">Views.ActivityList</a></li>
+                                <li><a href="../classes/Views.ActivityPool.html">Views.ActivityPool</a></li>
+                                <li><a href="../classes/Views.ActivityPoolEdit.html">Views.ActivityPoolEdit</a></li>
+                                <li><a href="../classes/Views.AdvancedOptionsModal.html">Views.AdvancedOptionsModal</a></li>
+                                <li><a href="../classes/Views.CopyToClipboard.html">Views.CopyToClipboard</a></li>
+                                <li><a href="../classes/Views.DeleteLocationModal.html">Views.DeleteLocationModal</a></li>
+                                <li><a href="../classes/Views.DomainSetItem.html">Views.DomainSetItem</a></li>
+                                <li><a href="../classes/Views.DomainsPopover.html">Views.DomainsPopover</a></li>
+                                <li><a href="../classes/Views.EditPoolToolbar.html">Views.EditPoolToolbar</a></li>
+                                <li><a href="../classes/Views.Graph.html">Views.Graph</a></li>
+                                <li><a href="../classes/Views.listControls.html">Views.listControls</a></li>
+                                <li><a href="../classes/Views.LocationItem.html">Views.LocationItem</a></li>
+                                <li><a href="../classes/Views.LocationsList.html">Views.LocationsList</a></li>
+                                <li><a href="../classes/Views.Main.html">Views.Main</a></li>
+                                <li><a href="../classes/Views.Modal.html">Views.Modal</a></li>
+                                <li><a href="../classes/Views.Modal2.html">Views.Modal2</a></li>
+                                <li><a href="../classes/Views.ModalPageView.html">Views.ModalPageView</a></li>
+                                <li><a href="../classes/Views.Numbers.html">Views.Numbers</a></li>
+                                <li><a href="../classes/Views.PageView.html">Views.PageView</a></li>
+                                <li><a href="../classes/Views.Poolbar.html">Views.Poolbar</a></li>
+                                <li><a href="../classes/Views.PoolsDashboard.html">Views.PoolsDashboard</a></li>
+                                <li><a href="../classes/Views.PoolsList.html">Views.PoolsList</a></li>
+                                <li><a href="../classes/Views.PoolsListItem.html">Views.PoolsListItem</a></li>
+                                <li><a href="../classes/Views.Popover.html">Views.Popover</a></li>
+                                <li><a href="../classes/Views.SearchBox.html">Views.SearchBox</a></li>
+                                <li><a href="../classes/Views.SnippetModal.html">Views.SnippetModal</a></li>
+                                <li><a href="../classes/Views.Toolbar.html">Views.Toolbar</a></li>
+                                <li><a href="../classes/Views.VersionHashError.html">Views.VersionHashError</a></li>
+                                <li><a href="../classes/Views.Wizard.html">Views.Wizard</a></li>
+                            </ul>
+                
+                            <ul id="api-modules" class="apis modules">
+                                <li><a href="../modules/Carbon.html">Carbon</a></li>
+                                <li><a href="../modules/Integration.html">Integration</a></li>
+                                <li><a href="../modules/SourceTrak.html">SourceTrak</a></li>
+                                <li><a href="../modules/Sourcetrak.html">Sourcetrak</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: ../../../application/modules/sourcetrak/resources/js/views/view.poolsModal.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+Ibp.Sourcetrak.Views.PoolsModal = Ibp.Carbon.Views.Modal2.extend({
+    name: &#x27;poolsModal&#x27;,
+    template: Ibp.Sourcetrak.Templates.modal_pools,
+
+    /**
+     * The views object retains references to children views
+     *
+     * @property views
+     * @type Object
+     */
+    views: null,
+
+    /**
+     * Flag for allowing the modal to be closed using escape key
+     *
+     * @property keyboard
+     * @type Boolean
+     */
+    keyboard: false,
+
+    /**
+     * Mapping of Pool Modal states to their views
+     *
+     * @property poolViews
+     * @type Object
+     */
+    poolViews: {
+        &#x27;dashboard&#x27;: Ibp.Sourcetrak.Views.PoolsDashboard,
+        &#x27;edit&#x27;: Ibp.Sourcetrak.Views.EditPool,
+        &#x27;wizard&#x27;: Ibp.Sourcetrak.Views.Wizard
+    },
+
+    /**
+     * Selector for the back button
+     *
+     * @property backButtonEl
+     * @type String
+     */
+    backButtonEl: &#x27;.js-modal-back&#x27;,
+
+    /**
+     * jQuery reference for the back button
+     *
+     * @property $backButton
+     * @type jQuery Object
+     */
+    $backButton: null,
+
+    /**
+     * DOM Event handlers
+     *
+     * @property modalEvents
+     */
+    modalEvents:  {
+        &#x27;click .js-modal-back&#x27;: &#x27;handleBack&#x27;
+    },
+
+    /**
+     * Inits state and listens for refresh events
+     *
+     * @method onInit
+     */
+    onInit : function () {
+        this.state.set({
+            currentViewType: &#x27;&#x27;,
+            showBackButton: false,
+            hideModalHeader: false
+        });
+
+        this.views = {};
+
+        this.listenTo(this, &#x27;refresh&#x27;, this.handleRefresh);
+        this.listenTo(this.state, &#x27;change:hideModalHeader&#x27;, this.handleModalHeaderChange);
+    },
+
+    /**
+     * Renders the pool view
+     *
+     * @method onRender
+     */
+    onRender: function (options) {
+        this.$backButton = this.$(this.backButtonEl);
+
+        this.renderPoolView(options);
+    },
+
+    /**
+     * Unrenders child views
+     *
+     * @method onUnrender
+     */
+    onUnrender: function () {
+        _.invoke(this.views, &#x27;remove&#x27;);
+    },
+
+    /**
+     * Decides which view to render based on the route data
+     *
+     * @method renderPoolView
+     * @params data {Object} The data to render the view with
+     */
+    renderPoolView: function (data) {
+        var newType = data.viewType,
+            oldType = this.state.get(&#x27;currentViewType&#x27;);
+
+        // initialize the new pool view (render happens later)
+        switch (newType) {
+            case &#x27;dashboard&#x27;:
+                this.renderPoolsDashboard(data);
+                break;
+            case &#x27;edit&#x27;:
+                this.renderEditPool(data);
+                break;
+            case &#x27;wizard&#x27;:
+                this.renderWizard(data);
+                break;
+        }
+
+        // hide old view
+        if (this.views[oldType] &amp;&amp; oldType !== newType) {
+            // prevent animation in some cases
+            if (oldType === &#x27;wizard&#x27; || (oldType === &#x27;dashboard&#x27; &amp;&amp; newType === &#x27;wizard&#x27;)) {
+                this.views[oldType].unrender();
+            }
+            else {
+                this.views[oldType].hide();
+            }
+        }
+
+        // render without animation if the modal is just opening
+        if (!oldType || newType === &#x27;wizard&#x27;) {
+            this.views[newType].render();
+        }
+        // animate render if this is a transition
+        else {
+            this.views[newType].show();
+        }
+
+        // update backdrop settings
+        this.updateBackdrop();
+
+        // show or hide back button
+        this.$backButton.toggle(this.state.get(&#x27;showBackButton&#x27;));
+
+        this.state.set({
+            currentViewType: newType,
+            hideModalHeader: (newType === &#x27;wizard&#x27;)
+        });
+    },
+
+    /**
+     * Handle hideModalHeader state change
+     *
+     * @method handleModalHeaderChange
+     */
+    handleModalHeaderChange: function () {
+        this.toggleHeader(!this.state.get(&#x27;hideModalHeader&#x27;));
+    },
+
+    /**
+     * Toggle the Pools Modal Header
+     *
+     * @method toggleHeader
+     * @param show {Boolean} Optional. If supplied indicates show or hide.
+     */
+    toggleHeader: function (show) {
+        var $header = this.$(&#x27;.js-pools-modal-header&#x27;);
+
+        if (show !== undefined) {
+            $header.toggle(show);
+        }
+        else {
+            $header.toggle();
+        }
+    },
+
+    /**
+     * Render Pools Dashboard
+     * then shows the modal.
+     *
+     * @method renderPoolsDashboard
+     */
+    renderPoolsDashboard: function () {
+        if (!this.views.dashboard) {
+            this.views.dashboard = new Ibp.Sourcetrak.Views.PoolsDashboard();
+        }
+
+        this.state.set({
+            showBackButton: false,
+            backdropActive: true
+        });
+    },
+
+    /**
+     * Render Pools Edit page
+     *
+     * @method renderEditPool
+     */
+    renderEditPool: function (data) {
+        if (!this.views.edit) {
+            this.views.edit = new Ibp.Sourcetrak.Views.EditPool({
+                model: data.model
+            });
+        }
+        else if (this.views.edit.model.id !== data.model.id) {
+            this.views.edit.remove();
+
+            this.views.edit = new Ibp.Sourcetrak.Views.EditPool({
+                model: data.model
+            });
+        }
+
+        this.state.set({
+            showBackButton: true,
+            backdropActive: true
+        });
+    },
+
+    /**
+     * Render Pool creation wizard
+     *
+     * @method renderWizard
+     */
+    renderWizard: function (data) {
+        var isOto = data.wizardType.toLowerCase() === &#x27;onetoone&#x27; ? true : false,
+            attrs = {
+                one_to_one: isOto
+            };
+
+        this.views.wizard = new Ibp.Sourcetrak.Views.Wizard({
+            type: data.wizardType,
+            model: data.model || Ibp.Sourcetrak.Data.Pools.getNew(attrs)
+        });
+
+        this.state.set({
+            showBackButton: false,
+            backdropActive: false
+        });
+    },
+
+    /**
+     * Render sub view
+     *
+     * @method handleRefresh
+     * @param data {Object} View data
+     */
+    handleRefresh: function (data) {
+        this.renderPoolView(data);
+    },
+
+    /**
+     * Closes the Pools modal
+     *
+     * @method handleClose
+     */
+    handleClose: function () {
+        this.cancel();
+    },
+
+    /**
+     * Navigates back to the dashboard view
+     *
+     * @method handleBack
+     */
+    handleBack: function () {
+        this.publish(&#x27;navigate&#x27;, &#x27;pools&#x27;);
+    }
+});
+
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

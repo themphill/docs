@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>../../../application/modules/sourcetrak/resources/js/models/model.location.js - Sourcetrak</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="icon" href="../assets/favicon.ico">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+                <h1><img src="../assets/css/logo.png" title="Sourcetrak" width="117" height="52"></h1>
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/aa.html">aa</a></li>
+                                <li><a href="../classes/act_on.html">act_on</a></li>
+                                <li><a href="../classes/Collections.Activities.html">Collections.Activities</a></li>
+                                <li><a href="../classes/Collections.DomainSets.html">Collections.DomainSets</a></li>
+                                <li><a href="../classes/Collections.Locations.html">Collections.Locations</a></li>
+                                <li><a href="../classes/Collections.PaginatedActivities.html">Collections.PaginatedActivities</a></li>
+                                <li><a href="../classes/Collections.PaginatedLocations.html">Collections.PaginatedLocations</a></li>
+                                <li><a href="../classes/Collections.Patterns.html">Collections.Patterns</a></li>
+                                <li><a href="../classes/Collections.Pools.html">Collections.Pools</a></li>
+                                <li><a href="../classes/Collections.ReplacementNumbers.html">Collections.ReplacementNumbers</a></li>
+                                <li><a href="../classes/Collections.Routing.html">Collections.Routing</a></li>
+                                <li><a href="../classes/Collections.Schedules.html">Collections.Schedules</a></li>
+                                <li><a href="../classes/Collections.SubCollection.html">Collections.SubCollection</a></li>
+                                <li><a href="../classes/hubspot.html">hubspot</a></li>
+                                <li><a href="../classes/Mixins.AudioFileUploadBtn.html">Mixins.AudioFileUploadBtn</a></li>
+                                <li><a href="../classes/Mixins.Autosave.html">Mixins.Autosave</a></li>
+                                <li><a href="../classes/Mixins.Autoset.html">Mixins.Autoset</a></li>
+                                <li><a href="../classes/Mixins.ClientPagination.html">Mixins.ClientPagination</a></li>
+                                <li><a href="../classes/Mixins.HighlightInvalid.html">Mixins.HighlightInvalid</a></li>
+                                <li><a href="../classes/Mixins.Loading.html">Mixins.Loading</a></li>
+                                <li><a href="../classes/Mixins.Transform.html">Mixins.Transform</a></li>
+                                <li><a href="../classes/Models.Activity.html">Models.Activity</a></li>
+                                <li><a href="../classes/Models.Location.html">Models.Location</a></li>
+                                <li><a href="../classes/Models.Pattern.html">Models.Pattern</a></li>
+                                <li><a href="../classes/Models.Pool.html">Models.Pool</a></li>
+                                <li><a href="../classes/Models.Routing.html">Models.Routing</a></li>
+                                <li><a href="../classes/Models.Schedule.html">Models.Schedule</a></li>
+                                <li><a href="../classes/Models.State.html">Models.State</a></li>
+                                <li><a href="../classes/Models.SubModel.html">Models.SubModel</a></li>
+                                <li><a href="../classes/op.html">op</a></li>
+                                <li><a href="../classes/Validator.html">Validator</a></li>
+                                <li><a href="../classes/Views.Activity.html">Views.Activity</a></li>
+                                <li><a href="../classes/Views.ActivityAdd.html">Views.ActivityAdd</a></li>
+                                <li><a href="../classes/Views.ActivityCreate.html">Views.ActivityCreate</a></li>
+                                <li><a href="../classes/Views.ActivityDestroy.html">Views.ActivityDestroy</a></li>
+                                <li><a href="../classes/Views.ActivityDisplay.html">Views.ActivityDisplay</a></li>
+                                <li><a href="../classes/Views.ActivityEdit.html">Views.ActivityEdit</a></li>
+                                <li><a href="../classes/Views.ActivityEditAdvanced.html">Views.ActivityEditAdvanced</a></li>
+                                <li><a href="../classes/Views.ActivityList.html">Views.ActivityList</a></li>
+                                <li><a href="../classes/Views.ActivityPool.html">Views.ActivityPool</a></li>
+                                <li><a href="../classes/Views.ActivityPoolEdit.html">Views.ActivityPoolEdit</a></li>
+                                <li><a href="../classes/Views.AdvancedOptionsModal.html">Views.AdvancedOptionsModal</a></li>
+                                <li><a href="../classes/Views.CopyToClipboard.html">Views.CopyToClipboard</a></li>
+                                <li><a href="../classes/Views.DeleteLocationModal.html">Views.DeleteLocationModal</a></li>
+                                <li><a href="../classes/Views.DomainSetItem.html">Views.DomainSetItem</a></li>
+                                <li><a href="../classes/Views.DomainsPopover.html">Views.DomainsPopover</a></li>
+                                <li><a href="../classes/Views.EditPoolToolbar.html">Views.EditPoolToolbar</a></li>
+                                <li><a href="../classes/Views.Graph.html">Views.Graph</a></li>
+                                <li><a href="../classes/Views.listControls.html">Views.listControls</a></li>
+                                <li><a href="../classes/Views.LocationItem.html">Views.LocationItem</a></li>
+                                <li><a href="../classes/Views.LocationsList.html">Views.LocationsList</a></li>
+                                <li><a href="../classes/Views.Main.html">Views.Main</a></li>
+                                <li><a href="../classes/Views.Modal.html">Views.Modal</a></li>
+                                <li><a href="../classes/Views.Modal2.html">Views.Modal2</a></li>
+                                <li><a href="../classes/Views.ModalPageView.html">Views.ModalPageView</a></li>
+                                <li><a href="../classes/Views.Numbers.html">Views.Numbers</a></li>
+                                <li><a href="../classes/Views.PageView.html">Views.PageView</a></li>
+                                <li><a href="../classes/Views.Poolbar.html">Views.Poolbar</a></li>
+                                <li><a href="../classes/Views.PoolsDashboard.html">Views.PoolsDashboard</a></li>
+                                <li><a href="../classes/Views.PoolsList.html">Views.PoolsList</a></li>
+                                <li><a href="../classes/Views.PoolsListItem.html">Views.PoolsListItem</a></li>
+                                <li><a href="../classes/Views.Popover.html">Views.Popover</a></li>
+                                <li><a href="../classes/Views.SearchBox.html">Views.SearchBox</a></li>
+                                <li><a href="../classes/Views.SnippetModal.html">Views.SnippetModal</a></li>
+                                <li><a href="../classes/Views.Toolbar.html">Views.Toolbar</a></li>
+                                <li><a href="../classes/Views.VersionHashError.html">Views.VersionHashError</a></li>
+                                <li><a href="../classes/Views.Wizard.html">Views.Wizard</a></li>
+                            </ul>
+                
+                            <ul id="api-modules" class="apis modules">
+                                <li><a href="../modules/Carbon.html">Carbon</a></li>
+                                <li><a href="../modules/Integration.html">Integration</a></li>
+                                <li><a href="../modules/SourceTrak.html">SourceTrak</a></li>
+                                <li><a href="../modules/Sourcetrak.html">Sourcetrak</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: ../../../application/modules/sourcetrak/resources/js/models/model.location.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+ * Location Model
+ *
+ * @module SourceTrak
+ * @class Models.Location
+ * @extends Ibp.Backbone.Model
+ */
+ ;(function () {
+    function validateReplacmentNumberUnique(val, context) {
+        var domainSet = Ibp.Sourcetrak.Data.DomainSets.get(context.model.get(&#x27;domain_set_id&#x27;));
+
+        // Compare it to the domain set phone number, and return true (pass validation) if they&#x27;re different.
+        return val !== domainSet.get(&#x27;replacement_number&#x27;);
+    }
+
+    function validatePrompt(val, context) {
+        // modify the key so we can look up what routing app is being validated
+        var routingAction = context.key.replace(&#x27;prompt&#x27;, &#x27;action&#x27;);
+
+        // only validate prompt for read_text
+        if (context.model.get(routingAction) !== &#x27;read_text&#x27;) {
+            return true;
+        }
+
+        return Backbone.Validator.required(val);
+    }
+
+    function validateAreaCodes(val, context) {
+        // if we&#x27;re only validating the name or replacemet number, forget about area codes
+        // area codes will definitely get validated in the wizard
+        if (_.has(context.model.changed, &#x27;name&#x27;) || _.has(context.model.changed, &#x27;replacement_number&#x27;)) {
+            return true;
+        }
+
+        // for UX reasons, don&#x27;t let users create empty locations
+        return context.model.getTotalNumbers() &gt; 0;
+    }
+
+    Ibp.Sourcetrak.Models.Location = Ibp.Backbone.Model.extend({
+        mixins: [&#x27;Transform&#x27;],
+        name: &#x27;Location&#x27;,
+        defaults: {
+            name: &#x27;New Location&#x27;
+        },
+
+        validators: {
+            &#x27;name&#x27;:                                                  [ { validate: &#x27;required&#x27;,                        message: &#x27;Name cannot be blank.&#x27; } ],
+            &#x27;replacement_number&#x27;:                                    [ { validate: &#x27;allowEmpty&#x27;,                      message: null },
+                                                                       { validate: validateReplacmentNumberUnique,    message: &#x27;Replacement number already in use by the domain set.&#x27; },
+                                                                       { validate: &#x27;phone&#x27;,                           message: &#x27;Replacement Number must be a valid phone number.&#x27; }],
+            &#x27;area_codes&#x27;:                                            [ { validate: validateAreaCodes,                 message: &#x27;You must choose at least one area code.&#x27; }],
+            &#x27;area_codes.X._body.quantity&#x27;:                           [ { validate: validateAreaCodes,                 message: &#x27;You must choose at least one area code.&#x27; }],
+            &#x27;routing.X._body.config.X._body.usr_queue_id&#x27;:           [ { validate: &#x27;required&#x27;,                        message: &#x27;You don\&#x27;t have any Call Distributors. Choose another option.&#x27; } ],
+            &#x27;routing.X._body.config.X._body.usr_findme_id&#x27;:          [ { validate: &#x27;required&#x27;,                        message: &#x27;You don\&#x27;t have any FindMes. Choose another option.&#x27; } ],
+            &#x27;routing.X._body.config.X._body.usr_survey_id&#x27;:          [ { validate: &#x27;required&#x27;,                        message: &#x27;You don\&#x27;t have any IVRs/SurVos. Choose another option.&#x27; } ],
+            &#x27;routing.X._body.config.X._body.directory_id&#x27;:           [ { validate: &#x27;required&#x27;,                        message: &#x27;You don\&#x27;t have any Phone Directories. Choose another option.&#x27; } ],
+            &#x27;routing.X._body.config.X._body.usr_schedule_router_id&#x27;: [ { validate: &#x27;required&#x27;,                        message: &#x27;You don\&#x27;t have any Schedule Routers. Choose another option.&#x27; } ],
+            &#x27;routing.X._body.config.X._body.usr_locator_id&#x27;:         [ { validate: &#x27;required&#x27;,                        message: &#x27;You don\&#x27;t have any Store Locators. Choose another option.&#x27; } ],
+            &#x27;routing.X._body.config.X._body.vr_id&#x27;:                  [ { validate: &#x27;required&#x27;,                        message: &#x27;You don\&#x27;t have any Virtual Receptionists. Choose another option.&#x27; } ],
+            &#x27;routing.X._body.config.X._body.voicemail_id&#x27;:           [ { validate: &#x27;required&#x27;,                        message: &#x27;You don\&#x27;t have any Voicemail Boxes. Choose another option.&#x27; } ],
+            &#x27;routing.X._body.config.X._body.wav_file&#x27;:               [ { validate: &#x27;required&#x27;,                        message: &#x27;You must include a .wav file.&#x27; } ],
+            &#x27;routing.X._body.config.X._body.transfer_number&#x27;:        [ { validate: &#x27;required&#x27;,                        message: &#x27;Enter a valid phone number.&#x27; } ],
+            &#x27;routing.X._body.config.X._body.phone_number&#x27;:           [ { validate: &#x27;required&#x27;,                        message: &#x27;Enter a valid phone number.&#x27; } ],
+            &#x27;routing.X._body.config.X._body.prompt&#x27;:                 [ { validate: validatePrompt,                    message: &#x27;Enter the text to be read to the caller.&#x27; } ]
+        },
+
+        transforms: {
+            &#x27;advanced_config.reverse_lookup&#x27;: &#x27;number&#x27;,
+            &#x27;advanced_config.ring_delay&#x27;:     &#x27;number&#x27;,
+            &#x27;advanced_config.call_recording&#x27;: &#x27;number&#x27;,
+            &#x27;advanced_config.play_warning&#x27;:   &#x27;number&#x27;
+        },
+
+        names: {
+            &#x27;name&#x27;: &#x27;Location Name&#x27;
+        },
+
+        /**
+         * Defines The Routing Types and their values
+         *
+         * @property routingTypes
+         * @type Array
+         */
+        routingTypes: [
+            {
+                value: &#x27;broadcast_from_phone&#x27;,
+                name: &#x27;Broadcast From Phone&#x27;
+            },
+            {
+                value: &#x27;queue&#x27;,
+                name: &#x27;Call Distributor&#x27;
+            },
+            {
+                value: &#x27;findme&#x27;,
+                name: &#x27;FindMe&#x27;
+            },
+            {
+                value: &#x27;ivr&#x27;,
+                name: &#x27;IVR&#x27;
+            },
+            {
+                value: &#x27;phone_directory&#x27;,
+                name: &#x27;Phone Directory&#x27;
+            },
+            {
+                value: &#x27;play_audio&#x27;,
+                name: &#x27;Play Audio&#x27;
+            },
+            {
+                value: &#x27;read_text&#x27;,
+                name: &#x27;Read Text&#x27;
+            },
+            {
+                value: &#x27;schedule_router&#x27;,
+                name: &#x27;Schedule Router&#x27;
+            },
+            {
+                value: &#x27;locator&#x27;,
+                name: &#x27;Store Locator&#x27;
+            },
+            {
+                value: &#x27;survey&#x27;,
+                name: &#x27;SurVo&#x27;
+            },
+            {
+                value: &#x27;transfer_call&#x27;,
+                name: &#x27;Transfer Call&#x27;
+            },
+            {
+                value: &#x27;transfer_w_whisper&#x27;,
+                name: &#x27;Transfer Call w/Whisper Message&#x27;
+            },
+            {
+                value: &#x27;virtual_receptionist&#x27;,
+                name: &#x27;Virtual Receptionist&#x27;
+            },
+            {
+                value: &#x27;opt_out&#x27;,
+                name: &#x27;Voice Broadcast Opt Out&#x27;
+            },
+            {
+                value: &#x27;vmail_greet_and_record&#x27;,
+                name: &#x27;Voice Mail Greeting&#x27;
+            }
+        ],
+
+        /**
+         * A deep clone of the model&#x27;s attributes set by the last snapshot()
+         * This property is set to &#x27;null&#x27; after every successful revert()
+         *
+         * @property _snapshot
+         * @type Object
+         */
+        _snapshot: null,
+
+        /**
+         * Private property to hold area_codes SubCollection
+         *
+         * @property _areaCodes
+         * @type SubCollection
+         */
+        _areaCodes: null,
+
+        /**
+         * Private property to hold routing SubCollection
+         *
+         * @property _routing
+         * @type SubCollection
+         */
+        _routing: null,
+
+        url: function () {
+            var url = BootstrappedData.apiUrlBase + &#x27;sourcetrak/location&#x27;;
+
+            return this.isNew() ? url : url + &#x27;/&#x27; + this.id;
+        },
+
+        init: function () {
+            // set up listeners to keep the subcollections in sync
+            this.initializeSubCollections();
+
+            // keep subcollections in sync
+            this.listenTo(this, &#x27;sync&#x27;, this.resetSubCollections);
+        },
+
+        /**
+         * Setup sub-collections and insert default routing if required
+         */
+        initializeSubCollections: function () {
+            this._areaCodes = new Ibp.Backbone.Collection.SubCollection(this.model, {
+                parent: this,
+                colName: &#x27;area_codes&#x27;
+            });
+
+            this._routing = new Ibp.Sourcetrak.Collections.Routing(this.model, {
+                parent: this,
+                colName: &#x27;routing&#x27;
+            });
+        },
+
+        resetSubCollections: function () {
+            this._areaCodes.resetSubModels();
+            this._routing.resetSubModels();
+        },
+
+        /**
+         * Returns the SubCollection for area codes
+         *
+         * @method getAreaCodes
+         * @return SubCollection
+         */
+        getAreaCodes: function () {
+            return this._areaCodes;
+        },
+
+        /**
+         * Returns the SubCollection for routing
+         *
+         * @method getRouting
+         * @return SubCollection
+         */
+        getRouting: function () {
+            return this._routing;
+        },
+
+        /**
+        * Returns a location&#x27;s area codes as a comma-separated string
+        *
+        * @method getAreaCodesString
+        * @return String
+        */
+        getAreaCodesString: function () {
+            if (!this._areaCodes) {
+                return &#x27;&#x27;;
+            }
+
+            var areaCodes = this._areaCodes.pluck(&#x27;area_code&#x27;),
+                areaCodesString = &#x27;&#x27;;
+
+            areaCodes = _.without(areaCodes, undefined, &#x27;undefined&#x27;);
+
+            // Splitting with spaces will allow us to trim the trailing
+            // or leading characters with a simple call to .trim()
+            _.each(areaCodes, function(val) {
+                areaCodesString += &#x27; &#x27; + val;
+            });
+
+            // Return final string
+            return areaCodesString.trim().split(&#x27; &#x27;).join(&#x27;, &#x27;);
+        },
+
+        /**
+         * Are Patterns Enabled
+         *
+         * @method arePatternsEnabled
+         */
+        arePatternsEnabled: function () {
+            var enabled = false;
+
+            _.each(this.getRouting().models, function (route) {
+                if (route.get(&#x27;pattern_id&#x27;) &gt; 0 &amp;&amp; route.get(&#x27;config&#x27;) !== null) {
+                    enabled = true;
+                }
+            });
+
+            return enabled;
+        },
+
+        /**
+         * Are Schedules Enabled
+         *
+         * @method areSchedulesEnabled
+         */
+        areSchedulesEnabled: function () {
+            var schedulesEnabled = false;
+
+            _.each(this.getRouting().models, function (route) {
+                var config = route.get(&#x27;config&#x27;);
+
+                // if we have multiple modes we are a schedule
+                // OR if we have one mode but it is not 0 we are a schedule
+                if (config !== null &amp;&amp; (config.length &gt; 1 || config[0].id &gt; 0)) {
+                    schedulesEnabled = true;
+                }
+            });
+
+            return schedulesEnabled;
+        },
+
+        /**
+         * Uses jQuery&#x27;s deep extend to create a copy of the model&#x27;s attributes
+         *
+         * @method snapshot
+         */
+        snapshot: function () {
+            this._snapshot = _.deepClone(this.attributes);
+        },
+
+        /**
+         * Restores a model to its last snapshot, if one exists
+         *
+         * @method revert
+         */
+        revert: function () {
+            if (this._snapshot) {
+                this.attributes = _.deepClone(this._snapshot);
+
+                this.resetSubCollections();
+            }
+        },
+
+        /**
+         * Creates a simple string describing the routing configuration
+         * for this model and returns it.
+         *
+         * @method getRoutingSummary
+         * @return String
+         */
+        getRoutingSummary: function () {
+            if (!this._routing.length || !this._areaCodes.length) {
+                return &#x27;&#x27;;
+            }
+
+            var routingSummary,
+                // get the routing as a sub collection
+                routingCollection = this.getRouting(),
+                // get the config collection of the first routing model
+                configCollection = routingCollection.at(0).getConfig(),
+                // get the config object with the attributes we want to display
+                config = configCollection.at(0);
+
+            if (this.areSchedulesEnabled() &amp;&amp; this.arePatternsEnabled()) {
+                return &quot;Patterns &amp; Schedules&quot;;
+            }
+            else if (this.arePatternsEnabled()) {
+                return &quot;Patterns&quot;;
+            }
+            else if (this.areSchedulesEnabled()) {
+                return &quot;Schedules&quot;;
+            }
+
+            // check to see if there&#x27;s any routing to summarize
+            if (!config.get(&#x27;transfer_number&#x27;) &amp;&amp; !config.get(&#x27;wav_file&#x27;) &amp;&amp; !config.get(&#x27;prompt&#x27;) &amp;&amp; !config.get(&#x27;add_on_name&#x27;) &amp;&amp; !config.get(&#x27;action&#x27;)) {
+                return &#x27;&#x27;;
+            }
+
+            routingSummary = &quot;N/A&quot;;
+
+            switch(config.get(&#x27;action&#x27;)) {
+                case &#x27;transfer_call&#x27;:
+                    routingSummary = &quot;Transfer Call - &quot; + Ibp.Utils.PhoneNumber().formatNumber(config.get(&#x27;transfer_number&#x27;), &#x27;-&#x27;).number;
+                    break;
+                case &#x27;play_audio&#x27;:
+                    routingSummary = &quot;Play Audio - &quot; + config.get(&#x27;wav_file&#x27;);
+                    break;
+                case &#x27;read_text&#x27;:
+                    routingSummary = &quot;Read Text - &quot; + config.get(&#x27;prompt&#x27;);
+                    break;
+                case &#x27;virtual_receptionist&#x27;:
+                    routingSummary = &quot;Virtual Receptionist&quot;;
+                    break;
+            }
+
+            if (routingSummary === &quot;N/A&quot;) {
+                switch(config.get(&#x27;add_on_name&#x27;)) {
+                    case &#x27;broadcast_from_phone&#x27;:
+                        routingSummary = &quot;Broadcast From Phone&quot;;
+                        break;
+                    case &#x27;queue&#x27;:
+                        routingSummary = &quot;Call Distributor&quot;;
+                        break;
+                    case &#x27;findme&#x27;:
+                        routingSummary = &quot;Find Me&quot;;
+                        break;
+                    case &#x27;survey&#x27;:
+                    case &#x27;ivr&#x27;:
+                        // both ivr and survey mean the same thing in terms of the summary
+                        routingSummary = &quot;IVR&quot;;
+                        break;
+                    case &#x27;phone_directory&#x27;:
+                        routingSummary = &quot;Phone Directory&quot;;
+                        break;
+                    case &#x27;schedule_router&#x27;:
+                        routingSummary = &quot;Scheduled Router&quot;;
+                        break;
+                    case &#x27;locator&#x27;:
+                        routingSummary = &quot;Store Locator&quot;;
+                        break;
+                    case &#x27;transfer_w_whisper&#x27;:
+                        routingSummary = &quot;Transfer Call - &quot; + Ibp.Utils.PhoneNumber().formatNumber(config.get(&#x27;phone_number&#x27;),&#x27;-&#x27;).number;
+                        break;
+                    case &#x27;vmail_greet_and_record&#x27;:
+                        routingSummary = &quot;Voicemail&quot;;
+                        break;
+                    case &#x27;opt_out&#x27;:
+                        routingSummary = &quot;Voice Broadcast Opt-Out&quot;;
+                        break;
+                }
+            }
+            return routingSummary;
+        },
+
+        /**
+         * Calculates the total phone numbers in a location by adding the quantities from each area code
+         *
+         * @method getTotalNumbers
+         * @return Number
+         */
+        getTotalNumbers: function () {
+            if (!this.getAreaCodes()) {
+                return 0;
+            }
+
+            var numbers = this.getAreaCodes().pluck(&#x27;quantity&#x27;);
+
+            return _.reduce(numbers, function (memo, value) {
+                return memo + parseInt(value, 10);
+            }, 0);
+        },
+
+        /**
+         * Checks the area codes on the model to determine if they are toll-free or local
+         *
+         * @method getNumberType
+         * @return String
+         */
+        getNumberType: function () {
+            if (!this.getTotalNumbers()) {
+                return;
+            }
+
+            // check the first one with a quantity to see what number type it represents
+            var code = this.getAreaCodes().find(function (areaCode) {
+                    return areaCode.get(&#x27;quantity&#x27;) &gt; 0;
+                }),
+                checkCode = String(code.get(&#x27;area_code&#x27;)),
+                type;
+
+            switch (checkCode) {
+                case _.findWhere(BootstrappedData.canAreaCodes, checkCode):
+                    type = &#x27;canadian&#x27;;
+
+                    break;
+                case _.findWhere(BootstrappedData.tollfreeAreaCodes, checkCode):
+                    type = &#x27;tollfree&#x27;;
+
+                    break;
+                case &#x27;800&#x27;:
+                    type = &#x27;true800&#x27;;
+
+                    break;
+                default:
+                    type = &#x27;local&#x27;;
+            }
+
+            return type;
+        },
+
+        /**
+         * Determines if the full model has been fetched from the server
+         * Models will only have advanced config after a fetch()
+         *
+         * @method getNumberType
+         * @return String
+         */
+        hasBeenFetched: function () {
+            return Boolean(this.get(&#x27;advanced_config&#x27;));
+        }
+    });
+})();
+
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

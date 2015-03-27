@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>../../../application/modules/sourcetrak/resources/js/views/view.numbersSummary.js - Sourcetrak</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="icon" href="../assets/favicon.ico">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+                <h1><img src="../assets/css/logo.png" title="Sourcetrak" width="117" height="52"></h1>
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/aa.html">aa</a></li>
+                                <li><a href="../classes/act_on.html">act_on</a></li>
+                                <li><a href="../classes/Collections.Activities.html">Collections.Activities</a></li>
+                                <li><a href="../classes/Collections.DomainSets.html">Collections.DomainSets</a></li>
+                                <li><a href="../classes/Collections.Locations.html">Collections.Locations</a></li>
+                                <li><a href="../classes/Collections.PaginatedActivities.html">Collections.PaginatedActivities</a></li>
+                                <li><a href="../classes/Collections.PaginatedLocations.html">Collections.PaginatedLocations</a></li>
+                                <li><a href="../classes/Collections.Patterns.html">Collections.Patterns</a></li>
+                                <li><a href="../classes/Collections.Pools.html">Collections.Pools</a></li>
+                                <li><a href="../classes/Collections.ReplacementNumbers.html">Collections.ReplacementNumbers</a></li>
+                                <li><a href="../classes/Collections.Routing.html">Collections.Routing</a></li>
+                                <li><a href="../classes/Collections.Schedules.html">Collections.Schedules</a></li>
+                                <li><a href="../classes/Collections.SubCollection.html">Collections.SubCollection</a></li>
+                                <li><a href="../classes/hubspot.html">hubspot</a></li>
+                                <li><a href="../classes/Mixins.AudioFileUploadBtn.html">Mixins.AudioFileUploadBtn</a></li>
+                                <li><a href="../classes/Mixins.Autosave.html">Mixins.Autosave</a></li>
+                                <li><a href="../classes/Mixins.Autoset.html">Mixins.Autoset</a></li>
+                                <li><a href="../classes/Mixins.ClientPagination.html">Mixins.ClientPagination</a></li>
+                                <li><a href="../classes/Mixins.HighlightInvalid.html">Mixins.HighlightInvalid</a></li>
+                                <li><a href="../classes/Mixins.Loading.html">Mixins.Loading</a></li>
+                                <li><a href="../classes/Mixins.Transform.html">Mixins.Transform</a></li>
+                                <li><a href="../classes/Models.Activity.html">Models.Activity</a></li>
+                                <li><a href="../classes/Models.Location.html">Models.Location</a></li>
+                                <li><a href="../classes/Models.Pattern.html">Models.Pattern</a></li>
+                                <li><a href="../classes/Models.Pool.html">Models.Pool</a></li>
+                                <li><a href="../classes/Models.Routing.html">Models.Routing</a></li>
+                                <li><a href="../classes/Models.Schedule.html">Models.Schedule</a></li>
+                                <li><a href="../classes/Models.State.html">Models.State</a></li>
+                                <li><a href="../classes/Models.SubModel.html">Models.SubModel</a></li>
+                                <li><a href="../classes/op.html">op</a></li>
+                                <li><a href="../classes/Validator.html">Validator</a></li>
+                                <li><a href="../classes/Views.Activity.html">Views.Activity</a></li>
+                                <li><a href="../classes/Views.ActivityAdd.html">Views.ActivityAdd</a></li>
+                                <li><a href="../classes/Views.ActivityCreate.html">Views.ActivityCreate</a></li>
+                                <li><a href="../classes/Views.ActivityDestroy.html">Views.ActivityDestroy</a></li>
+                                <li><a href="../classes/Views.ActivityDisplay.html">Views.ActivityDisplay</a></li>
+                                <li><a href="../classes/Views.ActivityEdit.html">Views.ActivityEdit</a></li>
+                                <li><a href="../classes/Views.ActivityEditAdvanced.html">Views.ActivityEditAdvanced</a></li>
+                                <li><a href="../classes/Views.ActivityList.html">Views.ActivityList</a></li>
+                                <li><a href="../classes/Views.ActivityPool.html">Views.ActivityPool</a></li>
+                                <li><a href="../classes/Views.ActivityPoolEdit.html">Views.ActivityPoolEdit</a></li>
+                                <li><a href="../classes/Views.AdvancedOptionsModal.html">Views.AdvancedOptionsModal</a></li>
+                                <li><a href="../classes/Views.CopyToClipboard.html">Views.CopyToClipboard</a></li>
+                                <li><a href="../classes/Views.DeleteLocationModal.html">Views.DeleteLocationModal</a></li>
+                                <li><a href="../classes/Views.DomainSetItem.html">Views.DomainSetItem</a></li>
+                                <li><a href="../classes/Views.DomainsPopover.html">Views.DomainsPopover</a></li>
+                                <li><a href="../classes/Views.EditPoolToolbar.html">Views.EditPoolToolbar</a></li>
+                                <li><a href="../classes/Views.Graph.html">Views.Graph</a></li>
+                                <li><a href="../classes/Views.listControls.html">Views.listControls</a></li>
+                                <li><a href="../classes/Views.LocationItem.html">Views.LocationItem</a></li>
+                                <li><a href="../classes/Views.LocationsList.html">Views.LocationsList</a></li>
+                                <li><a href="../classes/Views.Main.html">Views.Main</a></li>
+                                <li><a href="../classes/Views.Modal.html">Views.Modal</a></li>
+                                <li><a href="../classes/Views.Modal2.html">Views.Modal2</a></li>
+                                <li><a href="../classes/Views.ModalPageView.html">Views.ModalPageView</a></li>
+                                <li><a href="../classes/Views.Numbers.html">Views.Numbers</a></li>
+                                <li><a href="../classes/Views.PageView.html">Views.PageView</a></li>
+                                <li><a href="../classes/Views.Poolbar.html">Views.Poolbar</a></li>
+                                <li><a href="../classes/Views.PoolsDashboard.html">Views.PoolsDashboard</a></li>
+                                <li><a href="../classes/Views.PoolsList.html">Views.PoolsList</a></li>
+                                <li><a href="../classes/Views.PoolsListItem.html">Views.PoolsListItem</a></li>
+                                <li><a href="../classes/Views.Popover.html">Views.Popover</a></li>
+                                <li><a href="../classes/Views.SearchBox.html">Views.SearchBox</a></li>
+                                <li><a href="../classes/Views.SnippetModal.html">Views.SnippetModal</a></li>
+                                <li><a href="../classes/Views.Toolbar.html">Views.Toolbar</a></li>
+                                <li><a href="../classes/Views.VersionHashError.html">Views.VersionHashError</a></li>
+                                <li><a href="../classes/Views.Wizard.html">Views.Wizard</a></li>
+                            </ul>
+                
+                            <ul id="api-modules" class="apis modules">
+                                <li><a href="../modules/Carbon.html">Carbon</a></li>
+                                <li><a href="../modules/Integration.html">Integration</a></li>
+                                <li><a href="../modules/SourceTrak.html">SourceTrak</a></li>
+                                <li><a href="../modules/Sourcetrak.html">Sourcetrak</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: ../../../application/modules/sourcetrak/resources/js/views/view.numbersSummary.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+Ibp.Sourcetrak.Views.NumbersSummary = Ibp.Backbone.View.extend({
+    mixins: [&#x27;Loading&#x27;],
+    name: &#x27;numbersSummary&#x27;,
+    template: Ibp.Sourcetrak.Templates.numbers_summary,
+    centerTemplate: Ibp.Sourcetrak.Templates.numbers_center,
+
+    /**
+     * The views object retains references to children views
+     *
+     * @property views
+     * @type Object
+     */
+    views: null,
+
+    /**
+     * The element the view will render itself in
+     *
+     * @property $container
+     * @type jQuery Object
+     */
+    $container: null,
+
+    /**
+     * String selector for loading overlay
+     *
+     * @property loadingEl
+     * @type String
+     */
+    loadingEl: &#x27;.js-summary-overlay&#x27;,
+
+    /**
+     * String selector for area code list container
+     *
+     * @property listEl
+     * @type string
+     */
+    listEl: &#x27;.js-area-code-list&#x27;,
+
+    /**
+     * String selector for total numbers count container
+     *
+     * @property totalNumbersEl
+     * @type string
+     */
+    totalNumbersEl: &#x27;.js-count&#x27;,
+
+    /**
+     * jQuery Object containing reference to total numbers container element
+     *
+     * @property $totalNumbers
+     * @type jQuery Object
+     */
+    $totalNumbers: null,
+
+    /**
+     * String selector for the centered summary element
+     *
+     * @property centerEl
+     * @type string
+     */
+    centerEl: &#x27;.js-center&#x27;,
+
+    /**
+     * jQuery Object containing reference to the centered summary element
+     *
+     * @property $center
+     * @type jQuery Object
+     */
+    $center: null,
+
+    /**
+     * List of area codes that will be rendered
+     *
+     * @property areaCodeList
+     * @type {Object}
+     */
+    areaCodeList: null,
+
+    /**
+     * String describing the type of phone number(s) that are being summarized. Affects rendering
+     *
+     * @property type
+     * @type string
+     */
+    type: null,
+
+    /**
+     * String describing the source of the numbers (local, tollfree) that are being summarized.
+     *
+     * @property numberType
+     * @type string
+     */
+    numberType: null,
+
+
+    /**
+     * Text descriptions for one to one number summaries
+     *
+     * @property numberDescriptions
+     * @type Object
+     */
+    numberDescriptions: {
+        &#x27;oneToOne&#x27;: &#x27;One To One Number&#x27;
+    },
+
+    /**
+     * Unconfigured number counts by area code
+     *
+     * @property $unconfiguredByAreaCode
+     * @type Object
+     */
+    unconfinguredByAreaCode: null,
+
+    /**
+     * Stores the current total of numbers in all area codes
+     *
+     * @property totalNumbers
+     * @type integer
+     */
+    totalNumbers: null,
+
+    /**
+     * Stores the current total of unconfigured numbers in all area codes
+     *
+     * @property totalUnconfigured
+     * @type integer
+     */
+    totalUnconfigured: null,
+
+    /**
+     * Url for accessing the RPC endpoint of Organic
+     *
+     * @property rpcUrl
+     * @type String
+     */
+    rpcUrl: &#x27;/v1/rpc&#x27;,
+
+    /**
+     * Url for accessing the Addon endpoint of Organic
+     *
+     * @property addonUrl
+     * @type String
+     */
+    addonUrl: &#x27;/v1/addon&#x27;,
+
+    /**
+     * Billing information URL for AJAX request
+     *
+     * @type string
+     */
+    billingInfoURL: &#x27;/v1/rpc/?action=getAccountBillingInfo&#x27;,
+
+    /**
+     * Ref table constants for toll free and local slot items
+     *
+     * @property addonIds
+     * @type Object
+     */
+    addonIds: {
+        tollfree: 3,
+        local: 6,
+        canadian: 17,
+        true800: 18
+    },
+
+    subscriptions: {
+        &#x27;numberSearch&#x27;: &#x27;handleNumberSearch&#x27;
+    },
+
+    /**
+     * Init state and render
+     *
+     * @method init
+     */
+    init: function (options) {
+        _.bindAll(this);
+
+        this.$container = options.$container;
+        this.wizardData = options.wizardData;
+        this.type       = options.type;
+        this.numberType = options.numberType;
+
+        this.views = {
+            areaCodeList: {}
+        };
+        this.totalNumbers       = 0;
+        this.totalUnconfigured  = 0;
+
+        // if this is a secondary rendering of this view, we need to clear out any existing data
+        if (options.reset) {
+            this.clearData();
+        }
+
+        // fetch both the unconfigured number counts by area code and addon info, and render when they&#x27;ve both returned
+        $.when(this.fetchUnconfiguredCounts(), this.fetchAddonInfo())
+            .done(this.render);
+    },
+
+    /**
+     * Render
+     *
+     * @method render
+     * @return this view
+     */
+    render: function () {
+        // determines if we will be rendering a list of area code items or not
+        var showList = !this.model.get(&#x27;one_to_one&#x27;);
+
+        this.$el.html(this.template({
+            showList: showList,
+            numberDescription: this.numberDescriptions[this.type]
+        }));
+
+        this.$container.html(this.$el);
+
+        this.$totalNumbers = this.$(this.totalNumbersEl);
+        this.$center = this.$(this.centerEl);
+
+        // render the list of area codes, if we need to
+        if (showList) {
+            this.renderAreaCodeList();
+        }
+        else {
+            var areaCode = this.model.getAreaCodes().at(0);
+
+            // if we have an area code in our current data, grab it for display
+            if (areaCode &amp;&amp; areaCode.get(&#x27;quantity&#x27;)) {
+                this.renderCenter({
+                    value: areaCode.get(&#x27;area_code&#x27;)
+                });
+            }
+        }
+
+        // lazy load billing info
+        this.fetchBillingInfo();
+
+        return this;
+    },
+
+    /**
+     * Render area code views list for non one-to-one pools
+     *
+     * @method renderAreaCodeList
+     */
+    renderAreaCodeList: function () {
+        var _this = this,
+            // we use this flag to determine if bandwidth inventory searches should be possible
+            isLocalSearch = (this.numberType === &#x27;local&#x27;),
+            // stores the maximum amount of numbers available for this new area code
+            maxQuantity = this.checkAddonUpperLimit(),
+            codesToRender,
+            showBandwidth,
+            requestCount,
+            quantityToRender;
+
+        // remove any current area code views
+        this.resetAreaCodeViews();
+
+        // get the area codes we need to render
+        codesToRender = _.filter(this.model.getAreaCodes().models, function (areaCode) {
+            /**
+             * Whether or not we render an area code from the pool model depends on a few factors:
+             * - If the area code&#x27;s type does not match the active search type, we skip it.
+             * - If the current quantity of the area code is zero, we skip it...
+             *  - UNLESS we are returning to this view from an order error view, and have set a list of area codes to render with quantities set to zero.
+             */
+            if (_this.checkAreaCodeType(areaCode.get(&#x27;area_code&#x27;)) === _this.numberType
+                &amp;&amp; (areaCode.get(&#x27;quantity&#x27;) !== 0 || _this.isForcedAreaCode(areaCode.get(&#x27;area_code&#x27;)))) {
+                return true;
+            }
+        });
+
+        if (!codesToRender.length) {
+            return;
+        }
+
+        // Show loading overlay and disable add area code button
+        this.showLoading();
+        this.publish(&#x27;beginSearch&#x27;);
+
+        // we will need to wait until all of the requests are done before removing the loading indicator
+        requestCount = codesToRender.length;
+
+        // create the new area code item views
+        _.each(codesToRender, function (areaCode) {
+            showBandwidth = isLocalSearch;
+
+            // check the IBP inventory
+            _this.fetchIbpAvailableAreaCodeQuantity(areaCode.get(&#x27;area_code&#x27;), maxQuantity)
+                .then(function (response) {
+                    var dfd = new $.Deferred();
+
+                    // if the area code is being forced to render despite having a quantity of 0, and IBP had no inventory, check bandwidth
+                    if (isLocalSearch &amp;&amp; response === 0 &amp;&amp; _this.isForcedAreaCode(areaCode.get(&#x27;area_code&#x27;))) {
+                        showBandwidth = false;
+                        dfd = _this.fetchBwAvailableAreaCodeQuantity(areaCode.get(&#x27;area_code&#x27;), maxQuantity);
+                    }
+                    // if we have bandwidth inventory from a previous check, update the total
+                    else if (_this.wizardData.available[areaCode.get(&#x27;area_code&#x27;)] !== undefined &amp;&amp; _.has(_this.wizardData.available[areaCode.get(&#x27;area_code&#x27;)], &#x27;bandwidth&#x27;)) {
+                        showBandwidth = false;
+                        response += _this.wizardData.available[areaCode.get(&#x27;area_code&#x27;)].bandwidth;
+                        dfd.resolve(response);
+                    }
+                    // we have some IBP inventory, so render the item view with that available quantity
+                    else {
+                        dfd.resolve(response);
+                    }
+
+                    return dfd;
+                })
+                .done(function (response) {
+                    // if the final response is zero, and we are being forced to render this area code, show the no result view instead
+                    if (response === 0 &amp;&amp; _this.isForcedAreaCode(areaCode.get(&#x27;area_code&#x27;))) {
+                        _this.alertNoNumbersAvailable(areaCode.get(&#x27;area_code&#x27;));
+                    }
+                    else {
+                        // if we are showing an area code that was a part of a failed order, we need to reset the
+                        // quantity to 1 from zero, as we know at this point that we have some inventory to choose from.
+                        quantityToRender = _this.isForcedAreaCode(areaCode.get(&#x27;area_code&#x27;)) ? 1 : areaCode.get(&#x27;quantity&#x27;);
+
+                        _this.addAreaCodeItem({
+                            areaCode: areaCode.get(&#x27;area_code&#x27;),
+                            quantity: quantityToRender,
+                            showBandwidth: showBandwidth,
+                            inventoryLimit: response
+                        });
+                    }
+
+                    // was this the last AJAX request? if so, remove the loading indicator
+                    if (--requestCount === 0) {
+                        _this.hideLoading();
+                        _this.publish(&#x27;endSearch&#x27;);
+                    }
+                });
+        });
+    },
+
+    /**
+     * Returns whether or not the given area code has been flagged for display after an error view redirect
+     *
+     * @method isForcedAreaCode
+     * @param String areaCode
+     */
+    isForcedAreaCode: function (areaCode) {
+        return _.contains(this.wizardData.forcedAreaCodes, areaCode);
+    },
+
+    /**
+     * Renders the one-to-one summary template
+     *
+     * @method renderCenter
+     * @param data {Object} Data to be passed into the template
+     */
+    renderCenter: function (data) {
+        this.$center.html(this.centerTemplate(data));
+    },
+
+    /**
+     * React to an area code being removed
+     *
+     * @method handleAreaCodeRemove
+     * @param integer viewId
+     */
+    handleAreaCodeRemove: function (viewId) {
+        // stop listening to this view
+        this.stopListening(this.views.areaCodeList[viewId]);
+
+        // remove the specified area code item view from ths property list
+        delete this.views.areaCodeList[viewId];
+
+        // trigger a total count update, since we aren&#x27;t listening to this view anymore
+        this.setAreaCodeQuantity(viewId, 0);
+        this.updateTotalNumbers();
+    },
+
+    /**
+     * Handle search events from Ibp.Sourcetrak.Views.NumbersSearch
+     *
+     * @method handleNumberSearch
+     * @param selection {String} The area code/area code+extension to be searched for numbers
+     */
+    handleNumberSearch: function (selection) {
+        this.searchAreaCodes(selection);
+    },
+
+    /**
+     * Returns the amount of unconfigured numbers for the given area code, if any
+     *
+     * @method getUnconfiguredCountByAreaCode
+     * @return integer
+     */
+    getUnconfiguredCountByAreaCode: function (areaCode) {
+        return this.unconfiguredByAreaCode[areaCode] ? parseInt(this.unconfiguredByAreaCode[areaCode], 10) : 0;
+    },
+
+    /**
+     * Initialize and render a new area code item view, based on inventory
+     *
+     * @method addAreaCodeItem
+     * @param {Object} [options] Contains data related to the new area code item
+     * @param {Integer} [options.areaCode] Specific code being added
+     * @param {Integer} [options.quantity] The current amount of numbers in this area code
+     * @param {Integer} [options.inventoryLimit] Maximum amount of available numbers for this area code
+     * @param {Boolean} [options.showBandwidth] Flag indicating if the search bandwidth trigger should be visible
+     */
+    addAreaCodeItem: function (options) {
+        var originalCode = _.findWhere(this.wizardData.currentNumbers, {area_code: options.areaCode}),
+            originalQuantity = originalCode ? originalCode.quantity : 0,
+            areaCodeData = {
+                areaCode:           parseInt(options.areaCode, 10),
+                quantity:           options.quantity,
+                unconfiguredCount:  this.getUnconfiguredCountByAreaCode(options.areaCode),
+                maxAddons:          this.checkAddonUpperLimit(),
+                totalUnconfigured:  this.totalUnconfigured,
+                originalQuantity:   originalQuantity
+            },
+            view = new Ibp.Sourcetrak.Views.NumbersAreaCodeItem({
+                $container:     this.$(this.listEl),
+                areaCodeData:   areaCodeData,
+                showBandwidth:  options.showBandwidth,
+                inventoryLimit: options.inventoryLimit
+            });
+
+        // store this area code data in the model for whoever is interested
+        this.setAreaCodeQuantity(options.areaCode, options.quantity);
+
+        // when the quantity is changed in the item view, update the total numbers in this summary view
+        this.listenTo(view, &#x27;update:quantity&#x27;, this.updateTotalNumbers);
+
+        // if an area code item is deleted, handle that in the summary view
+        this.listenTo(view, &#x27;remove&#x27;, this.handleAreaCodeRemove);
+
+        // if the area code item has its quantity input enabled, we will need to check IBP inventory
+        this.listenTo(view, &#x27;enableQuantityInput&#x27;, this.enableQuantityInput);
+
+        // if a user wants to find more numbers via bandwidth, this event will trigger
+        this.listenTo(view, &#x27;searchBandwidthInventory&#x27;, this.searchBandwidthInventory);
+
+        // store this new view in our property list
+        this.views.areaCodeList[options.areaCode] = view;
+
+        // update the running total
+        this.updateTotalNumbers();
+    },
+
+    /**
+     * Activates the quantity input element in a child view, after checking the relevant inventories
+     *
+     * @method enableQuantityInput
+     * @param String areaCode
+     */
+    enableQuantityInput: function (areaCode) {
+        var _this = this,
+            // how many new numbers could be added to this getAccountBillingInfo
+            maxQuantity = this.checkAddonUpperLimit(),
+            // this flag will determine if a bandwidth inventory search should be possible
+            isLocalSearch = this.numberType === &#x27;local&#x27;,
+            // see how many, if any, unconfigured numbers we have for this area code
+            availableUnconfigured = this.getUnconfiguredCountByAreaCode(areaCode),
+            // if we&#x27;ve already checked this area code with bandwidth, don&#x27;t duplicate that in this function
+            bandwidthChecked = (this.wizardData.available[areaCode] &amp;&amp; _.has(this.wizardData.available[areaCode], &#x27;bandwidth&#x27;));
+
+        // Show loading overlay and disable add area code button
+        this.showLoading();
+        this.publish(&#x27;beginSearch&#x27;);
+
+        this.fetchIbpAvailableAreaCodeQuantity(areaCode, maxQuantity)
+            .then(function (count) {
+                var dfd = new $.Deferred();
+
+                if (isLocalSearch &amp;&amp; count === 0 &amp;&amp; availableUnconfigured === 0 &amp;&amp; !bandwidthChecked) {
+                    bandwidthChecked = true;
+                    dfd = _this.fetchBwAvailableAreaCodeQuantity(areaCode, maxQuantity);
+                }
+                else {
+                    if (bandwidthChecked) {
+                        count += _this.wizardData.available[areaCode].bandwidth;
+                    }
+
+                    dfd.resolve(count);
+                }
+
+                return dfd;
+            })
+            .done(function (count) {
+                _this.hideLoading();
+                _this.publish(&#x27;endSearch&#x27;);
+
+                _this.updateAreaCodeViewState(areaCode, {
+                    inventoryLimit: count,
+                    showBandwidth: !bandwidthChecked
+                });
+            });
+    },
+
+    /**
+     * The &quot;find more numbers&quot; trigger was clicked in an area code child view, so check the 3rd party vendor for this area code
+     *
+     * @method searchBandwidthInventory
+     * @param String areaCode
+     */
+    searchBandwidthInventory: function (areaCode) {
+        var _this = this,
+            // how many new numbers could be added to this account
+            maxQuantity = this.checkAddonUpperLimit(),
+            ibpInventory = this.wizardData.available[areaCode].ifbyphone || 0;
+
+        // Show loading overlay and disable add area code button
+        this.showLoading();
+        this.publish(&#x27;beginSearch&#x27;);
+
+        // ping the BW api to see how many numbers are available for this area code
+        this.fetchBwAvailableAreaCodeQuantity(areaCode, maxQuantity - ibpInventory)
+            .done(function (count) {
+                // disable the loading warning
+                _this.hideLoading();
+                _this.publish(&#x27;endSearch&#x27;);
+
+                _this.updateAreaCodeViewState(areaCode, {
+                    showBandwidth: false,
+                    inventoryLimit: count
+                });
+            });
+    },
+
+    /**
+     * Responsible for updating the state of an area code child view
+     *
+     * @method updateAreaCodeViewState
+     * @param String areaCode
+     * @param {Object} options
+     */
+    updateAreaCodeViewState: function (areaCode, options) {
+        var acView = this.views.areaCodeList[areaCode];
+        acView.updateState(options);
+    },
+
+    /**
+     * Add up all the quantities of the current item views
+     *
+     * @method updateTotalNumbers
+     */
+    updateTotalNumbers: function () {
+            // the running sum
+        var total = 0,
+            // the number of new numbers that are not covered by your unconfigured inventory
+            totalNewInventory = 0,
+            // the quantity of a given item view
+            quantity,
+            // the quantity of new numbers not covered by unconfigured numbers in your account
+            newInventoryCount,
+            // the area code of the item view being checked
+            areaCode;
+
+        _.each(this.views.areaCodeList, function (a) {
+            if (a.type === &#x27;error&#x27;) {
+                return;
+            }
+
+            // pull a few details out of the current item view
+            quantity = a.getQuantity();
+            areaCode = a.getAreaCode();
+            newInventoryCount = a.getNewInventoryQuantity();
+            total += quantity;
+            totalNewInventory += newInventoryCount;
+
+            // make sure the model has all the latest quantities set
+            this.setAreaCodeQuantity(areaCode, quantity);
+        }.bind(this));
+
+        // update the total numbers summary element with the new count
+        this.$totalNumbers.html(total);
+
+        // store the current total in this view&#x27;s property
+        this.totalNumbers = total;
+
+        // now we loop through the views one more time informing them of the new pool total
+        // this can affect their maximum quantities
+        _.each(this.views.areaCodeList, function (a) {
+            if (a.type === &#x27;error&#x27;) {
+                return;
+            }
+
+            // tell this item view the global total of numbers
+            a.setPoolTotal(total);
+
+            // tell this item view the global total of new numbers not covered by unconfigured numbers
+            a.setNewInventoryTotal(totalNewInventory);
+
+            // re-render the select options to reflect updated maximum quantities
+            a.renderSelectOptions(a.calculateMaxNumbers());
+        });
+
+        // update the number order to create this pool
+        this.calculateNumbersNeeded();
+    },
+
+    /**
+     * Updates the quantity of the given area code within the pool. If the area code doesn&#x27;t exist yet, it adds it.
+     *
+     * @method setAreaCodeQuantity
+     * @param String areaCode
+     * @param Integer quantity
+     */
+    setAreaCodeQuantity: function (areaCode, quantity) {
+        var areaCodeModel = this.getAreaCodeModel(areaCode);
+
+        if (!areaCodeModel) {
+            areaCodeModel = new Ibp.Backbone.Model.SubModel({
+                area_code: areaCode.toString(),
+                quantity: quantity
+            });
+
+            this.model.getAreaCodes().add(areaCodeModel);
+        }
+        else {
+            areaCodeModel.set(&#x27;quantity&#x27;, quantity);
+        }
+    },
+
+    /**
+     * Grab the area code model from the pool model subcollection
+     * @method getAreaCodeModel
+     * @param areaCode
+     */
+    getAreaCodeModel: function (areaCode) {
+        var stringCode = String(areaCode),
+            codes = this.model.getAreaCodes();
+
+        return codes.findWhere({
+            area_code: stringCode
+        });
+    },
+
+    /**
+     * Check the server for available numbers when a user adds an area code via the search view
+     *
+     * @method searchAreaCodes
+     * @param string selection
+     */
+    searchAreaCodes: function (areaCode) {
+        var _this = this,
+            // stores the maximum amount of numbers available for this new area code
+            maxQuantity = this.checkAddonUpperLimit(),
+            // holds the amount of unconfigured numbers for this area code
+            unconfiguredQuantity = _this.getUnconfiguredCountByAreaCode(areaCode),
+            // determines if a bandwidth inventory check will be possible
+            isLocalSearch = this.numberType === &#x27;local&#x27;,
+            showBandwidth = false;
+
+        // Check for duplicate
+        if (this.views.areaCodeList[areaCode] !== undefined) {
+            return;
+        }
+
+        // alert user if they are out of addons and unconfigured numbers
+        if (!maxQuantity &amp;&amp; !unconfiguredQuantity) {
+            this.alertNoSlotsAvailable();
+
+            return;
+        }
+
+        // we can set the max to just 1 for one-to-ones, otherwise use the addon limit
+        maxQuantity = this.model.get(&#x27;one_to_one&#x27;) ? 1 : maxQuantity;
+
+        // if we only need 1 number, and we have an unconfigured number, we don&#x27;t need to ping the server
+        if (this.model.get(&#x27;one_to_one&#x27;) &amp;&amp; unconfiguredQuantity &gt;= maxQuantity) {
+            this.renderOtoSummary(areaCode);
+
+            return;
+        }
+
+        // Show loading overlay and disable add area code button
+        this.showLoading();
+        this.publish(&#x27;beginSearch&#x27;);
+
+        // check the IBP inventory as soon as a new area code is entered
+        this.fetchIbpAvailableAreaCodeQuantity(areaCode, maxQuantity)
+            .then(function (response) {
+                var dfd = new $.Deferred();
+
+                // if we have bandwidth inventory from a previous check, update the total
+                if (_.has(_this.wizardData.available[areaCode], &#x27;bandwidth&#x27;)) {
+                    dfd.resolve(response + _this.wizardData.available[areaCode].bandwidth);
+                    showBandwidth = false;
+                }
+                else if (isLocalSearch &amp;&amp; response === 0 &amp;&amp; unconfiguredQuantity === 0) {
+                    dfd = _this.fetchBwAvailableAreaCodeQuantity(areaCode, maxQuantity);
+                }
+                else {
+                    showBandwidth = isLocalSearch;
+                    dfd.resolve(response);
+                }
+
+                return dfd;
+            })
+            .done(function (response) {
+                _this.addSearchResults({
+                    areaCode: areaCode,
+                    available: parseInt(response, 10),
+                    unconfiguredQuantity: unconfiguredQuantity,
+                    showBandwidth: showBandwidth
+                });
+            });
+    },
+
+    /**
+     * Takes search results and prepares them for insertion into the view list
+     * @method addSearchResults
+     * @param {Object} [options] Parameters for displaying the search results
+     * @param {Integer} [options.areaCode] Area code that is being added to the list
+     * @param {Integer} [options.available] How many of this area code are available
+     * @param {Integer} [options.unconfiguredQuantity] How many of this area code already belong to the user and are unconfigured
+     * @param {Boolean} [options.showBandwidth] Flag determining if we should render the bandwidth search trigger in the view
+     */
+    addSearchResults: function (options) {
+        // Hide loading overlay and enable add area code button
+        this.hideLoading();
+        this.publish(&#x27;endSearch&#x27;);
+
+        if (!options.available &amp;&amp; !options.unconfiguredQuantity) {
+            this.alertNoNumbersAvailable(options.areaCode);
+
+            return;
+        }
+
+        if (!this.model.get(&#x27;one_to_one&#x27;)) {
+            this.addAreaCodeItem({
+                areaCode: options.areaCode,
+                inventoryLimit: options.available,
+                showBandwidth: options.showBandwidth,
+                quantity: 1
+            });
+        }
+        else {
+            this.renderOtoSummary(options.areaCode);
+        }
+    },
+
+    /**
+     * Render the one-to-one summary elements
+     * @method renderOtoSummary
+     * @param String areaCode
+     */
+    renderOtoSummary: function (areaCode) {
+        var value = (areaCode.length === 6) ? areaCode.slice(0, 3) + &#x27;-&#x27; + areaCode.slice(3) : areaCode,
+            oldAreaCode = this.model.getAreaCodes().models[0];
+
+        // we have a number from this area code, so update the summary to let the user know
+        this.renderCenter({
+            value: value
+        });
+
+        // remove old area code if it exists
+        if (oldAreaCode) {
+            this.setAreaCodeQuantity(oldAreaCode.get(&#x27;area_code&#x27;), 0);
+        }
+
+        // update our current data with this new areaCode
+        this.setAreaCodeQuantity(areaCode, 1);
+
+        this.calculateNumbersNeeded();
+     },
+
+    /**
+     * Figure out of the given area code is local or toll free
+     *
+     * @method checkAreaCodeType
+     * @param String areaCode
+     * @return String
+     */
+    checkAreaCodeType: function (areaCode) {
+        var type;
+
+        areaCode = areaCode.slice(0, 3);
+
+        switch (areaCode) {
+            case _.findWhere(BootstrappedData.canAreaCodes, areaCode):
+                type = &#x27;canadian&#x27;;
+
+                break;
+            case _.findWhere(BootstrappedData.tollfreeAreaCodes, areaCode):
+                type = &#x27;tollfree&#x27;;
+
+                break;
+            case &#x27;800&#x27;:
+                type = &#x27;true800&#x27;;
+
+                break;
+            default:
+                type = &#x27;local&#x27;;
+        }
+
+        return type;
+    },
+
+    /**
+     * See what the maximum addon count is for the given number type (local or tollfree)
+     *
+     * @method checkAddonUpperLimit
+     * @return integer
+     */
+    checkAddonUpperLimit: function () {
+        var addonInfo = this.wizardData.addonInfo[this.numberType];
+
+        if (!addonInfo || ((addonInfo.max - addonInfo.inUse) &lt; 0)) {
+            // we can&#x27;t determine what the max item limit is, so return zero
+            return 0;
+        }
+
+        // we return the account max minus the number of in-use items
+        return addonInfo.max - addonInfo.inUse;
+    },
+
+    /**
+     * Destroys all the area code item views and reset the view property
+     *
+     * @method resetAreaCodeViews
+     */
+    resetAreaCodeViews: function () {
+        _.invoke(this.views.areaCodeList, &#x27;remove&#x27;);
+
+        this.views.areaCodeList = {};
+    },
+
+    /**
+     * Zero out all of the current area code quantities and set the addons object back to empty.
+     *
+     * @method clearData
+     */
+    clearData: function () {
+        // set the addons property of the model to a new object
+        this.wizardData.addons = {};
+
+        // restore the area codes to their pre-edit state
+        this.model.attributes.area_codes = _.deepExtend(this.model._snapshot.area_codes);
+
+        this.model.getAreaCodes().resetSubModels();
+    },
+
+    /**
+     * Fetch a count of unconfigured numbers for this account organized by area code
+     *
+     * @method fetchUnconfiguredCounts
+     * @return jQuery Deferred Object (via $.get function)
+     */
+    fetchUnconfiguredCounts: function () {
+        // we update the view&#x27;s property directly in the success function,
+        // but return the deferred object so the JS knows when to proceed
+        return $.getJSON(this.rpcUrl, {
+            action: &#x27;getUnconfiguredCountByAreaCode&#x27;
+        }, function (res) {
+            this.unconfiguredByAreaCode = this.wizardData.unconfigured = res;
+        }.bind(this));
+    },
+
+    /**
+     * Fetch billing data specific to account and store it in wizardData for use in step 4
+     *
+     * @method fetchBillingInfo
+     */
+    fetchBillingInfo: function () {
+        // we return a deferred object so the JS knows when to proceed,
+        return $.getJSON(this.billingInfoURL, function(data) {
+            var billingInfo = {};
+            billingInfo.type = data.billing_type;
+            billingInfo.regulatoryFeePercent = data.regulatory_fee_percent;
+            billingInfo.prorateFactor = data.prorate_factor;
+
+            this.wizardData.billingInfo = billingInfo;
+        }.bind(this));
+    },
+
+    /**
+     * Fetch data on how many addon slots this user has
+     *
+     * @method fetchAddonInfo
+     * @return jQuery Deferred Object (via $.get function)
+     */
+    fetchAddonInfo: function () {
+        var _this = this,
+            key;
+
+        // we return a deferred object so the JS knows when to proceed,
+        // but the addonInfo property is updated directly in the success function
+        return $.getJSON(this.addonUrl, function (res) {
+            _.each(res, function (addon) {
+                // do a reverse lookup to get the addon name (tollfree or local) for this item id
+                key = _.invert(_this.addonIds)[addon.ref_limit_item_id];
+
+                // we only need to keep the info for local and tollfree
+                if (key) {
+                    _this.wizardData.addonInfo[key] = {
+                        inUse: addon.in_use,
+                        max: addon.max_qty_purchase,
+                        total: addon.total_qty,
+                        free: ((addon.total_qty - addon.in_use) &gt; 0)
+                            ? (addon.total_qty - addon.in_use)
+                            : 0,
+                        purchasePrice: addon.purchase_price,
+                        nonRecurringCharge: addon.non_recurring_charge
+                    };
+
+                    key = null;
+                }
+            });
+        });
+    },
+
+    /**
+     * Figures out how many of the given numbers we can fetch from
+     * ifbyphone up to a given maximum
+     *
+     * @method fetchAvailableAreaCodeQuantity
+     * @return jQuery Deferred Object (resolves with an integer)
+     */
+    fetchIbpAvailableAreaCodeQuantity: function (areaCode, max) {
+        // if we have a stored inventory result, just return it immediately
+        if (this.wizardData.available[areaCode] &amp;&amp; _.has(this.wizardData.available[areaCode], &#x27;ifbyphone&#x27;)) {
+            return new $.Deferred().resolve(this.wizardData.available[areaCode].ifbyphone);
+        }
+
+            // see how many, if any, unconfigured numbers we have for this area code
+        var availableUnconfigured = this.getUnconfiguredCountByAreaCode(areaCode),
+            // how many numbers we&#x27;d be able to retrieve in an ideal situation
+            numbersRequired = max || 1;
+
+        // we have to see how many current unconfigured numbers this account has,
+        // and then check ifbyphone/bandwidth reserves
+        if (availableUnconfigured) {
+            // if we have enough unconfigured numbers to cover what we need, don&#x27;t check any more inventories
+            if (numbersRequired &lt;= availableUnconfigured) {
+                // return a promise that we resolve right away so we can continue immediately
+                return new $.Deferred().resolve(availableUnconfigured);
+            }
+            else {
+                numbersRequired -= availableUnconfigured;
+            }
+        }
+
+        // see if the remaining required quantity can be satisfied by the ifbyphone/bandwidth inventory
+        return $.getJSON(
+            this.rpcUrl,
+            {
+                action: &#x27;checkIbpPhoneOrderAvailability&#x27;,
+                quantity: numbersRequired,
+                search: areaCode
+            },
+            function (res) {
+                // store this information to calculate if this order requires bandwidth numbers later
+                this.wizardData.available[areaCode] = {ifbyphone: res};
+            }.bind(this)
+        );
+    },
+
+    /**
+     * Figures out how many of the given numbers we can fetch from
+     * bandwidth up to a given maximum
+     *
+     * @method fetchAvailableAreaCodeQuantity
+     * @return jQuery Deferred Object (resolves with an integer)
+     */
+    fetchBwAvailableAreaCodeQuantity: function (areaCode, max) {
+        // if we have a stored inventory result, just return it immediately
+        if (this.wizardData.available[areaCode] &amp;&amp; _.has(this.wizardData.available[areaCode], &#x27;bandwidth&#x27;)) {
+            return new $.Deferred().resolve(this.wizardData.available[areaCode].bandwidth);
+        }
+
+        // how many numbers we&#x27;d be able to retrieve in an ideal situation
+        var numbersRequired = max || 1;
+
+        return $.getJSON(
+            this.rpcUrl,
+            {
+                action: &#x27;checkBwPhoneOrderAvailability&#x27;,
+                quantity: numbersRequired,
+                search: areaCode
+            },
+            function (res) {
+                // store this information to calculate if this order requires bandwidth numbers later
+                this.wizardData.available[areaCode].bandwidth = res;
+            }.bind(this)
+        );
+    },
+
+    /**
+     * Figures out how many numbers we need to order
+     *
+     * @method calculateNumbersNeeded
+     */
+    calculateNumbersNeeded: function () {
+        var order = {},
+            totalNewInventory = 0,
+            freeSlots = this.wizardData.addonInfo[this.numberType].free;
+
+        _.each(this.model.getAreaCodes().models, function (areaCode) {
+            var code      = areaCode.get(&#x27;area_code&#x27;),
+                requested = areaCode.get(&#x27;quantity&#x27;),
+                current   = this.getCurrentQuantity(code),
+                available = this.wizardData.unconfigured[code] || 0,
+                needed    = requested - current - available;
+
+            if (needed &gt; 0) {
+                order[code] = needed;
+                totalNewInventory += needed;
+            }
+            else if (needed &lt;= 0 &amp;&amp; order.hasOwnProperty(code)) {
+                delete order[code];
+            }
+        }.bind(this));
+
+        this.wizardData.numbers = order;
+
+        // update the addon order
+        if (totalNewInventory - freeSlots &gt; 0) {
+            this.wizardData.addons[this.numberType] = totalNewInventory - freeSlots;
+        }
+        else {
+            this.wizardData.addons[this.numberType] = 0;
+        }
+    },
+
+    /**
+     * Gets the current quantity of numbers for a given area code
+     *
+     * @method getCurrentQuantity
+     * @param areaCode {String} Get the quantity for this area coe
+     */
+    getCurrentQuantity: function (areaCode) {
+        var code = _.findWhere(this.wizardData.currentNumbers, {area_code: areaCode});
+
+        return code ? code.quantity : 0;
+    },
+
+    /**
+     * Displays an error message if we can&#x27;t get any numbers for an area code
+     *
+     * @method alertNoNumbersAvailable
+     * @param areaCode {String} The area code to display in the message
+     */
+    alertNoNumbersAvailable: function (areaCode) {
+        if (this.model.get(&#x27;one_to_one&#x27;)) {
+            this.renderCenter({
+                value: areaCode,
+                error: true
+            });
+        }
+        else {
+            var errorView = new Ibp.Sourcetrak.Views.NumbersErrorItem({
+                $container: this.$(this.listEl),
+                areaCode: areaCode
+            });
+
+            this.views.areaCodeList[areaCode] = errorView;
+
+            this.listenTo(errorView, &#x27;remove&#x27;, this.handleAreaCodeRemove);
+        }
+    },
+
+    /**
+     * Show the number slots error
+     *
+     * @method alertNoSlotsAvailable
+     */
+    alertNoSlotsAvailable: function () {
+        this.publish(&#x27;noSlots&#x27;);
+    }
+});
+
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

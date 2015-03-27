@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>../../../application/modules/sourcetrak/resources/js/views/view.locationsList.js - Sourcetrak</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="icon" href="../assets/favicon.ico">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+                <h1><img src="../assets/css/logo.png" title="Sourcetrak" width="117" height="52"></h1>
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/aa.html">aa</a></li>
+                                <li><a href="../classes/act_on.html">act_on</a></li>
+                                <li><a href="../classes/Collections.Activities.html">Collections.Activities</a></li>
+                                <li><a href="../classes/Collections.DomainSets.html">Collections.DomainSets</a></li>
+                                <li><a href="../classes/Collections.Locations.html">Collections.Locations</a></li>
+                                <li><a href="../classes/Collections.PaginatedActivities.html">Collections.PaginatedActivities</a></li>
+                                <li><a href="../classes/Collections.PaginatedLocations.html">Collections.PaginatedLocations</a></li>
+                                <li><a href="../classes/Collections.Patterns.html">Collections.Patterns</a></li>
+                                <li><a href="../classes/Collections.Pools.html">Collections.Pools</a></li>
+                                <li><a href="../classes/Collections.ReplacementNumbers.html">Collections.ReplacementNumbers</a></li>
+                                <li><a href="../classes/Collections.Routing.html">Collections.Routing</a></li>
+                                <li><a href="../classes/Collections.Schedules.html">Collections.Schedules</a></li>
+                                <li><a href="../classes/Collections.SubCollection.html">Collections.SubCollection</a></li>
+                                <li><a href="../classes/hubspot.html">hubspot</a></li>
+                                <li><a href="../classes/Mixins.AudioFileUploadBtn.html">Mixins.AudioFileUploadBtn</a></li>
+                                <li><a href="../classes/Mixins.Autosave.html">Mixins.Autosave</a></li>
+                                <li><a href="../classes/Mixins.Autoset.html">Mixins.Autoset</a></li>
+                                <li><a href="../classes/Mixins.ClientPagination.html">Mixins.ClientPagination</a></li>
+                                <li><a href="../classes/Mixins.HighlightInvalid.html">Mixins.HighlightInvalid</a></li>
+                                <li><a href="../classes/Mixins.Loading.html">Mixins.Loading</a></li>
+                                <li><a href="../classes/Mixins.Transform.html">Mixins.Transform</a></li>
+                                <li><a href="../classes/Models.Activity.html">Models.Activity</a></li>
+                                <li><a href="../classes/Models.Location.html">Models.Location</a></li>
+                                <li><a href="../classes/Models.Pattern.html">Models.Pattern</a></li>
+                                <li><a href="../classes/Models.Pool.html">Models.Pool</a></li>
+                                <li><a href="../classes/Models.Routing.html">Models.Routing</a></li>
+                                <li><a href="../classes/Models.Schedule.html">Models.Schedule</a></li>
+                                <li><a href="../classes/Models.State.html">Models.State</a></li>
+                                <li><a href="../classes/Models.SubModel.html">Models.SubModel</a></li>
+                                <li><a href="../classes/op.html">op</a></li>
+                                <li><a href="../classes/Validator.html">Validator</a></li>
+                                <li><a href="../classes/Views.Activity.html">Views.Activity</a></li>
+                                <li><a href="../classes/Views.ActivityAdd.html">Views.ActivityAdd</a></li>
+                                <li><a href="../classes/Views.ActivityCreate.html">Views.ActivityCreate</a></li>
+                                <li><a href="../classes/Views.ActivityDestroy.html">Views.ActivityDestroy</a></li>
+                                <li><a href="../classes/Views.ActivityDisplay.html">Views.ActivityDisplay</a></li>
+                                <li><a href="../classes/Views.ActivityEdit.html">Views.ActivityEdit</a></li>
+                                <li><a href="../classes/Views.ActivityEditAdvanced.html">Views.ActivityEditAdvanced</a></li>
+                                <li><a href="../classes/Views.ActivityList.html">Views.ActivityList</a></li>
+                                <li><a href="../classes/Views.ActivityPool.html">Views.ActivityPool</a></li>
+                                <li><a href="../classes/Views.ActivityPoolEdit.html">Views.ActivityPoolEdit</a></li>
+                                <li><a href="../classes/Views.AdvancedOptionsModal.html">Views.AdvancedOptionsModal</a></li>
+                                <li><a href="../classes/Views.CopyToClipboard.html">Views.CopyToClipboard</a></li>
+                                <li><a href="../classes/Views.DeleteLocationModal.html">Views.DeleteLocationModal</a></li>
+                                <li><a href="../classes/Views.DomainSetItem.html">Views.DomainSetItem</a></li>
+                                <li><a href="../classes/Views.DomainsPopover.html">Views.DomainsPopover</a></li>
+                                <li><a href="../classes/Views.EditPoolToolbar.html">Views.EditPoolToolbar</a></li>
+                                <li><a href="../classes/Views.Graph.html">Views.Graph</a></li>
+                                <li><a href="../classes/Views.listControls.html">Views.listControls</a></li>
+                                <li><a href="../classes/Views.LocationItem.html">Views.LocationItem</a></li>
+                                <li><a href="../classes/Views.LocationsList.html">Views.LocationsList</a></li>
+                                <li><a href="../classes/Views.Main.html">Views.Main</a></li>
+                                <li><a href="../classes/Views.Modal.html">Views.Modal</a></li>
+                                <li><a href="../classes/Views.Modal2.html">Views.Modal2</a></li>
+                                <li><a href="../classes/Views.ModalPageView.html">Views.ModalPageView</a></li>
+                                <li><a href="../classes/Views.Numbers.html">Views.Numbers</a></li>
+                                <li><a href="../classes/Views.PageView.html">Views.PageView</a></li>
+                                <li><a href="../classes/Views.Poolbar.html">Views.Poolbar</a></li>
+                                <li><a href="../classes/Views.PoolsDashboard.html">Views.PoolsDashboard</a></li>
+                                <li><a href="../classes/Views.PoolsList.html">Views.PoolsList</a></li>
+                                <li><a href="../classes/Views.PoolsListItem.html">Views.PoolsListItem</a></li>
+                                <li><a href="../classes/Views.Popover.html">Views.Popover</a></li>
+                                <li><a href="../classes/Views.SearchBox.html">Views.SearchBox</a></li>
+                                <li><a href="../classes/Views.SnippetModal.html">Views.SnippetModal</a></li>
+                                <li><a href="../classes/Views.Toolbar.html">Views.Toolbar</a></li>
+                                <li><a href="../classes/Views.VersionHashError.html">Views.VersionHashError</a></li>
+                                <li><a href="../classes/Views.Wizard.html">Views.Wizard</a></li>
+                            </ul>
+                
+                            <ul id="api-modules" class="apis modules">
+                                <li><a href="../modules/Carbon.html">Carbon</a></li>
+                                <li><a href="../modules/Integration.html">Integration</a></li>
+                                <li><a href="../modules/SourceTrak.html">SourceTrak</a></li>
+                                <li><a href="../modules/Sourcetrak.html">Sourcetrak</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: ../../../application/modules/sourcetrak/resources/js/views/view.locationsList.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+ * Domain Set View For The Domain Set&#x27;s Locations List
+ *
+ * @module SourceTrak
+ * @class Views.LocationsList
+ * @extends Ibp.Backbone.View
+ */
+Ibp.Sourcetrak.Views.LocationsList = Ibp.Backbone.View.extend({
+    name: &#x27;LocationsList&#x27;,
+    template: Ibp.Sourcetrak.Templates.locations_list,
+
+    /**
+     * The views object retains references to children views (single locations)
+     *
+     * @property views
+     * @type Object
+     */
+    views: null,
+
+    /**
+     * A list of references the views for each location in the list
+     *
+     * @property locationViews
+     * @type Object
+     */
+    locationViews: null,
+
+    /**
+     * A state model object we use for tracking filter activity
+     *
+     * @property state
+     * @type Model
+     */
+    state: null,
+
+    /**
+     * The activities being displayed
+     *
+     * @property paginatedLocations
+     * @type Collection
+     */
+    paginatedLocations: null,
+
+    /**
+     * String storing the DOM element that this view will populate
+     *
+     * @property $container
+     * @type jQuery Object
+     */
+    $container: null,
+
+    /**
+     * String selector for this view&#x27;s search box DOM element
+     *
+     * @property searchBoxEl
+     * @type String
+     */
+    searchBoxEl: &#x27;.js-locations-search-box&#x27;,
+
+    /**
+     * String for the placeholder attribute in the search box child view.
+     *
+     * @property searchPlaceholder
+     * @type String
+     */
+    searchPlaceholder: &#x27;Filter Locations&#x27;,
+
+    /**
+     * String selector for this view&#x27;s filter alert DOM element
+     *
+     * @property filterAlertEl
+     * @type String
+     */
+    filterAlertEl: &#x27;.js-locations-filter-alert&#x27;,
+
+    /**
+     * Holds a jQuery reference to the filter DOM element
+     *
+     * @property $filterAlert
+     * @type jQuery Object
+     */
+    $filterAlert: null,
+
+    /**
+     * Locations container selector
+     *
+     * @property filterAlertEl
+     * @type String
+     */
+    locationsEl: &#x27;.js-locations-container&#x27;,
+
+    /**
+     * Locations container jQuery object
+     *
+     * @property $filterAlert
+     * @type jQuery Object
+     */
+    $locations: null,
+
+    /**
+     * String selector for add location button selector
+     * within the list.
+     *
+     * @property addLocationBtnEl
+     * @type String
+     */
+    addLocationBtnEl: &#x27;.js-add-location-btn&#x27;,
+
+    /**
+     * Holds a jQuery reference to the add location button
+     * selector within the list.
+     *
+     * @property $addLocationBtn
+     * @type jQuery Object
+     */
+    $addLocationBtn: null,
+
+    /**
+     * String selector for add location row selector
+     * within the list.
+     *
+     * @property addLocationLinkEl
+     * @type String
+     */
+    addLocationRowEl: &#x27;.js-add-location-row&#x27;,
+
+    /**
+     * Holds a jQuery reference to the add location row
+     * selector within the list.
+     *
+     * @property $addLocationRow
+     * @type jQuery Object
+     */
+    $addLocationRow: null,
+
+    /**
+     * String selector for container holding number of locations
+     * displayed out of total locations
+     *
+     * @property locationsCountEl
+     * @type String
+     */
+    locationsCountEl: &#x27;.js-locations-count&#x27;,
+
+    /**
+     * Holds a jQuery reference to locationsCountEl
+     *
+     * @property $locationCount
+     * @type jQuery Object
+     */
+    $locationsCount: null,
+
+    /**
+     * String selector for the paginator buttons and count
+     *
+     * @property paginatorControlsEl
+     * @type String
+     */
+    paginatorControlsEl: &#x27;.js-paginator-controls&#x27;,
+
+    /**
+     * Paginator controls jQuery object
+     *
+     * @property $paginatorControls
+     * @type jQuery Object
+     */
+    $paginatorControls: null,
+
+    /**
+     * DOM Event handlers
+     *
+     * @property events
+     * @type Object
+     */
+    events: {
+        &#x27;click .js-locations-filter-alert-dismiss&#x27;: &#x27;handleDismissFilterAlert&#x27;,
+        &#x27;click .js-add-location&#x27;: &#x27;handleAddLocationClick&#x27;
+    },
+
+    /**
+     * Init
+     *
+     * @method init
+     * @param options {Object}
+     */
+    init: function (options) {
+        _.bindAll(this);
+
+        this.$container = options.$container;
+        this.domainSet  = options.domainSet;
+
+        this.views = {};
+        this.locationViews = [];
+
+        // create a collection of locations that can be paginated
+        this.paginatedLocations = new Ibp.Sourcetrak.Collections.PaginatedLocations(
+            this.domainSet.getLocations()
+        );
+
+        // prime the paginator state
+        this.paginatedLocations.setPageState();
+
+        this.state = new Ibp.Carbon.Models.State({
+            query: &#x27;&#x27;,
+            showNew: false,
+            showAddButtons: this.getButtonsState(),
+            showControls: this.shouldShowControls(),
+            renderLocations: true
+        });
+
+        this.listenTo(this.state, &#x27;change&#x27;, this.handleViewStateChange);
+        this.listenTo(this.paginatedLocations.ClientPagination.state, &#x27;change&#x27;, this.handlePageStateChange);
+
+        // handle adding and removing locations
+        this.listenTo(Ibp.Sourcetrak.Data.Locations, &#x27;add remove&#x27;, this.handleLocationsChange);
+
+        // allow users to create locations once a new domain set has been saved
+        if (this.domainSet.isNew()) {
+            this.listenToOnce(this.domainSet, &#x27;sync&#x27;, this.handleCreateDomainSet);
+        }
+
+        this.render();
+    },
+
+    /**
+     * Render
+     *
+     * @method render
+     * @return this view
+     */
+    render: function () {
+        this.$el = $(this.template());
+
+        this.$container.append(this.$el);
+
+        this.$filterAlert       = this.$(this.filterAlertEl);
+        this.$locations         = this.$(this.locationsEl);
+        this.$addLocationBtn    = this.$(this.addLocationBtnEl);
+        this.$addLocationRow    = this.$(this.addLocationRowEl);
+        this.$locationsCount    = this.$(this.locationsCountEl);
+        this.$paginatorControls = this.$(this.paginatorControlsEl);
+
+        this.renderSearchbox();
+
+        this.renderFilterAlert();
+
+        this.renderLocations();
+
+        this.renderAddLocationButtons();
+
+        return this;
+    },
+
+    /**
+     * Renders the search box for this locations list
+     *
+     * @method renderSearchbox
+     */
+    renderSearchbox: function () {
+        this.views.searchBox = new Ibp.Carbon.Views.SearchBox({
+            el: this.searchBoxEl,
+            placeholderText: this.searchPlaceholder
+        });
+
+        this.listenTo(this.views.searchBox, &#x27;search&#x27;, this.handleSearch);
+    },
+
+    /**
+     * Shows or hides the query alert box, with updated search text.
+     *
+     * @method renderFilterAlert
+     * @param query {String} The value of the search box
+     */
+    renderFilterAlert: function () {
+        var query = this.state.get(&#x27;query&#x27;),
+            hideFilter = !Boolean(query);
+
+        // if we have a query, show the filter alert
+        this.$filterAlert.toggleClass(&#x27;hidden&#x27;, hideFilter);
+
+        this.$filterAlert.find(&#x27;.value&#x27;).html(query);
+    },
+
+    /**
+     * Renders the locations in the locations list container based on the page and filtering
+     * Also handles rendering the paginator controls and current display count
+     *
+     * @method renderLocations
+     */
+    renderLocations: function () {
+        var locations   = this.paginatedLocations.getPage(),
+            locationIds = _.pluck(locations, &#x27;id&#x27;),
+            viewIds     = _.chain(this.locationViews).pluck(&#x27;model&#x27;).pluck(&#x27;id&#x27;).value(),
+            addedLocationIds   = _.difference(locationIds, viewIds),
+            removedLocationIds = _.difference(viewIds, locationIds),
+            viewState = {renderLocations: false},
+            // keep track of the container size to help prevent jank
+            oldHeight = this.$locations.css(&#x27;height&#x27;),
+            newHeight;
+
+        // just start from scratch for filters
+        if (this.wasQueryChanged()) {
+            _.invoke(this.locationViews, &#x27;unrender&#x27;);
+
+            this.locationViews = _.map(locations, function (location) {
+                var view = new Ibp.Sourcetrak.Views.LocationItem({
+                    model: location
+                });
+
+                this.$locations.append(view.el);
+
+                return view;
+            }.bind(this));
+        }
+        // attempt to preserve state for non-filter operations
+        else {
+            // unrender removed views
+            if (removedLocationIds.length) {
+                var removed = [];
+
+                _.each(this.locationViews, function (view) {
+                    if (_.contains(removedLocationIds, view.model.id)) {
+                        view.unrender();
+
+                        removed.push(view);
+                    }
+                }.bind(this));
+
+                this.locationViews = _.difference(this.locationViews, removed);
+            }
+
+            // create and render new views
+            if (addedLocationIds.length) {
+                _.each(addedLocationIds, function (id) {
+                    var view = new Ibp.Sourcetrak.Views.LocationItem({
+                        model: _.findWhere(locations, {id: id})
+                    });
+
+                    // handle the special case of adding a new location at the top of the list
+                    if (this.state.get(&#x27;showNew&#x27;) &amp;&amp; id === locations[0].id) {
+                        this.locationViews.unshift(view);
+
+                        this.$locations.prepend(view.el);
+                    }
+                    else {
+                        this.locationViews.push(view);
+
+                        this.$locations.append(view.el);
+                    }
+                }.bind(this));
+            }
+        }
+
+        // get new container size and set new base height if need be
+        newHeight = this.$locations.css(&#x27;height&#x27;);
+
+        if (newHeight &gt; oldHeight) {
+            this.$locations.css(&#x27;min-height&#x27;, newHeight);
+        }
+
+        this.renderPaginatorControls();
+
+        this.renderLocationsCount();
+
+        // expand the new location if we have one
+        if (this.state.get(&#x27;showNew&#x27;)) {
+            this.showNewLocation();
+
+            viewState.showNew = false;
+        }
+
+        // silently reset the view state
+        this.state.set(viewState, {silent: true});
+    },
+
+    /**
+     * Re-attaches the add location button to the DOM once the domain set has synced.
+     *
+     * @method renderAddLocationButtons
+     */
+    renderAddLocationButtons: function () {
+        switch (this.state.get(&#x27;showAddButtons&#x27;)) {
+            case &#x27;none&#x27;:
+                this.$addLocationBtn.hide();
+                this.$addLocationRow.hide();
+                break;
+            case &#x27;btn&#x27;:
+                this.$addLocationBtn.show();
+                this.$addLocationRow.hide();
+                break;
+            case &#x27;both&#x27;:
+                this.$addLocationBtn.show();
+                this.$addLocationRow.show();
+        }
+    },
+
+    /**
+     * Renders the paginator buttons for switching pages
+     *
+     * @method renderPaginatorControls
+     */
+    renderPaginatorControls: function () {
+        this.resetPaginatorControls();
+
+        // don&#x27;t show the controls
+        if (!this.state.get(&#x27;showControls&#x27;)) {
+            return;
+        }
+
+        this.views.paginatorControls = new Ibp.Sourcetrak.Views.listControls({
+            $container: this.$paginatorControls,
+            pageState:  this.paginatedLocations.getPageState()
+        });
+
+        this.listenTo(this.views.paginatorControls, &#x27;pageClick&#x27;, this.handlePageClick);
+    },
+
+    /**
+     * Renders the count of what the paginator is currently displaying
+     * This is shown both above and below the paginated list of locations
+     *
+     * @method renderLocationsCount
+     */
+    renderLocationsCount: function () {
+        // clear the old count
+        this.$locationsCount.html(&#x27;&#x27;);
+
+        // don&#x27;t show the count
+        if (!this.state.get(&#x27;showControls&#x27;)) {
+            return;
+        }
+
+        var info  = this.paginatedLocations.getPageState(),
+            total = info.totalItems,
+            range = info.pageRange,
+            displayed = range.end - range.start + 1,
+            countMessage = &#x27;Displaying &#x27;;
+
+        // if we&#x27;re displaying all of the items or just one item, don&#x27;t show a range
+        if (displayed === total || range.end - range.start === 0) {
+            countMessage += range.end + &#x27; of &#x27; + total;
+        }
+        else {
+            countMessage += range.start + &#x27; - &#x27; + range.end + &#x27; of &#x27; + total;
+        }
+
+        this.$locationsCount.html(countMessage);
+    },
+
+    /**
+     * Expands a new location after it is saved
+     *
+     * @method showNewLocation
+     */
+    showNewLocation: function () {
+        this.locationViews[0].showNew();
+    },
+
+    /**
+     * Removes and cleans up the paginator controls so they can be re-rendered
+     *
+     * @method resetPaginatorControls
+     */
+    resetPaginatorControls: function () {
+        var view = this.views.paginatorControls;
+
+        if (view) {
+            view.unrender();
+
+            this.stopListening(view);
+
+            delete this.views.paginatorControls;
+        }
+    },
+
+    /**
+     * Takes care of unrendering child views specific to this view.
+     *
+     * @method onUnrender
+     */
+    onUnrender: function () {
+        _.invoke(this.views, &#x27;unrender&#x27;);
+
+        _.invoke(this.locationViews, &#x27;unrender&#x27;);
+    },
+
+    /**
+     * Creates a new location when the Add Location button or row is clicked
+     *
+     * @method handleAddLocationClick
+     */
+    handleAddLocationClick: function () {
+        // create the new location
+        var model = Ibp.Sourcetrak.Data.Locations.getNew({
+            domain_set_id: this.domainSet.id
+        });
+
+        model.trigger(&#x27;create&#x27;, model);
+    },
+
+    /**
+     * Re-renders locations whenever the collection changes
+     * Will automatically move back to the first page and expand a new location when added
+     *
+     * @method handleLocationsChange
+     * @param {Model} model Unused
+     * @param {Collection} collection Unused
+     * @param {Object} event Information about the event
+     */
+    handleLocationsChange: function (model, collection, event) {
+        var newLocations = this.domainSet.getLocations(),
+            viewState    = {
+                showControls:   this.shouldShowControls(),
+                showAddButtons: this.getButtonsState()
+            },
+            resetOptions = {
+                models: newLocations
+            };
+
+        // handle adding a new location if this was an add event
+        if (event.add) {
+            // expand the new location
+            viewState.showNew = true;
+
+            // move back to the first page and clear the query
+            resetOptions.hard = true;
+        }
+
+        // silently update view state
+        this.state.set(viewState, {silent: true});
+
+        // update the paginated collection and trigger re-render
+        this.paginatedLocations.resetPageState(resetOptions);
+    },
+
+    /**
+     * Handles changes to the search box by setting the query state for the view and the locations
+     *
+     * @method handleSearch
+     * @param query {String} The value of the search box
+     */
+    handleSearch: function (query) {
+        this.paginatedLocations.setQuery(query);
+    },
+
+    /**
+     * Switches the page when a user clicks a paginator button
+     *
+     * @method paginatedLocations
+     * @param page {String} The page to change to
+     */
+    handlePageClick: function (page) {
+        this.paginatedLocations.setCurrentPage(page);
+    },
+
+    /**
+     * Handles an updated query state
+     *
+     * @method handlePageStateChange
+     * @param {Model} model The paginator state model
+     */
+    handlePageStateChange: function (model) {
+        var state = {
+            renderLocations: true,
+            query: model.get(&#x27;query&#x27;)
+        };
+
+        this.state.set(state);
+    },
+
+    /**
+     * Handles an updated query state
+     *
+     * @method handleViewStateChange
+     */
+    handleViewStateChange: function () {
+        this.renderAddLocationButtons();
+
+        // clear the search box if the paginator has been reset
+        if (!this.state.get(&#x27;query&#x27;)) {
+            this.views.searchBox.reset();
+        }
+
+        this.renderFilterAlert();
+
+        this.renderLocations();
+    },
+
+    /**
+     * Clears the location list filter and resets the query state
+     *
+     * @method handleDismissFilterAlert
+     */
+    handleDismissFilterAlert: function () {
+        this.paginatedLocations.setQuery(&#x27;&#x27;);
+
+        this.views.searchBox.reset();
+    },
+
+    /**
+     * Show the add location row once a domain set has been created
+     *
+     * @method handleCreateDomainSet
+     */
+    handleCreateDomainSet: function () {
+        this.state.set(&#x27;showAddButtons&#x27;, this.getButtonsState());
+    },
+
+    /**
+     * Determines if we should render the paginator controls
+     * If the total locations only require a single page, the controls should be hidden
+     * since they wouldn&#x27;t actually do anything.
+     * If the list has been filtered down to a single page, we&#x27;ll still show the controls,
+     * since they&#x27;ll still be useful once the query has been cleared.
+     *
+     * @method shouldShowControls
+     */
+    shouldShowControls: function () {
+        return this.domainSet.getLocations().length &gt; this.paginatedLocations.ClientPagination.state.get(&#x27;pageSize&#x27;);
+    },
+
+    /**
+     * Determines which add location buttons should be shown
+     * No buttons should show until the domain set has been created on the server.
+     * The add location row should only be shown for domain sets with no locations.
+     * The add location button should always be shown for created domain sets.
+     *
+     * @method getButtonsState
+     */
+    getButtonsState: function () {
+        var state;
+
+        if (this.domainSet.isNew()) {
+            state = &#x27;none&#x27;;
+        }
+        else if (!this.domainSet.getLocations().length) {
+            state = &#x27;both&#x27;;
+        }
+        else {
+            state = &#x27;btn&#x27;;
+        }
+
+        return state;
+    },
+
+    /**
+     * Determines if we&#x27;re currently filtering or have just cleared a filter
+     *
+     * @method wasQueryChanged
+     */
+    wasQueryChanged: function () {
+        var oldQuery = this.state.previous(&#x27;query&#x27;) || &#x27;&#x27;,
+            newQuery = this.state.get(&#x27;query&#x27;);
+
+        return newQuery !== oldQuery;
+    }
+});
+
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

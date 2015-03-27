@@ -1,0 +1,101 @@
+YUI.add("yuidoc-meta", function(Y) {
+   Y.YUIDoc = { meta: {
+    "classes": [
+        "Collections.Activities",
+        "Collections.DomainSets",
+        "Collections.Locations",
+        "Collections.PaginatedActivities",
+        "Collections.PaginatedLocations",
+        "Collections.Patterns",
+        "Collections.Pools",
+        "Collections.ReplacementNumbers",
+        "Collections.Routing",
+        "Collections.Schedules",
+        "Collections.SubCollection",
+        "Mixins.AudioFileUploadBtn",
+        "Mixins.Autosave",
+        "Mixins.Autoset",
+        "Mixins.ClientPagination",
+        "Mixins.HighlightInvalid",
+        "Mixins.Loading",
+        "Mixins.Transform",
+        "Models.Activity",
+        "Models.Location",
+        "Models.Pattern",
+        "Models.Pool",
+        "Models.Routing",
+        "Models.Schedule",
+        "Models.State",
+        "Models.SubModel",
+        "Validator",
+        "Views.Activity",
+        "Views.ActivityAdd",
+        "Views.ActivityCreate",
+        "Views.ActivityDestroy",
+        "Views.ActivityDisplay",
+        "Views.ActivityEdit",
+        "Views.ActivityEditAdvanced",
+        "Views.ActivityList",
+        "Views.ActivityPool",
+        "Views.ActivityPoolEdit",
+        "Views.AdvancedOptionsModal",
+        "Views.CopyToClipboard",
+        "Views.DeleteLocationModal",
+        "Views.DomainSetItem",
+        "Views.DomainsPopover",
+        "Views.EditPoolToolbar",
+        "Views.Graph",
+        "Views.LocationItem",
+        "Views.LocationsList",
+        "Views.Main",
+        "Views.Modal",
+        "Views.Modal2",
+        "Views.ModalPageView",
+        "Views.Numbers",
+        "Views.PageView",
+        "Views.Poolbar",
+        "Views.PoolsDashboard",
+        "Views.PoolsList",
+        "Views.PoolsListItem",
+        "Views.Popover",
+        "Views.SearchBox",
+        "Views.SnippetModal",
+        "Views.Toolbar",
+        "Views.VersionHashError",
+        "Views.Wizard",
+        "Views.listControls",
+        "aa",
+        "act_on",
+        "hubspot",
+        "op"
+    ],
+    "modules": [
+        "Carbon",
+        "Integration",
+        "SourceTrak",
+        "Sourcetrak"
+    ],
+    "allModules": [
+        {
+            "displayName": "Carbon",
+            "name": "Carbon",
+            "description": "Negative Keywords (for Domain Set configuration via the Advanced Options modal)\nContains logic & rendering for negative keywords"
+        },
+        {
+            "displayName": "Integration",
+            "name": "Integration",
+            "description": "Properties and methods marked Final should NOT be modified.\nThe YUIDoc syntax reference can be found at http://yui.github.io/yuidoc/syntax/index.html"
+        },
+        {
+            "displayName": "SourceTrak",
+            "name": "SourceTrak",
+            "description": "St Snippet Modal\nModal that displays the ST Snippet with Copy to Clipboard button\n\nThis class defines init, render, and unrender in a way that is dramatically better than the current\nmodal implementation in Ibp.Carbon.Views.Modal. That base class should be refactored like this one.\nViews that would inherit from the refactored base class would only needs to implement the\nonInit(), onRender(), and onUnrender() hooks to add additional functionality.\nThe modal's parent view would then call show() instead of render().\nThe modal's template must include the root modal element, instead of creating it in init(), as in the template here."
+        },
+        {
+            "displayName": "Sourcetrak",
+            "name": "Sourcetrak",
+            "description": "Modal to display the version hash error message and refresh button"
+        }
+    ]
+} };
+});

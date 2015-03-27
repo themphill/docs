@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>../../../application/modules/keyword-spotting/resources/js/views/view.editMetric.js - Sourcetrak</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="icon" href="../assets/favicon.ico">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+                <h1><img src="../assets/css/logo.png" title="Sourcetrak" width="117" height="52"></h1>
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/aa.html">aa</a></li>
+                                <li><a href="../classes/act_on.html">act_on</a></li>
+                                <li><a href="../classes/Collections.Activities.html">Collections.Activities</a></li>
+                                <li><a href="../classes/Collections.DomainSets.html">Collections.DomainSets</a></li>
+                                <li><a href="../classes/Collections.Locations.html">Collections.Locations</a></li>
+                                <li><a href="../classes/Collections.PaginatedActivities.html">Collections.PaginatedActivities</a></li>
+                                <li><a href="../classes/Collections.PaginatedLocations.html">Collections.PaginatedLocations</a></li>
+                                <li><a href="../classes/Collections.Patterns.html">Collections.Patterns</a></li>
+                                <li><a href="../classes/Collections.Pools.html">Collections.Pools</a></li>
+                                <li><a href="../classes/Collections.ReplacementNumbers.html">Collections.ReplacementNumbers</a></li>
+                                <li><a href="../classes/Collections.Routing.html">Collections.Routing</a></li>
+                                <li><a href="../classes/Collections.Schedules.html">Collections.Schedules</a></li>
+                                <li><a href="../classes/Collections.SubCollection.html">Collections.SubCollection</a></li>
+                                <li><a href="../classes/hubspot.html">hubspot</a></li>
+                                <li><a href="../classes/Mixins.AudioFileUploadBtn.html">Mixins.AudioFileUploadBtn</a></li>
+                                <li><a href="../classes/Mixins.Autosave.html">Mixins.Autosave</a></li>
+                                <li><a href="../classes/Mixins.Autoset.html">Mixins.Autoset</a></li>
+                                <li><a href="../classes/Mixins.ClientPagination.html">Mixins.ClientPagination</a></li>
+                                <li><a href="../classes/Mixins.HighlightInvalid.html">Mixins.HighlightInvalid</a></li>
+                                <li><a href="../classes/Mixins.Loading.html">Mixins.Loading</a></li>
+                                <li><a href="../classes/Mixins.Transform.html">Mixins.Transform</a></li>
+                                <li><a href="../classes/Models.Activity.html">Models.Activity</a></li>
+                                <li><a href="../classes/Models.Location.html">Models.Location</a></li>
+                                <li><a href="../classes/Models.Pattern.html">Models.Pattern</a></li>
+                                <li><a href="../classes/Models.Pool.html">Models.Pool</a></li>
+                                <li><a href="../classes/Models.Routing.html">Models.Routing</a></li>
+                                <li><a href="../classes/Models.Schedule.html">Models.Schedule</a></li>
+                                <li><a href="../classes/Models.State.html">Models.State</a></li>
+                                <li><a href="../classes/Models.SubModel.html">Models.SubModel</a></li>
+                                <li><a href="../classes/op.html">op</a></li>
+                                <li><a href="../classes/Validator.html">Validator</a></li>
+                                <li><a href="../classes/Views.Activity.html">Views.Activity</a></li>
+                                <li><a href="../classes/Views.ActivityAdd.html">Views.ActivityAdd</a></li>
+                                <li><a href="../classes/Views.ActivityCreate.html">Views.ActivityCreate</a></li>
+                                <li><a href="../classes/Views.ActivityDestroy.html">Views.ActivityDestroy</a></li>
+                                <li><a href="../classes/Views.ActivityDisplay.html">Views.ActivityDisplay</a></li>
+                                <li><a href="../classes/Views.ActivityEdit.html">Views.ActivityEdit</a></li>
+                                <li><a href="../classes/Views.ActivityEditAdvanced.html">Views.ActivityEditAdvanced</a></li>
+                                <li><a href="../classes/Views.ActivityList.html">Views.ActivityList</a></li>
+                                <li><a href="../classes/Views.ActivityPool.html">Views.ActivityPool</a></li>
+                                <li><a href="../classes/Views.ActivityPoolEdit.html">Views.ActivityPoolEdit</a></li>
+                                <li><a href="../classes/Views.AdvancedOptionsModal.html">Views.AdvancedOptionsModal</a></li>
+                                <li><a href="../classes/Views.CopyToClipboard.html">Views.CopyToClipboard</a></li>
+                                <li><a href="../classes/Views.DeleteLocationModal.html">Views.DeleteLocationModal</a></li>
+                                <li><a href="../classes/Views.DomainSetItem.html">Views.DomainSetItem</a></li>
+                                <li><a href="../classes/Views.DomainsPopover.html">Views.DomainsPopover</a></li>
+                                <li><a href="../classes/Views.EditPoolToolbar.html">Views.EditPoolToolbar</a></li>
+                                <li><a href="../classes/Views.Graph.html">Views.Graph</a></li>
+                                <li><a href="../classes/Views.listControls.html">Views.listControls</a></li>
+                                <li><a href="../classes/Views.LocationItem.html">Views.LocationItem</a></li>
+                                <li><a href="../classes/Views.LocationsList.html">Views.LocationsList</a></li>
+                                <li><a href="../classes/Views.Main.html">Views.Main</a></li>
+                                <li><a href="../classes/Views.Modal.html">Views.Modal</a></li>
+                                <li><a href="../classes/Views.Modal2.html">Views.Modal2</a></li>
+                                <li><a href="../classes/Views.ModalPageView.html">Views.ModalPageView</a></li>
+                                <li><a href="../classes/Views.Numbers.html">Views.Numbers</a></li>
+                                <li><a href="../classes/Views.PageView.html">Views.PageView</a></li>
+                                <li><a href="../classes/Views.Poolbar.html">Views.Poolbar</a></li>
+                                <li><a href="../classes/Views.PoolsDashboard.html">Views.PoolsDashboard</a></li>
+                                <li><a href="../classes/Views.PoolsList.html">Views.PoolsList</a></li>
+                                <li><a href="../classes/Views.PoolsListItem.html">Views.PoolsListItem</a></li>
+                                <li><a href="../classes/Views.Popover.html">Views.Popover</a></li>
+                                <li><a href="../classes/Views.SearchBox.html">Views.SearchBox</a></li>
+                                <li><a href="../classes/Views.SnippetModal.html">Views.SnippetModal</a></li>
+                                <li><a href="../classes/Views.Toolbar.html">Views.Toolbar</a></li>
+                                <li><a href="../classes/Views.VersionHashError.html">Views.VersionHashError</a></li>
+                                <li><a href="../classes/Views.Wizard.html">Views.Wizard</a></li>
+                            </ul>
+                
+                            <ul id="api-modules" class="apis modules">
+                                <li><a href="../modules/Carbon.html">Carbon</a></li>
+                                <li><a href="../modules/Integration.html">Integration</a></li>
+                                <li><a href="../modules/SourceTrak.html">SourceTrak</a></li>
+                                <li><a href="../modules/Sourcetrak.html">Sourcetrak</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: ../../../application/modules/keyword-spotting/resources/js/views/view.editMetric.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+Ibp.KeywordSpotting.Views.EditMetric = Ibp.Backbone.View.extend({
+    name:                    &#x27;editMetric&#x27;,
+    template:                Ibp.KeywordSpotting.Templates.metric_edit,
+    toolbarView:             null,
+    keywordTableView:        null,
+    saveFirstKeywordPending: false,
+    addKeywordPending:       false,
+    savePending:             false,
+    hasRendered:             false,
+    $activeInput:            null,
+
+    events: {
+        &#x27;change .metric-name&#x27;:                  &#x27;autoSave&#x27;,
+        &#x27;keydown input[type=&quot;text&quot;], textarea&#x27;: &#x27;setInputDataValues&#x27;,
+        &#x27;click .name-wrapper&#x27;:                  &#x27;showEditName&#x27;,
+        &#x27;blur input.metric-name&#x27;:               &#x27;hideEditName&#x27;
+    },
+
+    subscriptions: {
+        &#x27;editToolbar:back&#x27;:           &#x27;gotoDashboard&#x27;,
+        &#x27;editToolbar:addKeyword&#x27;:     &#x27;addKeyword&#x27;,
+        &#x27;refreshEditView&#x27;:            &#x27;refreshEditView&#x27;,
+        &#x27;editMetric:fadeOut&#x27;:         &#x27;fadeOut&#x27;,
+        &#x27;notify dismissNotification&#x27;: &#x27;processNotifications&#x27;,
+        &#x27;keyword:autoSave&#x27;:           &#x27;setActiveInput&#x27;
+    },
+
+    init: function(options) {
+        var _this = this;
+
+        // update min/max whenever model is saved.
+        this.listenTo(this.model, &#x27;saved&#x27;, this.updateMinMax);
+
+        // initialize view properties
+        this.keywordViews = [];
+
+        this.$container = $(options.container);
+
+        // only render when we have the complete model, unless it is new
+        // TODO: Add some sort of loading indicator for long requests
+        if (this.model.isNew()) {
+            this.render();
+        } else {
+            // fetch the Metric data for the model
+            this.model.fetch({
+                silent:  true,
+                success: function() {
+                    _this.render();
+                }
+            });
+        }
+    },
+
+    render: function() {
+        var _this = this,
+            data = this.model.toJSON();
+
+        data.name = this.model.isNew() ? &#x27;New Metric Name&#x27; : data.name;
+        data.truncatedName = Ibp.Utils.truncate(data.name, 45);
+
+        this.$el.html(this.template(data));
+        this.$container.html(this.$el);
+        this.updateMinMax();
+        this.hasRendered = true;
+
+        // Keyword table
+        this.keywordTableView = new Ibp.KeywordSpotting.Views.KeywordTable({
+            el:    &#x27;#keywords-container&#x27;,
+            model: this.model
+        });
+
+        // Toolbar
+        this.toolbarView = new Ibp.KeywordSpotting.Views.EditToolbar({
+            el:               &#x27;#metric-toolbar&#x27;,
+            model:            this.model,
+            keywordTableView: this.keywordTableView
+        });
+
+        $(&#x27;i[title], span[title], p[title], div[title]&#x27;).tooltip({placement: &#x27;right&#x27;});
+
+        // handle tab &amp; enter events for metric name input
+        $(&#x27;input.metric-name&#x27;).on(&#x27;keydown&#x27;, function(e) {
+            var keyCode = e.keyCode || e.which;
+
+            if (keyCode === 9) {
+                // handle tabbing
+                if (e.shiftKey) {
+                    // allow tabbing up
+                } else {
+                    //Focus next input
+                    //e.preventDefault();
+                    _this.hideEditName();
+                }
+            } else if (keyCode === 13) {
+                // handle enter/return
+                e.preventDefault();
+                _this.hideEditName();
+                _this.autoSave(e);
+            }
+        });
+
+        if (this.model.isNew()) {
+            this.showEditName();
+        }
+
+        return this;
+    },
+
+    rerender: function() {
+        this.publish(&#x27;dismissNotification&#x27;);
+
+        this.cleanupView();
+        this.$el.hide();
+        this.render();
+        this.delegateEvents();
+        this.$el.fadeIn({
+            duration: 750,
+            easing:   &#x27;easeInCubic&#x27;
+        });
+    },
+
+    refreshEditView: function() {
+        var _this = this;
+        // requests the newest version of the current metric from the database and then re-renders this view
+        this.model
+            .fetch({silent: true})
+            .success(function() {
+                this.publish(&#x27;dismissNotification&#x27;);
+                _this.rerender();
+            });
+    },
+
+    cleanupView: function() {
+        // remove keydown listeners
+        $(&#x27;input.metric-name&#x27;).off();
+
+        this.remove();
+    },
+
+    unrender: function() {
+        this.cleanupView();
+    },
+
+    addKeyword: function() {
+        var _this = this;
+
+        if (this.model.isSaving) {
+            this.listenToOnce(this.model, &#x27;saved&#x27;, this.addKeyword);
+            return;
+        }
+
+        if (this.model.isNew()) {
+            if (this.saveFirstKeywordPending == false) {
+                this.saveFirstKeywordPending = true;
+
+                // wait patiently for the new model to be saved
+                this.listenToOnce(this.model, &#x27;firstSave&#x27;, this.addKeyword);
+
+                // if no other changes being saved, save model to collection
+                if (!this.savePending) {
+                    this.savePending = true;
+                    this.collection.autoSave(this.model);
+                }
+            }
+        }
+        else {
+            if (this.addKeywordPending == false) {
+                this.addKeywordPending = true;
+                this.savePending = true;
+                this.model.addNewKeyword();
+                this.subscribeOnce(&#x27;newKeywordAdded&#x27;, function() {
+                    $(&#x27;html, body&#x27;).animate({scrollTop: $(&#x27;#keywords-container&#x27;).offset().top});
+                    _this.addKeywordPending = false;
+                    _this.saveFirstKeywordPending = false;
+                    _this.savePending = false;
+                }, &#x27;_anonymousScrollFunction_&#x27;);
+            }
+        }
+    },
+
+    autoSave: function(e) {
+        var _this = this,
+            $target = $(e.target),
+            attribute = $target.attr(&#x27;name&#x27;),
+            value = $target.attr(&#x27;value&#x27;),
+            save = $target.data(&#x27;autosave&#x27;);
+
+        // save reference to input in case we need to highlight it for errors
+        this.setActiveInput($target);
+
+        // determine if autosave is disabled for this element
+        save = (save || save === undefined) ? true : false;
+
+        // trim strings
+        if (_.isString(value)) {
+            value = value.trim();
+        }
+
+        // for checkboxes, assumes boolean value
+        if (e.target.type === &quot;checkbox&quot;) {
+            value = (value == &quot;1&quot; || value == &quot;true&quot;) ? true : false;
+            value = e.target.checked ? value : !value;
+        }
+
+        // typecast true/false radio button values
+        if (e.target.type === &quot;radio&quot; &amp;&amp; (value === &quot;false&quot; || value === &quot;true&quot;)) {
+            value = value === &quot;true&quot; ? true : false;
+        }
+
+        // if autosave enabled and the property exists, save the change
+        if (save &amp;&amp; attribute) {
+            // only save if value has changed
+            if (this.model.get(attribute) !== value) {
+                $target.removeData(&#x27;original-length&#x27;);
+                $target.removeData(&#x27;original&#x27;);
+
+                // first determine if you are dealing with an unsaved new model, or an existing model
+                if (this.model.isNew()) {
+                    // listen for initial save, then save first change
+                    this.listenToOnce(this.model, &#x27;firstSave&#x27;, function() {
+                        _this.saveComplete(e);
+                        _this.publish(&#x27;notify&#x27;, { type: &#x27;save:success&#x27;, msg: &#x27;saved new metric&#x27; });
+                        // update the URL to reflect the new metric id
+                        Backbone.history.navigate(&quot;#&quot; + _this.model.id, false);
+                    });
+
+                    // if the new model is not already being saved, save it
+                    // this save will trigger the listener above
+                    if (!this.savePending) {
+                        this.savePending = true;
+                        this.model.set(attribute, value, {
+                            validate: true,
+                            silent: true
+                        });
+                        this.collection.autoSave(this.model);
+                    }
+                } else {
+                    if (this.savePending) {
+                        // The model is currently being saved, wait for successfull save before
+                        // attempting to save
+                        this.listenToOnce(this.model, &#x27;saved&#x27;, function() {
+                            _this.savePending = true;
+                            _this.listenToOnce(_this.model, &#x27;saved&#x27;, function() {
+                                _this.saveComplete(e);
+                                _this.publish(&#x27;notify&#x27;, { type: &#x27;save:success&#x27;, msg: &#x27;saved metric name&#x27; });
+                            });
+                            _this.model.set(attribute, value, {
+                                validate: true
+                            });
+                        });
+                    } else {
+                        // Setting the attibute will trigger the change event
+                        // which triggers the actual save to server by collection
+                        this.savePending = true;
+                        this.listenToOnce(this.model, &#x27;saved&#x27;, function() {
+                            _this.saveComplete(e);
+                            _this.publish(&#x27;notify&#x27;, { type: &#x27;save:success&#x27;, msg: &#x27;saved metric name&#x27; });
+                        });
+                        this.model.set(attribute, value, {
+                            validate: true
+                        });
+                    }
+                }
+            }
+        }
+    },
+
+    saveComplete: function(e) {
+        var isText = (e.target.type === &#x27;text&#x27; || e.target.nodeName.toLowerCase() === &#x27;textarea&#x27;);
+
+        this.savePending = false;
+
+        // update data for showing &#x27;changes pending&#x27;
+        if (isText) {
+            $(e).removeAttr(&#x27;data-original-length&#x27;);
+        }
+    },
+
+    setActiveInput: function($target) {
+        this.$activeInput = $target;
+    },
+
+    highlightError: function() {
+        if (this.model.validationError) {
+            this.$activeInput.addClass(&#x27;error-input&#x27;);
+
+            // respond to user input once to remove the highlight
+            this.$activeInput.one(&#x27;keydown&#x27;, this.$activeInput, this.removeHighlight);
+        }
+    },
+
+    removeHighlight: function(e) {
+        // don&#x27;t remove the highlight for common non-character key presses
+        if (!(e.keyCode in Ibp.Utils.KEYCODE_FILTER_ALLOWCOMMAND)) {
+            e.data.removeClass(&#x27;error-input&#x27;);
+        }
+    },
+
+    setInputDataValues: function(e) {
+        var key = e.keyCode || e.which,
+            $e = $(e.target);
+
+        if (!(key in Ibp.Utils.KEYCODE_FILTER) &amp;&amp; $e.attr(&#x27;readonly&#x27;) !== &#x27;readonly&#x27;) {
+            if (!$e.data(&#x27;original-length&#x27;)) {
+                $e.data(&#x27;original-length&#x27;, $e.val().length);
+                $e.data(&#x27;original&#x27;, $e.val());
+            }
+        }
+    },
+
+    /**
+     * This could be a lot more elaborate, a la IVR. For now it just handles highlighting the error field.
+     *
+     * @param notification
+     */
+    processNotifications: function(notification) {
+        var type = notification ? notification.type : &#x27;dismiss&#x27;;
+
+        switch (type) {
+            case &#x27;error&#x27;:
+                this.model.isSaving = false;
+                this.savePending = false;
+                this.highlightError();
+                break;
+            case &#x27;dismiss&#x27;:
+                // intentional fall-through
+            default:
+        }
+    },
+
+    gotoDashboard: function() {
+        this.publish(&#x27;render:dashboard&#x27;);
+    },
+
+    showEditName: function() {
+        var _this = this,
+            $text = $(&#x27;.name-wrapper&#x27;),
+            $input = $(&#x27;input.metric-name&#x27;);
+
+        $text.css(&#x27;display&#x27;, &#x27;none&#x27;);
+        $input.css(&#x27;display&#x27;, &#x27;inline-block&#x27;);
+
+        // @see http://stackoverflow.com/questions/7046798/jquery-focus-fails-on-firefox
+        setTimeout(function() {
+            $input.focus();
+
+            if (_this.model.isNew()) {
+                $input.select();
+            }
+
+        }, 0);
+    },
+
+    hideEditName: function() {
+        var $text = $(&#x27;.name-wrapper&#x27;),
+            $input = $(&#x27;input.metric-name&#x27;);
+
+        if ($input.val() !== &#x27;&#x27;) {
+            $text.find(&#x27;span.metric-name&#x27;).html($input.val());
+
+            $text.css(&#x27;display&#x27;, &#x27;inline-block&#x27;);
+            $input.css(&#x27;display&#x27;, &#x27;none&#x27;);
+        }
+    },
+
+    fadeOut: function(options) {
+        if (options &amp;&amp; options.unrender) {
+            this.$el.fadeOut(500, &#x27;easeInCubic&#x27;, this.unrender);
+        } else {
+            this.$el.fadeOut(500, &#x27;easeInCubic&#x27;);
+        }
+    },
+
+    fadeIn: function() {
+        this.$el.fadeIn(1000, &#x27;easeInCubic&#x27;);
+    },
+
+    hide: function() {
+        var _this = this;
+
+        this.$el.css({
+            position:   &#x27;absolute&#x27;,
+            top:        0,
+            left:       0,
+            visibility: &#x27;visibile&#x27;,
+            display:    &#x27;block&#x27;,
+            &#x27;z-index&#x27;:  500,
+            opacity:    1
+        });
+
+        this.$el.animate(
+            {
+                opacity: 0,
+                left:    200
+            },
+            {
+                duration: 350,
+                easing:   &#x27;easeInOutQuart&#x27;,
+                complete: function() {
+                    _this.$el.css({
+                        position:   &#x27;relative&#x27;,
+                        top:        0,
+                        left:       0,
+                        visibility: &#x27;hidden&#x27;,
+                        display:    &#x27;none&#x27;
+                    });
+                    // if &quot;new metric&quot; was chosen but nothing was configured or saved
+                    // discard the unused model
+                    if (_this.model.isNew()) {
+                        _this.model.destroy();
+                    }
+
+                    // notify observers
+                    _this.publish(&#x27;metricEdit:hide&#x27;);
+
+                    // destroy the view
+                    _this.unrender();
+                }
+            }
+        );
+    },
+
+    show: function(animateTime) {
+        var _this = this,
+            $window = $(window),
+            appTitleOffset = $(&#x27;.app-title&#x27;).offset().top,
+            animateTime = (animateTime === undefined) ? 400 : animateTime;
+
+        this.$el.css({
+            position:   &#x27;absolute&#x27;,
+            top:        0,
+            left:       400,
+            visibility: &#x27;visible&#x27;,
+            display:    &#x27;block&#x27;,
+            &#x27;z-index&#x27;:  400,
+            opacity:    0
+        });
+
+        this.$el.animate(
+            {
+                opacity: 1,
+                left:    0
+            },
+            {
+                duration: animateTime,
+                easing:   &#x27;easeInOutCubic&#x27;,
+                complete: function() {
+                    _this.$el.css({
+                        position:  &#x27;relative&#x27;,
+                        top:       0,
+                        left:      0,
+                        &#x27;z-index&#x27;: &#x27;inherit&#x27;,
+                        opacity:   1,
+                        filter:    &#x27;none&#x27;
+                    });
+                }
+            }
+        );
+
+        // Make sure the top of the Metric page is in view
+        // when tranistioning between the dashboard and edit page
+        if ($window.scrollTop() &gt; appTitleOffset) {
+            $(&#x27;html, body&#x27;).animate({scrollTop: appTitleOffset});
+        }
+    },
+
+    updateMinMax: function() {
+        var minMax = this.model.getMinMax();
+
+        $(&#x27;#min-score&#x27;).text(minMax.min);
+        $(&#x27;#max-score&#x27;).text(minMax.max);
+    }
+});
+
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

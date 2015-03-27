@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>../../../application/modules/Carbon/resources/js/mixins/collection.clientPagination.js - Sourcetrak</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="icon" href="../assets/favicon.ico">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+                <h1><img src="../assets/css/logo.png" title="Sourcetrak" width="117" height="52"></h1>
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/aa.html">aa</a></li>
+                                <li><a href="../classes/act_on.html">act_on</a></li>
+                                <li><a href="../classes/Collections.Activities.html">Collections.Activities</a></li>
+                                <li><a href="../classes/Collections.DomainSets.html">Collections.DomainSets</a></li>
+                                <li><a href="../classes/Collections.Locations.html">Collections.Locations</a></li>
+                                <li><a href="../classes/Collections.PaginatedActivities.html">Collections.PaginatedActivities</a></li>
+                                <li><a href="../classes/Collections.PaginatedLocations.html">Collections.PaginatedLocations</a></li>
+                                <li><a href="../classes/Collections.Patterns.html">Collections.Patterns</a></li>
+                                <li><a href="../classes/Collections.Pools.html">Collections.Pools</a></li>
+                                <li><a href="../classes/Collections.ReplacementNumbers.html">Collections.ReplacementNumbers</a></li>
+                                <li><a href="../classes/Collections.Routing.html">Collections.Routing</a></li>
+                                <li><a href="../classes/Collections.Schedules.html">Collections.Schedules</a></li>
+                                <li><a href="../classes/Collections.SubCollection.html">Collections.SubCollection</a></li>
+                                <li><a href="../classes/hubspot.html">hubspot</a></li>
+                                <li><a href="../classes/Mixins.AudioFileUploadBtn.html">Mixins.AudioFileUploadBtn</a></li>
+                                <li><a href="../classes/Mixins.Autosave.html">Mixins.Autosave</a></li>
+                                <li><a href="../classes/Mixins.Autoset.html">Mixins.Autoset</a></li>
+                                <li><a href="../classes/Mixins.ClientPagination.html">Mixins.ClientPagination</a></li>
+                                <li><a href="../classes/Mixins.HighlightInvalid.html">Mixins.HighlightInvalid</a></li>
+                                <li><a href="../classes/Mixins.Loading.html">Mixins.Loading</a></li>
+                                <li><a href="../classes/Mixins.Transform.html">Mixins.Transform</a></li>
+                                <li><a href="../classes/Models.Activity.html">Models.Activity</a></li>
+                                <li><a href="../classes/Models.Location.html">Models.Location</a></li>
+                                <li><a href="../classes/Models.Pattern.html">Models.Pattern</a></li>
+                                <li><a href="../classes/Models.Pool.html">Models.Pool</a></li>
+                                <li><a href="../classes/Models.Routing.html">Models.Routing</a></li>
+                                <li><a href="../classes/Models.Schedule.html">Models.Schedule</a></li>
+                                <li><a href="../classes/Models.State.html">Models.State</a></li>
+                                <li><a href="../classes/Models.SubModel.html">Models.SubModel</a></li>
+                                <li><a href="../classes/op.html">op</a></li>
+                                <li><a href="../classes/Validator.html">Validator</a></li>
+                                <li><a href="../classes/Views.Activity.html">Views.Activity</a></li>
+                                <li><a href="../classes/Views.ActivityAdd.html">Views.ActivityAdd</a></li>
+                                <li><a href="../classes/Views.ActivityCreate.html">Views.ActivityCreate</a></li>
+                                <li><a href="../classes/Views.ActivityDestroy.html">Views.ActivityDestroy</a></li>
+                                <li><a href="../classes/Views.ActivityDisplay.html">Views.ActivityDisplay</a></li>
+                                <li><a href="../classes/Views.ActivityEdit.html">Views.ActivityEdit</a></li>
+                                <li><a href="../classes/Views.ActivityEditAdvanced.html">Views.ActivityEditAdvanced</a></li>
+                                <li><a href="../classes/Views.ActivityList.html">Views.ActivityList</a></li>
+                                <li><a href="../classes/Views.ActivityPool.html">Views.ActivityPool</a></li>
+                                <li><a href="../classes/Views.ActivityPoolEdit.html">Views.ActivityPoolEdit</a></li>
+                                <li><a href="../classes/Views.AdvancedOptionsModal.html">Views.AdvancedOptionsModal</a></li>
+                                <li><a href="../classes/Views.CopyToClipboard.html">Views.CopyToClipboard</a></li>
+                                <li><a href="../classes/Views.DeleteLocationModal.html">Views.DeleteLocationModal</a></li>
+                                <li><a href="../classes/Views.DomainSetItem.html">Views.DomainSetItem</a></li>
+                                <li><a href="../classes/Views.DomainsPopover.html">Views.DomainsPopover</a></li>
+                                <li><a href="../classes/Views.EditPoolToolbar.html">Views.EditPoolToolbar</a></li>
+                                <li><a href="../classes/Views.Graph.html">Views.Graph</a></li>
+                                <li><a href="../classes/Views.listControls.html">Views.listControls</a></li>
+                                <li><a href="../classes/Views.LocationItem.html">Views.LocationItem</a></li>
+                                <li><a href="../classes/Views.LocationsList.html">Views.LocationsList</a></li>
+                                <li><a href="../classes/Views.Main.html">Views.Main</a></li>
+                                <li><a href="../classes/Views.Modal.html">Views.Modal</a></li>
+                                <li><a href="../classes/Views.Modal2.html">Views.Modal2</a></li>
+                                <li><a href="../classes/Views.ModalPageView.html">Views.ModalPageView</a></li>
+                                <li><a href="../classes/Views.Numbers.html">Views.Numbers</a></li>
+                                <li><a href="../classes/Views.PageView.html">Views.PageView</a></li>
+                                <li><a href="../classes/Views.Poolbar.html">Views.Poolbar</a></li>
+                                <li><a href="../classes/Views.PoolsDashboard.html">Views.PoolsDashboard</a></li>
+                                <li><a href="../classes/Views.PoolsList.html">Views.PoolsList</a></li>
+                                <li><a href="../classes/Views.PoolsListItem.html">Views.PoolsListItem</a></li>
+                                <li><a href="../classes/Views.Popover.html">Views.Popover</a></li>
+                                <li><a href="../classes/Views.SearchBox.html">Views.SearchBox</a></li>
+                                <li><a href="../classes/Views.SnippetModal.html">Views.SnippetModal</a></li>
+                                <li><a href="../classes/Views.Toolbar.html">Views.Toolbar</a></li>
+                                <li><a href="../classes/Views.VersionHashError.html">Views.VersionHashError</a></li>
+                                <li><a href="../classes/Views.Wizard.html">Views.Wizard</a></li>
+                            </ul>
+                
+                            <ul id="api-modules" class="apis modules">
+                                <li><a href="../modules/Carbon.html">Carbon</a></li>
+                                <li><a href="../modules/Integration.html">Integration</a></li>
+                                <li><a href="../modules/SourceTrak.html">SourceTrak</a></li>
+                                <li><a href="../modules/Sourcetrak.html">Sourcetrak</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: ../../../application/modules/Carbon/resources/js/mixins/collection.clientPagination.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+ * Mixin for Collections that adds client-side pagination with filtering
+ *
+ * @module Carbon
+ * @class Mixins.ClientPagination
+ */
+Ibp.Carbon.Mixins.ClientPagination = {
+    ClientPagination: null,
+
+    /**
+     * Initializes the paginator state
+     *
+     * @method init
+     */
+    init: function () {
+        var state = {
+                query: &#x27;&#x27;,
+                firstPage:    1,
+                lastPage:     1,
+                currentPage:  1,
+                pageSize:     10,
+                totalItems:   0,
+                displayRange: 3,
+                pageRange:    {
+                    start: 0,
+                    end:   0
+                }
+            };
+
+        this.ClientPagination = this.ClientPagination || {};
+
+        // set the dafault paginator state, respecting anything set in the base class
+        state = _.deepExtend(state, this.ClientPagination.defaults || {});
+
+        // create paginator state model
+        this.ClientPagination.state = new Ibp.Carbon.Models.State(state);
+
+        // set the function used to filter the models
+        this.search = this.search || this.where;
+
+        // re-initialize page state when the models change
+        this.listenTo(this, &#x27;add remove reset&#x27;, this.handleCollectionChange);
+    },
+
+    /**
+     * Reset page state when the collection changes
+     *
+     * @private
+     * @method handleCollectionChange
+     */
+    handleCollectionChange: function () {
+        this.setPageState();
+    },
+
+    /**
+     * Applies the semantic api and keeps the page number in bounds
+     *
+     * @private
+     * @method formatPageNumber
+     */
+    formatPageNumber: function (pageNumber) {
+        var num;
+
+        switch (pageNumber) {
+            case &#x27;first&#x27;:
+                num = this.ClientPagination.state.get(&#x27;firstPage&#x27;);
+
+                break;
+            case &#x27;last&#x27;:
+                num = this.ClientPagination.state.get(&#x27;lastPage&#x27;);
+
+                break;
+            case &#x27;next&#x27;:
+                num = this.ClientPagination.state.get(&#x27;currentPage&#x27;) + 1;
+
+                break;
+            case &#x27;previous&#x27;:
+                num = this.ClientPagination.state.get(&#x27;currentPage&#x27;) - 1;
+
+                break;
+            default:
+                // default to the first page if we don&#x27;t get an actual number
+                num = parseInt(pageNumber, 10) || this.ClientPagination.state.get(&#x27;firstPage&#x27;);
+        }
+
+        // make sure we stay in bounds
+        if (num &lt; this.ClientPagination.state.get(&#x27;firstPage&#x27;)) {
+            num = this.ClientPagination.state.get(&#x27;firstPage&#x27;);
+        }
+
+        if (num &gt; this.ClientPagination.state.get(&#x27;lastPage&#x27;)) {
+            num = this.ClientPagination.state.get(&#x27;lastPage&#x27;);
+        }
+
+        return num;
+    },
+
+    /**
+     * Generates new page state from a page number and/or query
+     * This is the only place where paginator state is actually mutated
+     *
+     * @private
+     * @method setPageState
+     * @param attrs {Object} The state attributes and values to set
+     */
+    setPageState: function (attrs) {
+        attrs || (attrs = {});
+
+        var query       = _.has(attrs, &#x27;query&#x27;)
+                        ? attrs.query
+                        : this.ClientPagination.state.get(&#x27;query&#x27;),
+            currentPage = _.has(attrs, &#x27;currentPage&#x27;)
+                        ? attrs.currentPage
+                        : this.ClientPagination.state.get(&#x27;currentPage&#x27;),
+            pageSize = this.ClientPagination.state.get(&#x27;pageSize&#x27;),
+            startIndex,
+            endIndex,
+            models,
+            page;
+
+        // pageSize * currentPage is the index of first model of the page AFTER currentPage
+        // subtracting 1 sets us at the index of the first model of currentPage
+        startIndex = (pageSize * (currentPage - 1));
+
+        endIndex = startIndex + pageSize;
+
+        // get the list of models to paginate
+        models = this.search(query);
+
+        // get the page requested
+        page = models.slice(startIndex, endIndex);
+
+        // cache last page, which is at least 1
+        attrs.lastPage = Math.ceil(models.length/pageSize) || 1;
+
+        // cache the total and the range of models in this page to display to the user, e.g. 4 - 8 of 12
+        attrs.totalItems = models.length;
+
+        attrs.pageRange = {
+            start: startIndex + 1,
+            end: startIndex + page.length
+        };
+
+        this.ClientPagination.state.set(attrs);
+    },
+
+    /**
+     * Wrapper for Collection.reset()
+     * Optionally allows for a hard reset, which clears the query and moves back to the first page
+     *
+     * @method resetPageState
+     * @param models {Array} The new list of models to be paginated
+     * @param options {Object}
+     * @param options.models {Array} Models to reset the collection with
+     * @param options.hard {Boolean} Flag to perform a hard reset
+     */
+    resetPageState: function (options) {
+        var state = this.ClientPagination.state;
+
+        options = options || {};
+
+        if (options.hard === true) {
+            this.ClientPagination.state.set({
+                currentPage: this.ClientPagination.state.get(&#x27;firstPage&#x27;),
+                query: &#x27;&#x27;
+            }, {silent: true});
+        }
+
+        // resetting the collection will trigger a state change
+        if (options.models) {
+            this.reset(options.models);
+        }
+        // otherwise, we can do it manually
+        else {
+            state.trigger(&#x27;change&#x27;, state);
+        }
+    },
+
+    /**
+     * Sets the current page via page number or semantic term
+     *
+     * @method setCurrentPage
+     * @param pageNUmber {String|Number} The page number or term to set as the current page
+     */
+    setCurrentPage: function (pageNumber) {
+        var page = this.formatPageNumber(pageNumber);
+
+        this.setPageState({currentPage: page});
+    },
+
+    /**
+     * Sets the current query used to filter the collection
+     * Filtering always takes you back to first page
+     *
+     * @method setQuery
+     * @param query {Mixed} The term used to filter the collection. Defer to the filter method for the data type.
+     */
+    setQuery: function (query) {
+        var attrs = {
+            query: query,
+            currentPage: this.formatPageNumber(&#x27;first&#x27;)
+        };
+
+        this.setPageState(attrs);
+    },
+
+    /**
+     * Accessor method for current page state
+     * Can be used to render the paginator controls
+     *
+     * @method getPageState
+     */
+    getPageState: function () {
+        return this.ClientPagination.state.toJSON();
+    },
+
+    /**
+     * Returns the page generated from the paginator state
+     *
+     * @method getPage
+     */
+    getPage: function () {
+        var query       = this.ClientPagination.state.get(&#x27;query&#x27;),
+            currentPage = this.ClientPagination.state.get(&#x27;currentPage&#x27;),
+            pageSize    = this.ClientPagination.state.get(&#x27;pageSize&#x27;),
+            startIndex  = (pageSize * (currentPage - 1)),
+            endIndex    = startIndex + pageSize;
+
+        return this.search(query).slice(startIndex, endIndex);
+    }
+};
+
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

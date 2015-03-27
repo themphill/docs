@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>../../../application/modules/sourcetrak/resources/js/views/view.numberRouting.js - Sourcetrak</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="icon" href="../assets/favicon.ico">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+                <h1><img src="../assets/css/logo.png" title="Sourcetrak" width="117" height="52"></h1>
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/aa.html">aa</a></li>
+                                <li><a href="../classes/act_on.html">act_on</a></li>
+                                <li><a href="../classes/Collections.Activities.html">Collections.Activities</a></li>
+                                <li><a href="../classes/Collections.DomainSets.html">Collections.DomainSets</a></li>
+                                <li><a href="../classes/Collections.Locations.html">Collections.Locations</a></li>
+                                <li><a href="../classes/Collections.PaginatedActivities.html">Collections.PaginatedActivities</a></li>
+                                <li><a href="../classes/Collections.PaginatedLocations.html">Collections.PaginatedLocations</a></li>
+                                <li><a href="../classes/Collections.Patterns.html">Collections.Patterns</a></li>
+                                <li><a href="../classes/Collections.Pools.html">Collections.Pools</a></li>
+                                <li><a href="../classes/Collections.ReplacementNumbers.html">Collections.ReplacementNumbers</a></li>
+                                <li><a href="../classes/Collections.Routing.html">Collections.Routing</a></li>
+                                <li><a href="../classes/Collections.Schedules.html">Collections.Schedules</a></li>
+                                <li><a href="../classes/Collections.SubCollection.html">Collections.SubCollection</a></li>
+                                <li><a href="../classes/hubspot.html">hubspot</a></li>
+                                <li><a href="../classes/Mixins.AudioFileUploadBtn.html">Mixins.AudioFileUploadBtn</a></li>
+                                <li><a href="../classes/Mixins.Autosave.html">Mixins.Autosave</a></li>
+                                <li><a href="../classes/Mixins.Autoset.html">Mixins.Autoset</a></li>
+                                <li><a href="../classes/Mixins.ClientPagination.html">Mixins.ClientPagination</a></li>
+                                <li><a href="../classes/Mixins.HighlightInvalid.html">Mixins.HighlightInvalid</a></li>
+                                <li><a href="../classes/Mixins.Loading.html">Mixins.Loading</a></li>
+                                <li><a href="../classes/Mixins.Transform.html">Mixins.Transform</a></li>
+                                <li><a href="../classes/Models.Activity.html">Models.Activity</a></li>
+                                <li><a href="../classes/Models.Location.html">Models.Location</a></li>
+                                <li><a href="../classes/Models.Pattern.html">Models.Pattern</a></li>
+                                <li><a href="../classes/Models.Pool.html">Models.Pool</a></li>
+                                <li><a href="../classes/Models.Routing.html">Models.Routing</a></li>
+                                <li><a href="../classes/Models.Schedule.html">Models.Schedule</a></li>
+                                <li><a href="../classes/Models.State.html">Models.State</a></li>
+                                <li><a href="../classes/Models.SubModel.html">Models.SubModel</a></li>
+                                <li><a href="../classes/op.html">op</a></li>
+                                <li><a href="../classes/Validator.html">Validator</a></li>
+                                <li><a href="../classes/Views.Activity.html">Views.Activity</a></li>
+                                <li><a href="../classes/Views.ActivityAdd.html">Views.ActivityAdd</a></li>
+                                <li><a href="../classes/Views.ActivityCreate.html">Views.ActivityCreate</a></li>
+                                <li><a href="../classes/Views.ActivityDestroy.html">Views.ActivityDestroy</a></li>
+                                <li><a href="../classes/Views.ActivityDisplay.html">Views.ActivityDisplay</a></li>
+                                <li><a href="../classes/Views.ActivityEdit.html">Views.ActivityEdit</a></li>
+                                <li><a href="../classes/Views.ActivityEditAdvanced.html">Views.ActivityEditAdvanced</a></li>
+                                <li><a href="../classes/Views.ActivityList.html">Views.ActivityList</a></li>
+                                <li><a href="../classes/Views.ActivityPool.html">Views.ActivityPool</a></li>
+                                <li><a href="../classes/Views.ActivityPoolEdit.html">Views.ActivityPoolEdit</a></li>
+                                <li><a href="../classes/Views.AdvancedOptionsModal.html">Views.AdvancedOptionsModal</a></li>
+                                <li><a href="../classes/Views.CopyToClipboard.html">Views.CopyToClipboard</a></li>
+                                <li><a href="../classes/Views.DeleteLocationModal.html">Views.DeleteLocationModal</a></li>
+                                <li><a href="../classes/Views.DomainSetItem.html">Views.DomainSetItem</a></li>
+                                <li><a href="../classes/Views.DomainsPopover.html">Views.DomainsPopover</a></li>
+                                <li><a href="../classes/Views.EditPoolToolbar.html">Views.EditPoolToolbar</a></li>
+                                <li><a href="../classes/Views.Graph.html">Views.Graph</a></li>
+                                <li><a href="../classes/Views.listControls.html">Views.listControls</a></li>
+                                <li><a href="../classes/Views.LocationItem.html">Views.LocationItem</a></li>
+                                <li><a href="../classes/Views.LocationsList.html">Views.LocationsList</a></li>
+                                <li><a href="../classes/Views.Main.html">Views.Main</a></li>
+                                <li><a href="../classes/Views.Modal.html">Views.Modal</a></li>
+                                <li><a href="../classes/Views.Modal2.html">Views.Modal2</a></li>
+                                <li><a href="../classes/Views.ModalPageView.html">Views.ModalPageView</a></li>
+                                <li><a href="../classes/Views.Numbers.html">Views.Numbers</a></li>
+                                <li><a href="../classes/Views.PageView.html">Views.PageView</a></li>
+                                <li><a href="../classes/Views.Poolbar.html">Views.Poolbar</a></li>
+                                <li><a href="../classes/Views.PoolsDashboard.html">Views.PoolsDashboard</a></li>
+                                <li><a href="../classes/Views.PoolsList.html">Views.PoolsList</a></li>
+                                <li><a href="../classes/Views.PoolsListItem.html">Views.PoolsListItem</a></li>
+                                <li><a href="../classes/Views.Popover.html">Views.Popover</a></li>
+                                <li><a href="../classes/Views.SearchBox.html">Views.SearchBox</a></li>
+                                <li><a href="../classes/Views.SnippetModal.html">Views.SnippetModal</a></li>
+                                <li><a href="../classes/Views.Toolbar.html">Views.Toolbar</a></li>
+                                <li><a href="../classes/Views.VersionHashError.html">Views.VersionHashError</a></li>
+                                <li><a href="../classes/Views.Wizard.html">Views.Wizard</a></li>
+                            </ul>
+                
+                            <ul id="api-modules" class="apis modules">
+                                <li><a href="../modules/Carbon.html">Carbon</a></li>
+                                <li><a href="../modules/Integration.html">Integration</a></li>
+                                <li><a href="../modules/SourceTrak.html">SourceTrak</a></li>
+                                <li><a href="../modules/Sourcetrak.html">Sourcetrak</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: ../../../application/modules/sourcetrak/resources/js/views/view.numberRouting.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+ * Routing View
+ *
+ * @module Sourcetrak
+ * @class Views.Wizard
+ */
+Ibp.Sourcetrak.Views.NumberRouting = Ibp.Carbon.Views.ModalPageView.extend({
+    mixins: [&#x27;Autoset&#x27;, &#x27;AudioFileUploadBtn&#x27;, &#x27;HighlightInvalid&#x27;],
+    name: &#x27;routing&#x27;,
+    template: Ibp.Sourcetrak.Templates.routing,
+
+    /**
+     * Warning Audio Endpoint URL
+     *
+     * @type String
+     */
+    warningAudioUrl: &#x27;/v1/audio/warningaudio&#x27;,
+
+    /**
+     * Routing Panels Container DOM object
+     *
+     * @type jQuery Object
+     */
+    $routingPanelsContainer: null,
+
+    /**
+     * Routing Panels Container CSS selector
+     *
+     * @type String
+     */
+    routingPanelsContainerEl: &#x27;.js-routing-panels-container&#x27;,
+
+    /**
+     * Show Advanced btn DOM object
+     *
+     * @type jQuery Object
+     */
+    $showAdvancedBtn: null,
+
+    /**
+     * Show Advanced Btn CSS selector
+     *
+     * @type String
+     */
+    showAdvancedBtnEl: &#x27;.js-show-advanced&#x27;,
+
+    /**
+     * Advanced section DOM object
+     *
+     * @type jQuery Object
+     */
+    $advancedSection: null,
+
+    /**
+     * Advanced section CSS selector
+     *
+     * @type String
+     */
+    advancedSectionEl: &#x27;.js-routing-advanced&#x27;,
+
+    /**
+     * Record Call DOM object
+     *
+     * @type jQuery Object
+     */
+    $recordCall: null,
+
+    /**
+     * Record Call CSS selector
+     *
+     * @type String
+     */
+    recordCallEl: &#x27;.js-record-call&#x27;,
+
+    /**
+     * Play Warning Container DOM object
+     *
+     * @type jQuery Object
+     */
+    $playWarningContainer: null,
+
+    /**
+     * Play Warning Container CSS selector
+     *
+     * @type String
+     */
+    playWarningContainerEl: &#x27;.js-play-warning-container&#x27;,
+
+    /**
+     * Call Warning Container DOM object
+     *
+     * @type jQuery Object
+     */
+    $callWarningContainer: null,
+
+    /**
+     * Call Warning CSS selector
+     *
+     * @type String
+     */
+    callWarningContainerEl: &#x27;.js-call-warning-container&#x27;,
+
+    /**
+     * Play Warning DOM object
+     *
+     * @type jQuery Object
+     */
+    $playWarning: null,
+
+    /**
+     * Play Warning CSS selector
+     *
+     * @type String
+     */
+    playWarningEl: &#x27;.js-play-warning&#x27;,
+
+    /**
+     * Caller Warning Container DOM object
+     *
+     * @type jQuery Object
+     */
+    $callerWarningContainer: null,
+
+    /**
+     * Caller Warning Container CSS selector
+     *
+     * @type String
+     */
+    callerWarningContainerEl: &#x27;.js-caller-warning-container&#x27;,
+
+    /**
+     * Caller Warning DOM object
+     *
+     * @type jQuery Object
+     */
+    $callerWarning: null,
+
+    /**
+     * Caller Warning CSS selector
+     *
+     * @type String
+     */
+    callerWarningEl: &#x27;.js-caller-warning&#x27;,
+
+    /**
+     * Recipient Warning Container DOM object and selector
+     *
+     * @type jQuery Object
+     */
+    $recipientWarningContainer: null,
+
+    /**
+     * Recipient Warning Container CSS selector
+     *
+     * @type String
+     */
+    recipientWarningContainerEl: &#x27;.js-recipient-warning-container&#x27;,
+
+    /**
+     * Recipient Warning DOM object
+     *
+     * @type jQuery Object
+     */
+    $recipientWarning: null,
+
+    /**
+     * Recipient Warning CSS selector
+     *
+     * @type String
+     */
+    recipientWarningEl: &#x27;.js-recipient-warning&#x27;,
+
+    /**
+     * Consent Container DOM object
+     *
+     * @type jQuery Object
+     */
+    $consentContainer: null,
+
+    /**
+     * Consent Container CSS selector
+     *
+     * @type String
+     */
+    consentContainerEl: &#x27;.js-consent-container&#x27;,
+
+    /**
+     * Phone Label Yes Radio CSS selector
+     *
+     * @type String
+     */
+    phoneLabelYesEl: &#x27;.js-phone-label-toggle-yes&#x27;,
+
+    /**
+     * Phone Label No Radio CSS selector
+     *
+     * @type String
+     */
+    phoneLabelNoEl: &#x27;.js-phone-label-toggle-no&#x27;,
+
+    /**
+     * Phone Label Change Container DOM object
+     *
+     * @type jQuery Object
+     */
+    $labelChangeContainer: null,
+
+    /**
+     * Phone Label Change Container CSS selector
+     *
+     * @type String
+     */
+    labelChangeContainerEl: &#x27;.js-label-change-container&#x27;,
+
+    /**
+     * Consent DOM object
+     *
+     * @type jQuery Object
+     */
+    $consent: null,
+
+    /**
+     * Phone Label Input CSS selector
+     *
+     * @type String
+     */
+    phoneLabelEl: &#x27;.js-phone-label&#x27;,
+
+    /**
+     * Phone Label Input Object
+     *
+     * @type jQuery Object
+     */
+    $phoneLabel: null,
+
+    /**
+     * Phone Label CSS selector
+     *
+     * @type String
+     */
+    phoneLabelRadio: &#x27;input[name=phone-label-toggle]:checked&#x27;,
+
+    /**
+     * Consent CSS selector
+     *
+     * @type String
+     */
+    consentEl: &#x27;.js-consent&#x27;,
+
+    /**
+     * Container DOM object
+     *
+     * @type jQuery Object
+     */
+    $container: null,
+
+    /**
+     * Show Advanced Section Button Text
+     *
+     * @type Object
+     */
+    advancedBtnText: {
+        &#x27;show&#x27;: &#x27;(show)&#x27;,
+        &#x27;hide&#x27;: &#x27;(hide)&#x27;
+    },
+
+    /**
+     * Call Recording State Values
+     *
+     * @type Object
+     */
+    callRecordingValues: {
+        doNotRecord: 0,
+        recordAfterTransfer: 1,
+        recordWholeCall: 2,
+        recordUpToTransfer: 3
+    },
+
+    /**
+     * Play Warning State Values
+     *
+     * @type Object
+     */
+    playWarningValues: {
+        callerAndRecipient: 0,
+        caller: 1,
+        recipient: 2,
+        none: 3
+    },
+
+    /**
+     * Caller Warning Context Object for Audio Upload
+     *
+     * @type Object
+     */
+    callerWarningContext: null,
+
+    /**
+     * Recipient Warning Context Object for Audio Upload
+     *
+     * @type Object
+     */
+    recipientWarningContext: null,
+
+    /**
+     * Model to hold view state
+     *
+     * @property state
+     * @type Model
+     */
+    state: null,
+
+    // TODO: Tim D needs to update this
+    /**
+     * Warning audio files
+     *
+     * @property warningAudioFiles
+     * @type Array (probably?)
+     */
+    warningAudioFiles: null,
+
+    /**
+     * The views object retains references to children views
+     *
+     * @property views
+     * @type Object
+     */
+    views: {},
+
+    /**
+     * Define the channels to subscribe
+     *
+     * @type Object
+     */
+    subscriptions: {
+        &#x27;audio:imported&#x27;: &#x27;handleUploadedAudio&#x27;
+    },
+
+    /**
+     * Define the Dom Events to bind to in delegateEvents
+     *
+     * @type Object
+     */
+    events: {
+        &#x27;change .js-schedule&#x27;: &#x27;handleSchedules&#x27;,
+        &#x27;change .js-pattern&#x27;: &#x27;handlePatterns&#x27;,
+        &#x27;change .js-record-call&#x27;: &#x27;handleRecordCall&#x27;,
+        &#x27;change .js-play-warning&#x27;: &#x27;handlePlayWarning&#x27;,
+        &#x27;click .js-show-advanced&#x27;: &#x27;handleShowAdvanced&#x27;,
+        &#x27;click .js-consent-cancel&#x27;: &#x27;setPlayWarningToDefault&#x27;,
+        &#x27;click .js-consent-accept&#x27;: &#x27;handleAcceptConsent&#x27;,
+        &#x27;click .js-label-change-cancel&#x27;: &#x27;handleCancelLabelChange&#x27;,
+        &#x27;click .js-label-change-accept&#x27;: &#x27;handleAcceptLabelChange&#x27;,
+        &#x27;click .js-phone-label-toggle&#x27;: &#x27;handlePhoneLabelToggle&#x27;
+    },
+
+    /**
+     * Init state and render
+     *
+     * @method init
+     */
+    init: function (options) {
+        _.bindAll(this);
+
+        this.publish(&#x27;beginLoadStep&#x27;);
+
+        this.$container = options.$container;
+
+        this.wizardType = options.type;
+
+        // set initial state
+        this.state = new Ibp.Carbon.Models.State({
+            advanced: this.isAdvancedVisible(),
+            edit: options.edit,
+            isConsentVisible: false,
+            routingPanelsView: null,
+            showPhoneLabel: this.model.get(&#x27;phone_label&#x27;) ? true : false
+        });
+
+        this.callerWarningContext = {
+            action: this.warningAudioUrl,
+            name: &#x27;caller-audio&#x27;
+        };
+
+        this.recipientWarningContext = {
+            action: this.warningAudioUrl,
+            name: &#x27;recipient-audio&#x27;
+        };
+
+        this.listenTo(this.state, &#x27;change:advanced&#x27;, this.renderAdvancedOptions);
+        this.listenTo(this.model, &#x27;change:advanced_config.call_recording&#x27;, this.setPlayWarningToDefault);
+
+        this.getWarningAudioFiles()
+            .done(this.handleWarningAudioFiles);
+    },
+
+    handlePatterns: function(e) {
+        var patternValue = $(e.target).val() === &#x27;true&#x27; ? true : false;
+
+        this.publish(&#x27;enablePatterns&#x27;, patternValue);
+    },
+
+    handleSchedules: function(e) {
+        var scheduleValue = $(e.target).val() === &#x27;true&#x27; ? true : false;
+
+        this.publish(&#x27;enableSchedules&#x27;, scheduleValue);
+    },
+
+    /**
+     * Render
+     *
+     * @method render
+     * @return this view
+     */
+    render: function () {
+        var data = {
+            name: this.model.get(&#x27;description&#x27;),
+            advanced: this.state.get(&#x27;advanced&#x27;),
+            advancedBtn: this.advancedBtn,
+            recordCall: this.model.get(&#x27;advanced_config.call_recording&#x27;),
+            playWarning: this.model.get(&#x27;advanced_config.play_warning&#x27;),
+            reverseLookup: this.model.get(&#x27;advanced_config.reverse_lookup&#x27;),
+            ringDelay: this.model.get(&#x27;advanced_config.ring_delay&#x27;),
+            callerMonitoredAudio: this.model.get(&#x27;advanced_config.caller_monitored_audio&#x27;),
+            calleeMonitoredAudio: this.model.get(&#x27;advanced_config.callee_monitored_audio&#x27;),
+            warningAudioFiles: this.warningAudioFiles,
+            callerWarningContext: this.callerWarningContext,
+            recipientWarningContext: this.recipientWarningContext,
+            edit: this.state.get(&#x27;edit&#x27;),
+            schedulesSelected: this.model.areSchedulesEnabled(),
+            schedulesDisabled: !Ibp.Sourcetrak.Data.Schedules.length,
+            patternsSelected: this.model.arePatternsEnabled(),
+            patternsDisabled: !Ibp.Sourcetrak.Data.Patterns.length,
+            showPhoneLabel: this.state.get(&#x27;showPhoneLabel&#x27;),
+            phoneLabel: this.model.get(&#x27;phone_label&#x27;),
+            phoneSuffix: this.model.get(&#x27;phone_suffix&#x27;),
+            isLocation: (this.wizardType === &#x27;location&#x27;),
+            autosetNamespace: this.model.name.toLowerCase()
+        };
+
+        data = _.defaults({}, this.model.toJSON(), data);
+
+        this.$el = $(this.template(data));
+
+        this.$container.html(this.$el);
+
+        // cache routing panels container
+        this.$routingPanelsContainer = this.$(this.routingPanelsContainerEl);
+
+        // Cache advanced section elements
+        this.$showAdvancedBtn = this.$(this.showAdvancedBtnEl);
+        this.$advancedSection = this.$(this.advancedSectionEl);
+
+        // Cache record call element
+        this.$recordCall = this.$(this.recordCallEl);
+
+        // Cache the Call Warning row container
+        this.$callWarningContainer = this.$(this.callWarningContainerEl);
+
+        // Cache play warning elements
+        this.$playWarningContainer = this.$(this.playWarningContainerEl);
+        this.$playWarning          = this.$(this.playWarningEl);
+
+        // Cache caller warning elements
+        this.$callerWarningContainer = this.$(this.callerWarningContainerEl);
+        this.$callerWarning          = this.$(this.callerWarningEl);
+
+        // Cache recipient warning elements
+        this.$recipientWarningContainer = this.$(this.recipientWarningContainerEl);
+        this.$recipientWarning          = this.$(this.recipientWarningEl);
+
+        // Cache recipient warning elements
+        this.$consentContainer = this.$(this.consentContainerEl);
+        this.$consent = this.$(this.consentEl);
+
+        // Cache phone label change warning element
+        this.$labelChangeContainer = this.$(this.labelChangeContainerEl);
+
+        // Cache phone label element
+        this.$phoneLabel = this.$(this.phoneLabelEl);
+
+        this.renderAdvancedOptions();
+
+        this.renderRoutingPanels();
+
+        this.delegateEvents();
+
+        return this;
+    },
+
+    /**
+     * onUnrender
+     *
+     * @method onUnrender
+     */
+    onUnrender: function () {
+        var currentRoutingPanel = this.state.get(&#x27;routingPanelsView&#x27;);
+
+        this.undelegateSubscriptions();
+
+        if (currentRoutingPanel !== null) {
+            currentRoutingPanel.unrender();
+        }
+    },
+
+    /**
+     * Renders the Routing Panels (Patterns/Schedules/Route)
+     *
+     * @method renderRoutingPanels
+     */
+    renderRoutingPanels: function() {
+        var routingPanelOptions = {
+                model: this.model,
+                $container: this.$routingPanelsContainer
+            },
+            currentRoutingPanel = this.state.get(&#x27;routingPanelsView&#x27;);
+
+        if (currentRoutingPanel !== null) {
+            currentRoutingPanel.unrender();
+        }
+
+        this.state.set(&#x27;routingPanelsView&#x27;, new Ibp.Sourcetrak.Views.RoutingPanels(routingPanelOptions));
+    },
+
+    /**
+     * Handles click of cancel consent button
+     *
+     * @method setPlayWarningToDefault
+     */
+    setPlayWarningToDefault: function () {
+        var warningDefault = this.playWarningValues.callerAndRecipient;
+
+        if (this.model.get(&#x27;advanced_config.call_recording&#x27;) == this.callRecordingValues.doNotRecord) {
+            warningDefault = this.playWarningValues.none;
+        } else if (this.model.get(&#x27;advanced_config.call_recording&#x27;) == this.callRecordingValues.recordUpToTransfer) {
+            warningDefault = this.playWarningValues.caller;
+        }
+
+        // Set play warning back to default
+        this.model.set(&#x27;advanced_config.play_warning&#x27;, warningDefault);
+        this.$playWarning.find(&#x27;[value=&#x27; + warningDefault + &#x27;]&#x27;).attr(&#x27;selected&#x27;, &#x27;selected&#x27;);
+
+        // Hide consent overlay
+        this.$consentContainer.toggle(false);
+
+        this.refreshAdvancedChoicesVisibility();
+    },
+
+    /**
+     * Handles click of accept consent button
+     *
+     * @method handleAcceptConsent
+     */
+    handleAcceptConsent: function () {
+        // Check user input
+        if (this.$consent.val().toLowerCase() === &#x27;yes&#x27;) {
+            // Hide consent overlay
+            this.$consentContainer.toggle(false);
+        }
+    },
+
+    /**
+     * Handles click of accept consent button
+     *
+     * @method handleAcceptConsent
+     */
+    handleAcceptLabelChange: function () {
+        this.$labelChangeContainer.hide();
+
+        var showPhoneLabel = this.$(this.phoneLabelRadio).val() === &quot;1&quot; ? true : false;
+        this.state.set(&#x27;showPhoneLabel&#x27;, showPhoneLabel);
+
+        if (showPhoneLabel) {
+            this.$phoneLabel.show();
+        } else {
+            this.$phoneLabel.hide();
+            this.$phoneLabel.val(&#x27;&#x27;);
+            this.model.set(&#x27;phone_label&#x27;, null);
+        }
+    },
+
+    /**
+     * Handles click of accept consent button
+     *
+     * @method handleAcceptConsent
+     */
+    handleCancelLabelChange: function () {
+        this.$labelChangeContainer.hide();
+
+        if (this.$(this.phoneLabelRadio).val() === &quot;1&quot;) {
+            this.$(this.phoneLabelNoEl).prop(&#x27;checked&#x27;, true);
+        } else {
+            this.$(this.phoneLabelYesEl).prop(&#x27;checked&#x27;, true);
+        }
+    },
+
+    /**
+     * Render the Advanced Options Section
+     *
+     * @method toggleAdvancedState
+     */
+    renderAdvancedOptions: function () {
+        var advancedState = this.state.get(&#x27;advanced&#x27;),
+            advancedBtnText = !advancedState ? this.advancedBtnText.show : this.advancedBtnText.hide;
+
+        this.$showAdvancedBtn.html(advancedBtnText);
+        this.refreshAdvancedChoicesVisibility();
+        this.$advancedSection.toggle(advancedState);
+    },
+
+    /**
+     * Refresh the state of the call recording controls
+     *
+     * @method refreshAdvancedChoicesVisibility
+     */
+    refreshAdvancedChoicesVisibility: function () {
+        var playWarning      = false,
+            callerWarning    = false,
+            recipientWarning = false,
+            callWarningRow   = false,
+            playWarningValue = null;
+
+        // Handle reducing Play Warning options before determining visibilities
+        if (this.model.get(&#x27;advanced_config.call_recording&#x27;) === this.callRecordingValues.recordUpToTransfer) {
+            playWarningValue = this.model.get(&#x27;advanced_config.play_warning&#x27;);
+
+            // hide options not relevent to &quot;Record Up To Transfer&quot;
+            this.$playWarning.find(&#x27;[value=0], [value=2]&#x27;).css(&#x27;display&#x27;, &#x27;none&#x27;);
+
+            if (playWarningValue !== this.playWarningValues.caller
+                &amp;&amp; playWarningValue !== this.playWarningValues.none) {
+                // reset to a valid default
+                this.model.set(&#x27;advanced_config.play_warning&#x27;, 1);
+                this.$playWarning.find(&#x27;[value=1]&#x27;).attr(&#x27;selected&#x27;, &#x27;selected&#x27;);
+            }
+        }
+        else {
+            this.$playWarning.find(&#x27;option&#x27;).css(&#x27;display&#x27;, &#x27;block&#x27;);
+        }
+
+        // Determine visibilites, this must be done After the above logic for reducing choices
+        playWarning      = this.isPlayWarningVisible();
+        callerWarning    = this.isCallerWarningVisible();
+        recipientWarning = this.isRecipientWarningVisible();
+        callWarningRow   = !(!callerWarning &amp;&amp; !recipientWarning);
+
+        // Checks if visibility state for consent form needs to be updated/changed,
+        // and updates said visibility state, if necessary
+        this.refreshConsentVisibility();
+
+        // Toggle visibility states
+        this.$playWarningContainer.toggle(playWarning);
+
+        this.$callWarningContainer.toggle(callWarningRow);
+
+        this.$callerWarningContainer.toggle(callerWarning);
+        this.$recipientWarningContainer.toggle(recipientWarning);
+
+        // Hide/show consent form if our state calls for it to be visible
+        this.$consentContainer.toggle(this.state.get(&#x27;isConsentVisible&#x27;));
+    },
+
+    /**
+     * Is Advanced State determines if the advanced state should be visible based on
+     * the value of pool variables. This can be used on render of the view for the first time to know
+     * if we should show the advanced options right away. reverse_lookup and ring_delay are boolean integers, with
+     * 0 meaning disabled and 1 meaning enabled.
+     *
+     * @method isAdvancedVisible
+     * @return Boolean
+     */
+    isAdvancedVisible: function () {
+        return (this.model.get(&#x27;advanced_config.call_recording&#x27;) !== this.callRecordingValues.doNotRecord
+                || this.model.get(&#x27;advanced_config.reverse_lookup&#x27;) !== 0
+                || this.model.get(&#x27;advanced_config.ring_delay&#x27;) !== 0
+                || this.model.get(&#x27;phone_label&#x27;) !== null)
+    },
+
+    /**
+     * Handles change of the record call drop-down
+     *
+     * @method handleRecordCall
+     */
+    handleRecordCall: function () {
+        this.model.set(&#x27;advanced_config.call_recording&#x27;, parseInt(this.$recordCall.val(), 10));
+        this.refreshAdvancedChoicesVisibility();
+    },
+
+    /**
+     * Handles change of the play warning drop-down
+     *
+     * @method handlePlayWarning
+     */
+    handlePlayWarning: function () {
+        this.model.set(&#x27;advanced_config.play_warning&#x27;, parseInt(this.$playWarning.val(), 10));
+        this.refreshAdvancedChoicesVisibility();
+    },
+
+    /**
+     * handles click on the advanced button
+     *
+     * @method handleShowAdvanced
+     */
+    handleShowAdvanced: function () {
+        this.toggleAdvancedState();
+    },
+
+    /**
+     * handles click on the phone label radio
+     *
+     * @method handlePhoneLabelToggle
+     */
+    handlePhoneLabelToggle: function () {
+        this.togglePhoneLabelState();
+    },
+
+    /**
+     * Handle receiving the warning audio files list and then rendering
+     *
+     * @method handleWarningAudioFiles
+     */
+    handleWarningAudioFiles: function(warningAudioFiles) {
+        this.warningAudioFiles = warningAudioFiles;
+
+        this.render();
+
+        this.publish(&#x27;endLoadStep&#x27;);
+    },
+
+    /**
+     * Handle Receiving Uploaded Audio
+     *
+     * @method handleUploadedAudio
+     */
+    handleUploadedAudio: function (audio) {
+        var name        = audio.audioBtn.get(&#x27;name&#x27;),
+            file        = audio.audioBtn.get(&#x27;file&#x27;),
+            response    = audio.response;
+
+        // if this isn&#x27;t one of the audio file uploads this view cares about, ignore it
+        if (name === &#x27;caller-audio&#x27; || name === &#x27;recipient-audio&#x27;) {
+            // if the response code is not 200, publish an error
+            if (response.status &amp;&amp; response.status === 500) {
+                this.publish(&#x27;notify&#x27;, {type: &#x27;error&#x27;, msg: response.message});
+                return;
+            }
+
+            if (name === &#x27;caller-audio&#x27;) {
+                this.model.set(&#x27;advanced_config.caller_monitored_audio&#x27;, response.id);
+            }
+            else if (name === &#x27;recipient-audio&#x27;) {
+                this.model.set(&#x27;advanced_config.callee_monitored_audio&#x27;, response.id);
+            }
+
+            this.getWarningAudioFiles()
+                .done(this.handleWarningAudioFiles);
+        }
+    },
+
+    /**
+     * Is Play Warning Visible
+     *
+     * @method isPlayWarningVisible
+     * @return Boolean
+     */
+    isPlayWarningVisible: function () {
+        return (this.model.get(&#x27;advanced_config.call_recording&#x27;) !== this.callRecordingValues.doNotRecord);
+    },
+
+    /**
+     * Is Caller Warning Visible
+     *
+     * @method isCallerWarningVisible
+     * @return Boolean
+     */
+    isCallerWarningVisible: function () {
+        return (this.isPlayWarningVisible())
+                &amp;&amp; (this.model.get(&#x27;advanced_config.play_warning&#x27;) &lt; this.playWarningValues.recipient);
+    },
+
+    /**
+     * Is Recipient Warning Visible
+     *
+     * @method isRecipientWarningVisible
+     * @return Boolean
+     */
+    isRecipientWarningVisible: function () {
+        return (this.isPlayWarningVisible())
+                &amp;&amp; (this.model.get(&#x27;advanced_config.play_warning&#x27;) === this.playWarningValues.callerAndRecipient
+                    || this.model.get(&#x27;advanced_config.play_warning&#x27;) === this.playWarningValues.recipient);
+    },
+
+    /**
+     * Checks if the user actually made a change to the Record Audio or Play Warning fields
+     * that results in the need for the consent overlay to show. If the selections require
+     * consent, but were already consented to and saved, (i.e. the user has just navigated to
+     * the number routing page in the wizard and has not made any changes) then the consent
+     * overlay will NOT show.
+     *
+     * @method refreshConsentVisibility
+     */
+    refreshConsentVisibility: function () {
+            // check if Record Audio and Play Warning selections are a combo that may need consent to be shown
+        var validConsentState = this.checkIfValidConsentState(),
+            // check if user actually changed their attribute selections
+            didPlayWarningSelectionChange = this.model.hasChanged(&#x27;advanced_config.play_warning&#x27;),
+            didRecordCallSelectionChange = this.model.hasChanged(&#x27;advanced_config.call_recording&#x27;),
+            // use the preceding vars to determine the visiblity of the consent overlay
+            showConsent = validConsentState &amp;&amp; (didPlayWarningSelectionChange || didRecordCallSelectionChange);
+
+        this.state.set(&#x27;isConsentVisible&#x27;, showConsent);
+    },
+
+    /**
+     * Checks if the existing selections in the Play Audio and Record Call fields
+     * will need consent (not whether to show the consent overlay, just whether
+     * the combination itself is one that may require it to show, because it is
+     * possible that the user has just navigated to the numbers routing page in the
+     * wizard and there is a config already in place and saved and consented to).
+     *
+     * @method checkIfValidConsentState
+     * @return Boolean
+     */
+    checkIfValidConsentState: function () {
+        var validConsentState = false,
+            callRecording = this.model.get(&#x27;advanced_config.call_recording&#x27;),
+            playWarning = this.model.get(&#x27;advanced_config.play_warning&#x27;);
+
+        // if Record Up To Transfer is chosen but caller warning is turned off
+        if (callRecording !== this.callRecordingValues.doNotRecord
+            &amp;&amp; (callRecording === this.callRecordingValues.recordUpToTransfer
+                &amp;&amp; playWarning &gt; this.playWarningValues.caller)) {
+
+            validConsentState = true;
+        }
+
+        // if Record After Transfer or Record Whole Call is chosen and &quot;Both Caller and Recipient&quot; is NOT chosen
+        if (playWarning !== this.playWarningValues.callerAndRecipient
+            &amp;&amp; (callRecording === this.callRecordingValues.recordAfterTransfer
+                || callRecording === this.callRecordingValues.recordWholeCall)) {
+
+            validConsentState = true;
+        }
+
+        return validConsentState;
+    },
+
+    /**
+     * Toggles showAdvanced state for if the user can see/edit information in the advanced section
+     *
+     * @method toggleAdvancedState
+     */
+    toggleAdvancedState: function () {
+        this.state.set(&#x27;advanced&#x27;, !this.state.get(&#x27;advanced&#x27;));
+    },
+
+    /**
+     * Toggles showPhoneLabel state for if the user can see/edit the phone label
+     *
+     * @method togglePhoneLabelState
+     */
+    togglePhoneLabelState: function () {
+        this.$labelChangeContainer.show();
+    },
+
+    /**
+     * Get the warning audio file names to populate the warning audio select boxes
+     *
+     * @method getWarningAudioFiles
+     * @return jqXHR
+     */
+    getWarningAudioFiles: function () {
+        return $.get(this.warningAudioUrl);
+    }
+});
+
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

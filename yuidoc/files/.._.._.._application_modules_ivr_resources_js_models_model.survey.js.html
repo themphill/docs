@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>../../../application/modules/ivr/resources/js/models/model.survey.js - Sourcetrak</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="icon" href="../assets/favicon.ico">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+                <h1><img src="../assets/css/logo.png" title="Sourcetrak" width="117" height="52"></h1>
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/aa.html">aa</a></li>
+                                <li><a href="../classes/act_on.html">act_on</a></li>
+                                <li><a href="../classes/Collections.Activities.html">Collections.Activities</a></li>
+                                <li><a href="../classes/Collections.DomainSets.html">Collections.DomainSets</a></li>
+                                <li><a href="../classes/Collections.Locations.html">Collections.Locations</a></li>
+                                <li><a href="../classes/Collections.PaginatedActivities.html">Collections.PaginatedActivities</a></li>
+                                <li><a href="../classes/Collections.PaginatedLocations.html">Collections.PaginatedLocations</a></li>
+                                <li><a href="../classes/Collections.Patterns.html">Collections.Patterns</a></li>
+                                <li><a href="../classes/Collections.Pools.html">Collections.Pools</a></li>
+                                <li><a href="../classes/Collections.ReplacementNumbers.html">Collections.ReplacementNumbers</a></li>
+                                <li><a href="../classes/Collections.Routing.html">Collections.Routing</a></li>
+                                <li><a href="../classes/Collections.Schedules.html">Collections.Schedules</a></li>
+                                <li><a href="../classes/Collections.SubCollection.html">Collections.SubCollection</a></li>
+                                <li><a href="../classes/hubspot.html">hubspot</a></li>
+                                <li><a href="../classes/Mixins.AudioFileUploadBtn.html">Mixins.AudioFileUploadBtn</a></li>
+                                <li><a href="../classes/Mixins.Autosave.html">Mixins.Autosave</a></li>
+                                <li><a href="../classes/Mixins.Autoset.html">Mixins.Autoset</a></li>
+                                <li><a href="../classes/Mixins.ClientPagination.html">Mixins.ClientPagination</a></li>
+                                <li><a href="../classes/Mixins.HighlightInvalid.html">Mixins.HighlightInvalid</a></li>
+                                <li><a href="../classes/Mixins.Loading.html">Mixins.Loading</a></li>
+                                <li><a href="../classes/Mixins.Transform.html">Mixins.Transform</a></li>
+                                <li><a href="../classes/Models.Activity.html">Models.Activity</a></li>
+                                <li><a href="../classes/Models.Location.html">Models.Location</a></li>
+                                <li><a href="../classes/Models.Pattern.html">Models.Pattern</a></li>
+                                <li><a href="../classes/Models.Pool.html">Models.Pool</a></li>
+                                <li><a href="../classes/Models.Routing.html">Models.Routing</a></li>
+                                <li><a href="../classes/Models.Schedule.html">Models.Schedule</a></li>
+                                <li><a href="../classes/Models.State.html">Models.State</a></li>
+                                <li><a href="../classes/Models.SubModel.html">Models.SubModel</a></li>
+                                <li><a href="../classes/op.html">op</a></li>
+                                <li><a href="../classes/Validator.html">Validator</a></li>
+                                <li><a href="../classes/Views.Activity.html">Views.Activity</a></li>
+                                <li><a href="../classes/Views.ActivityAdd.html">Views.ActivityAdd</a></li>
+                                <li><a href="../classes/Views.ActivityCreate.html">Views.ActivityCreate</a></li>
+                                <li><a href="../classes/Views.ActivityDestroy.html">Views.ActivityDestroy</a></li>
+                                <li><a href="../classes/Views.ActivityDisplay.html">Views.ActivityDisplay</a></li>
+                                <li><a href="../classes/Views.ActivityEdit.html">Views.ActivityEdit</a></li>
+                                <li><a href="../classes/Views.ActivityEditAdvanced.html">Views.ActivityEditAdvanced</a></li>
+                                <li><a href="../classes/Views.ActivityList.html">Views.ActivityList</a></li>
+                                <li><a href="../classes/Views.ActivityPool.html">Views.ActivityPool</a></li>
+                                <li><a href="../classes/Views.ActivityPoolEdit.html">Views.ActivityPoolEdit</a></li>
+                                <li><a href="../classes/Views.AdvancedOptionsModal.html">Views.AdvancedOptionsModal</a></li>
+                                <li><a href="../classes/Views.CopyToClipboard.html">Views.CopyToClipboard</a></li>
+                                <li><a href="../classes/Views.DeleteLocationModal.html">Views.DeleteLocationModal</a></li>
+                                <li><a href="../classes/Views.DomainSetItem.html">Views.DomainSetItem</a></li>
+                                <li><a href="../classes/Views.DomainsPopover.html">Views.DomainsPopover</a></li>
+                                <li><a href="../classes/Views.EditPoolToolbar.html">Views.EditPoolToolbar</a></li>
+                                <li><a href="../classes/Views.Graph.html">Views.Graph</a></li>
+                                <li><a href="../classes/Views.listControls.html">Views.listControls</a></li>
+                                <li><a href="../classes/Views.LocationItem.html">Views.LocationItem</a></li>
+                                <li><a href="../classes/Views.LocationsList.html">Views.LocationsList</a></li>
+                                <li><a href="../classes/Views.Main.html">Views.Main</a></li>
+                                <li><a href="../classes/Views.Modal.html">Views.Modal</a></li>
+                                <li><a href="../classes/Views.Modal2.html">Views.Modal2</a></li>
+                                <li><a href="../classes/Views.ModalPageView.html">Views.ModalPageView</a></li>
+                                <li><a href="../classes/Views.Numbers.html">Views.Numbers</a></li>
+                                <li><a href="../classes/Views.PageView.html">Views.PageView</a></li>
+                                <li><a href="../classes/Views.Poolbar.html">Views.Poolbar</a></li>
+                                <li><a href="../classes/Views.PoolsDashboard.html">Views.PoolsDashboard</a></li>
+                                <li><a href="../classes/Views.PoolsList.html">Views.PoolsList</a></li>
+                                <li><a href="../classes/Views.PoolsListItem.html">Views.PoolsListItem</a></li>
+                                <li><a href="../classes/Views.Popover.html">Views.Popover</a></li>
+                                <li><a href="../classes/Views.SearchBox.html">Views.SearchBox</a></li>
+                                <li><a href="../classes/Views.SnippetModal.html">Views.SnippetModal</a></li>
+                                <li><a href="../classes/Views.Toolbar.html">Views.Toolbar</a></li>
+                                <li><a href="../classes/Views.VersionHashError.html">Views.VersionHashError</a></li>
+                                <li><a href="../classes/Views.Wizard.html">Views.Wizard</a></li>
+                            </ul>
+                
+                            <ul id="api-modules" class="apis modules">
+                                <li><a href="../modules/Carbon.html">Carbon</a></li>
+                                <li><a href="../modules/Integration.html">Integration</a></li>
+                                <li><a href="../modules/SourceTrak.html">SourceTrak</a></li>
+                                <li><a href="../modules/Sourcetrak.html">Sourcetrak</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: ../../../application/modules/ivr/resources/js/models/model.survey.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+Ibp.Survey.Models.Survey = Ibp.Backbone.Model.extend({
+    name: &#x27;survey&#x27;,
+    selected: false,
+    isSaving: false,
+    ttsAnswerFilter: null,
+    undoStack: null,
+    respondentsCount: null,
+
+/**
+* validators is an object consisting of keys that map to arrays of validator objects
+* the validators object is a whitelist. attributes not listed will not be validated.
+*
+* validator: {
+*     key: [ { validate: string|function , message: string }, ... ]
+* }
+*
+* key: the name of a DeepModel property as a string
+* validate: the space-separated validation method and arguments OR custom validation function
+* message: string displayed to user if the validation fails
+*/
+    validators: {
+        &#x27;name&#x27;                                                          : [ { validate: &#x27;required&#x27;,     message: &#x27;Name cannot be blank.&#x27; } ],
+        &#x27;post_survey_actions.netget.url&#x27;                                : [ { validate: &#x27;allowEmpty&#x27;,   message: null },
+                                                                            { validate: &#x27;url&#x27;,          message: &#x27;Invalid WebHook URL.&#x27; } ],
+        &#x27;post_survey_actions.emails.X.address&#x27;                          : [ { validate: &#x27;email&#x27;,        message: &quot;Invalid email format.&quot; } ],
+        &#x27;post_survey_actions.transcription.url&#x27;                         : [ { validate: &#x27;url&#x27;,          message: &#x27;Invalid Transcription URL.&#x27; } ],
+        &#x27;questions.X._body.action.phone_number&#x27;                         : [ { validate: &#x27;phone&#x27;,        message: &#x27;Invalid phone number.&#x27; } ],
+        &#x27;questions.X._body.action.monitor.max_duration&#x27;                 : [ { validate: &#x27;num 1 28800&#x27;,  message: &#x27;Maximum call duration must be between 1 and 28800 seconds (8 hour maximum).&#x27; }],
+        &#x27;questions.X._body.question_number&#x27;                             : [ { validate: &#x27;num 1&#x27;,        message: &#x27;Question number must a positive integer.&#x27; } ],
+        &#x27;questions.X._body.label&#x27;                                       : [ { validate: &#x27;required&#x27;,     message: &#x27;Question label cannot be blank.&#x27; } ],
+        &#x27;questions.X._body.capture.max_duration&#x27;                        : [ { validate: &#x27;num 1 28800&#x27;,  message: &#x27;Recording length must be between 1 and 28800 seconds (8 hour maximum).&#x27; }],
+        &#x27;questions.X._body.capture.choices.X._body.label&#x27;               : [ { validate: &#x27;alNumSpaces&#x27;,  message: &#x27;Question Choice label must contain only letters, numbers and spaces.&#x27; } ],
+        &#x27;questions.X._body.capture.choices.X._body.action.phone_number&#x27; : [ { validate: &#x27;phone&#x27;,        message: &#x27;Invalid phone number.&#x27; } ]
+    },
+
+    names: {
+        // Settings
+        &#x27;name&#x27;: &#x27;Name&#x27;,
+        &#x27;description&#x27;: &#x27;Description&#x27;,
+        &#x27;settings.gender&#x27;: &#x27;TTS Gender&#x27;,
+        &#x27;settings.tts_speed&#x27;: &#x27;TTS Speed&#x27;,
+        &#x27;settings.dtmf_only&#x27;: &#x27;Speech Recognition&#x27;,
+        &#x27;settings.use_beep&#x27;: &#x27;Question Settings Beep&#x27;,
+        &#x27;settings.use_bargein&#x27;: &#x27;Question Settings Play Entire Prompt&#x27;,
+        &#x27;settings.discard_incompletes&#x27;: &#x27;Discard Incomplete IVRs&#x27;,
+        &#x27;settings.opt_out&#x27;: &#x27;Voice Broadcast Opt-Out&#x27;,
+        &#x27;post_survey_actions.result_action_type&#x27;: &#x27;IVR Results Actions&#x27;,
+        &#x27;post_survey_actions.netget.result_action&#x27;: &#x27;Advanced Webhook Actions&#x27;,
+        &#x27;post_survey_actions.netget.is_post&#x27;: &#x27;Webhook Method&#x27;,
+        &#x27;post_survey_actions.netget.url&#x27;: &#x27;Webhook URL&#x27;,
+        &#x27;post_survey_actions.netget.params&#x27;: &#x27;Call Generated Parameters&#x27;,
+        &#x27;post_survey_actions.netget.sourcetrak&#x27;: &#x27;Webhook SourceTrak&#x27;,
+        &#x27;post_survey_actions.transcription.url&#x27;: &#x27;Transcription URL&#x27;,
+        // Greetings
+        &#x27;greeting&#x27;: &#x27;Greetings&#x27;,
+        &#x27;greeting.type&#x27;: &#x27;Greetings&#x27;,
+        &#x27;greeting.manual_detection&#x27;: &#x27;Greeting Voicemail Detection&#x27;,
+        &#x27;greeting.confirm.say.script&#x27;: &#x27;Greeting Voicemail Detection Message&#x27;,
+        &#x27;greeting.confirm.say.wav_file&#x27;: &#x27;Greeting Voicemail Detection Audio&#x27;,
+        &#x27;greeting.confirm.say.use_wav&#x27;: &#x27;Greeting Voicemail Detection TTS&#x27;,
+        &#x27;greeting.human.say.script&#x27;: &#x27;Live Person Greeting Message&#x27;,
+        &#x27;greeting.human.say.wav_file&#x27;: &#x27;Live Person Greeting Audio&#x27;,
+        &#x27;greeting.human.say.use_wav&#x27;: &#x27;Live Person Greeting TTS&#x27;,
+        &#x27;greeting.voicemail.say.script&#x27;: &#x27;Voicemail Greeting Message&#x27;,
+        &#x27;greeting.voicemail.say.wav_file&#x27;: &#x27;Voicemail Greeting Audio&#x27;,
+        &#x27;greeting.voicemail.say.use_wav&#x27;: &#x27;Voicemail Greeting TTS&#x27;,
+        // Questions
+        &#x27;question.label&#x27;: &#x27;Label&#x27;,
+        &#x27;question.capture&#x27;: &#x27;Type&#x27;,
+        &#x27;question.capture.type&#x27;: &#x27;Type&#x27;,
+        &#x27;question.capture.verify&#x27;: &#x27;Verify&#x27;,
+        &#x27;question.capture.max_duration&#x27;: &#x27;Max Duration&#x27;,
+        &#x27;question.capture.auto_end&#x27;: &#x27;Auto End&#x27;,
+        &#x27;question.capture.transcribe&#x27;: &#x27;Transcribe&#x27;,
+        &#x27;question.action&#x27;: &#x27;Next Action&#x27;,
+        &#x27;question.action.monitor.max_duration&#x27;: &#x27;Max Duration&#x27;,
+        &#x27;question.action.monitor.one_min_warning&#x27;: &#x27;One Minute Warning&#x27;,
+        &#x27;question.action.monitor.prompt_to_accept&#x27;: &#x27;Accept Call Prompt&#x27;,
+        &#x27;question.action.monitor.record&#x27;: &#x27;Record Call&#x27;,
+        &#x27;question.action.monitor.times_up&#x27;: &#x27;Time\&#x27;s Up Message&#x27;,
+        &#x27;question.action.monitor.whisper&#x27;: &#x27;Whisper Message&#x27;,
+        &#x27;question.action.monitor.voicemail&#x27;: &#x27;Transfer Voicemail Message&#x27;,
+        &#x27;question.say.use_wav&#x27;: &#x27;TTS&#x27;,
+        &#x27;question.say.script&#x27;: &#x27;Message&#x27;,
+        &#x27;question.say.wav_file&#x27;: &#x27;Audio&#x27;,
+        &#x27;question.capture.choices&#x27;: &#x27;Choices&#x27;,
+        // Choices
+        &#x27;choice.label&#x27;: &#x27;Label&#x27;,
+        &#x27;choice.action&#x27;: &#x27;Next Action&#x27;,
+        // Audit Alerts
+        &#x27;audit&#x27;: &#x27;audit&#x27;
+    },
+
+    triggerAuditUpdates: function () {
+        this.publish(&#x27;triggerAuditUpdates&#x27;);
+    },
+
+    url: function() {
+        var url = BootstrappedData.apiUrlBase + &#x27;survey&#x27;;
+        return this.isNew() ? url : url + &#x27;/&#x27; + this.id;
+    },
+
+    defaults: {
+        name: &quot;New IVR Name&quot;,
+        description: &quot;&quot;,
+        greeting: {
+            human: {
+                say: {
+                    script: &quot;&quot;,
+                    use_wav: false,
+                    wav_file: &quot;&quot;
+                }
+            },
+            type: &quot;inbound&quot;
+        },
+        settings: {
+            announce_skips: false,
+            discard_incompletes: false,
+            dtmf_only: false,
+            gender: &quot;M&quot;,
+            opt_out: false,
+            say_question_count: false,
+            say_question_numbers: false,
+            tts_speed: &quot;1.00&quot;,
+            use_bargein: true,
+            use_beep: false
+        },
+        post_survey_actions: {
+            result_action_type: 3,
+            netget: {
+                params: {
+                    ivr_number_called: &#x27;dnis&#x27;,
+                    ivr_caller_id: &#x27;callerid&#x27;,
+                    ivr_id: &#x27;survey_id&#x27;,
+                    ivr_response_id: &#x27;unique_id&#x27;,
+                    ivr_timestamp: &#x27;timestamp&#x27;,
+                    ivr_pass_through: &#x27;p_t&#x27;,
+                    ivr_session_id: &#x27;sid&#x27;,
+                    ivr_completed: &#x27;completed&#x27;,
+                    ivr_call_result: &#x27;call_result&#x27;,
+                    ivr_monitored_time: &#x27;monitored_time&#x27;,
+                    ivr_opted_out: &#x27;opted_out&#x27;
+                }
+            }
+        }
+    },
+
+    init: function(options) {
+        options = options || {};
+        this.url = options.url || this.url;
+        this.name += this.id || &#x27;New&#x27;;
+
+        // Initialize
+        this.undoStack = [];
+        this.ttsAnswerFilter = {};
+
+        if (!this.isNew()) {
+            // only do this for non-new IVRs, as new ones do not have IDs
+            this.listenForAuditTrigger();
+        }
+    },
+
+    listenForAuditTrigger: function () {
+        this.subscriptions[&#x27;change:status.general_issues_log_level_id-&#x27; + this.get(&#x27;id&#x27;)] = &#x27;triggerAuditUpdates&#x27;;
+        this.delegateSubscriptions();
+    },
+
+    toggleSelected: function () {
+        return this.setSelected(!this.selected);
+    },
+
+    setSelected: function (selection) {
+        this.selected = selection;
+        this.trigger(&#x27;selected&#x27;, this.selected);
+    },
+
+    isSelected: function () {
+        return this.selected;
+    },
+
+    hasWarning: function() {
+        return (this.get(&#x27;status.general_issues_log_level_id&#x27;) !== undefined
+            &amp;&amp; this.get(&#x27;status.general_issues_log_level_id&#x27;) &gt;= 1) ? true : false;
+    },
+
+    getQuestion: function (qId) {
+        return _.findWhere(this.get(&#x27;questions&#x27;), {&quot;_id&quot;: qId});
+    },
+
+    getFlatQuestion: function(qId) {
+        var q = this.getQuestion(qId),
+            flatQ;
+
+        if (q) {
+            flatQ = q._body;
+            flatQ._id = q._id;
+        }
+
+        return flatQ;
+    },
+
+    getAnswersList: function () {
+        return _.chain(this.get(&#x27;questions&#x27;))
+                .filter(function (question) {
+                    // just the ones with answers
+                    return question._body.capture;
+                })
+                .map(function (q) {
+                    var label = q._body.label,
+                        number = q._body.question_number;
+
+                    return number + &#x27;:&#x27; + label;
+                })
+                .value();
+    },
+
+    questionHasChoices: function(qId) {
+        var q = this.getFlatQuestion(qId);
+        return (q.capture &amp;&amp; (q.capture.type === &#x27;multiple_choice&#x27; || q.capture.type === &#x27;yes_no_choice&#x27;));
+    },
+
+    getChoice: function (qId, cId) {
+        var question = this.getFlatQuestion(qId),
+            choice;
+
+        if (question &amp;&amp; question.capture &amp;&amp; question.capture.choices) {
+            choice = _.findWhere(question.capture.choices, { &quot;_id&quot;: cId });
+        }
+        return choice;
+    },
+
+    getFlatChoice: function(qId, cId) {
+        var choice = this.getChoice(qId, cId),
+            flatChoice;
+
+        if (choice) {
+            flatChoice = choice._body;
+            flatChoice._id = choice._id;
+        }
+
+        return flatChoice;
+    },
+
+    getChoiceId: function (qId, cIndex) {
+        return this.getFlatQuestion(qId).capture.choices[cIndex]._id;
+    },
+
+    getLastQuestion: function(){
+        var questions = this.get(&#x27;questions&#x27;),
+            qLength   = questions !== null &amp;&amp; questions !== undefined ? questions.length : 0,
+            question  = qLength &gt; 0 ? questions[qLength - 1] : undefined;
+
+        return question;
+    },
+
+    usingParams: function(){
+        var questions = this.get(&#x27;questions&#x27;),
+            greeting = this.get(&#x27;greeting&#x27;),
+            qLength   = (questions !== null &amp;&amp; questions !== undefined) ? questions.length : 0,
+            i = 0;
+
+        if (greeting !== null) {
+            // Check &quot;human&quot;
+            if ((greeting.human.say.use_wav == &quot;1&quot;) &amp;&amp;
+                (greeting.human.say.wav_file != &#x27;&#x27;) &amp;&amp;
+                (greeting.human.say.wav_file != &#x27;batch&#x27;) &amp;&amp;
+                (greeting.human.say.wav_file.indexOf(&quot;.wav&quot;) == -1)) {
+                return true;
+            }
+            // Checkout outbound specific greeting bits
+            if (greeting.type == &quot;outbound&quot;) {
+                if ((greeting.voicemail.say.use_wav == &quot;1&quot;) &amp;&amp;
+                    (greeting.voicemail.say.wav_file != &#x27;&#x27;) &amp;&amp;
+                    (greeting.voicemail.say.wav_file != &#x27;batch&#x27;) &amp;&amp;
+                    (greeting.voicemail.say.wav_file.indexOf(&quot;.wav&quot;) == -1)) {
+                    return true;
+                }
+                if ((greeting.manual_detection === true) &amp;&amp;
+                    (greeting.confirm.say.use_wav == &quot;1&quot;) &amp;&amp;
+                    (greeting.confirm.say.wav_file != &#x27;&#x27;) &amp;&amp;
+                    (greeting.confirm.say.wav_file != &#x27;batch&#x27;) &amp;&amp;
+                    (greeting.confirm.say.wav_file.indexOf(&quot;.wav&quot;) == -1)) {
+                    return true;
+                }
+            }
+        }
+
+        // Check questions
+        for (i; i &lt; qLength; i++) {
+            if ((questions[i]._body.say.use_wav == &#x27;1&#x27;) &amp;&amp; (questions[i]._body.say.wav_file != &#x27;&#x27;)) {
+                if ((questions[i]._body.say.wav_file != &#x27;batch&#x27;) &amp;&amp; (questions[i]._body.say.wav_file.indexOf(&quot;.wav&quot;) == -1)) {
+                    return true;
+                }
+            }
+        }
+
+        // If we get here, there are no params in use
+        return false;
+    },
+
+    psrIdToAction: function () {
+        // Converts Post Survey Results action type to string actions
+        // where bit 1 is email, bit 2 is db, and bit 3 is netget
+        var action = this.get(&#x27;post_survey_actions.result_action_type&#x27;),
+            results = {
+                1: &#x27;001&#x27;,
+                2: &#x27;011&#x27;,
+                3: &#x27;010&#x27;,
+                4: &#x27;100&#x27;,
+                5: &#x27;101&#x27;,
+                6: &#x27;110&#x27;,
+                7: &#x27;000&#x27;,
+                8: &#x27;111&#x27;
+            };
+
+        return results[action];
+    },
+
+    psrActionToId: function (state) {
+        // Takes a string representing the state of post survey result actions
+        // which can be calculated as [(net ? 1 : 0), (db ? 1 : 0), (email ? 1: 0)].join(&#x27;&#x27;)
+        // The default value is 3, which saves results to the db
+        var result = 3,
+            results = {
+                &#x27;001&#x27;: 1,
+                &#x27;011&#x27;: 2,
+                &#x27;010&#x27;: 3,
+                &#x27;100&#x27;: 4,
+                &#x27;101&#x27;: 5,
+                &#x27;110&#x27;: 6,
+                &#x27;000&#x27;: 7,
+                &#x27;111&#x27;: 8
+            };
+        return results.hasOwnProperty(state) ? results[state] : result;
+    },
+
+    getIndex: function (key, id) {
+        var index = -1,
+            attribute = this.get(key),
+            l = attribute.length,
+            i = 0;
+
+        for (i; i &lt; l; i++) {
+            // Use == for ids that come in as strings
+            if (attribute[i]._id == id) {
+                index = i;
+                break;
+            }
+        }
+
+        return index;
+    },
+
+    setQuestionAttribute: function (options) {
+        // avoid race conditions and internal state conflicts by waiting for existing save to finish
+        if (this.isSaving) {
+            this.listenToOnce(this, &#x27;saved&#x27;, function() {this.setQuestionAttribute(options);});
+            return;
+        }
+        var _this  = this,
+            qId    = options.qId,
+            qIndex = this.getIndex(&#x27;questions&#x27;, qId),
+            flatQ  = this.getFlatQuestion(qId),
+            deepQObj = {},
+            question = {
+                &quot;_id&quot;: qId,
+                &quot;_body&quot;: {}
+            },
+            data = {
+                &quot;questions&quot;: []
+            },
+            attributeBase = question._body,
+            attributePath = options.attribute.split(&#x27;.&#x27;),
+            attributePathLength = attributePath.length,
+            questionPath = &#x27;questions.&#x27; + qIndex + &#x27;._body&#x27;,
+            fullAttributePath =  questionPath + &#x27;.&#x27; + options.attribute;
+
+        // only set if value is different
+        if (this.get(fullAttributePath) !== options.value) {
+
+            if (options.attribute === &#x27;capture.type&#x27; &amp;&amp; options.value === &#x27;empty&#x27;) {
+                options.attribute = &#x27;capture&#x27;;
+                options.value = null;
+                attributePath = options.attribute.split(&#x27;.&#x27;);
+                attributePathLength = attributePath.length;
+                fullAttributePath = &#x27;questions.&#x27; + qIndex + &#x27;._body.&#x27; + options.attribute;
+            }
+            else if (options.attribute === &#x27;capture.type&#x27;
+                    &amp;&amp;  (
+                            (options.value === &#x27;multiple_choice&#x27; || options.value === &#x27;yes_no_choice&#x27;)
+                            &amp;&amp; (!flatQ.action || flatQ.action.type == &#x27;next_question&#x27;)
+                        ||
+                            (options.value === &#x27;optional_action&#x27;)
+                        )
+                    ) {
+                // If no action type specified for question, make &quot;Depends On Response&quot; the default
+                // action type for capture types that have choices.
+                var actionPath = &#x27;questions.&#x27; + qIndex + &#x27;._body.action.type&#x27;;
+                deepQObj[actionPath] = &#x27;depends_on_response&#x27;;
+                question._body[&#x27;action&#x27;] = {&#x27;type&#x27;: &#x27;depends_on_response&#x27;};
+            }
+
+            _.each(attributePath, function(attr, index) {
+                if (index === attributePathLength - 1) {
+                    attributeBase[attr] = options.value;
+                } else {
+                    attributeBase[attr] = {};
+                    attributeBase = attributeBase[attr];
+                }
+            });
+
+            data.questions.push(question);
+
+            deepQObj[fullAttributePath] = options.value;
+            this.set(deepQObj, {silent: true, validate: false });
+
+            if (options.attribute === &#x27;capture.type&#x27; &amp;&amp; options.value === &#x27;multiple_choice&#x27;) {
+                var choices = [{ _body: { label: &#x27;Choice One&#x27; } }];
+                var choicePath = questionPath + &#x27;.capture.choices&#x27;;
+                var deepChoices = {};
+                deepChoices[choicePath] = choices;
+                this.set(deepChoices, { silent: true, validate: false });
+
+                data.questions[0]._body.capture.choices = choices;
+            } else if (options.attribute === &#x27;capture.type&#x27; &amp;&amp; options.value === &#x27;yes_no_choice&#x27;) {
+                var choices = [
+                    { _body: { label: &#x27;Yes&#x27; } },
+                    { _body: { label: &#x27;No&#x27; } }
+                ];
+                var choicePath = questionPath + &#x27;.capture.choices&#x27;;
+                var deepChoices = {};
+                deepChoices[choicePath] = choices;
+                this.set(deepChoices, { silent: true, validate: false });
+
+                data.questions[0]._body.capture.choices = choices;
+            } else if (options.attribute === &#x27;capture.type&#x27; &amp;&amp; options.value === &#x27;optional_action&#x27;) {
+                var choices = [
+                    { _body: { label: &#x27;Any Key Pressed&#x27; } },
+                    { _body: { label: &#x27;No Key Pressed&#x27; } }
+                ];
+                var choicePath = questionPath + &#x27;.capture.choices&#x27;;
+                var deepChoices = {};
+                deepChoices[choicePath] = choices;
+                this.set(deepChoices, { silent: true, validate: false });
+
+                data.questions[0]._body.capture.choices = choices;
+            }
+            // set attribute name for notification
+            options.name = options.attribute === &#x27;label&#x27; ? options.value : flatQ.label;
+            options.attributeName = this.getAttributeName(&#x27;question.&#x27; + options.attribute);
+
+            if (!options.silent) {
+                _this.isSaving = true;
+                _this.trigger(&#x27;changeQuestion&#x27;, this, data, _this.getQuestion(qId), options);
+                _this.trigger(&#x27;change:question:&#x27; + attributePath.join(&#x27;:&#x27;), options.value, this.getQuestion(qId)._id, options);
+                _this.publish(&#x27;change:question:&#x27; + attributePath.join(&#x27;:&#x27;), options.value, this.getQuestion(qId)._id, options);
+            }
+        }
+    },
+
+    addNewQuestion: function () {
+        // avoid race conditions and internal state conflicts by waiting for existing save to finish
+        if (this.isSaving) {
+            this.listenToOnce(this, &#x27;saved&#x27;, this.addNewQuestion);
+            return;
+        }
+
+        var _this = this,
+            questions = this.get(&#x27;questions&#x27;),
+            questionNum = (questions ? questions.length + 1 : 1),
+            questionNumToWord = Ibp.Utils.numToWord(questionNum),
+            question = {
+                &quot;_body&quot;: {
+                    &quot;action&quot;: {
+                        &quot;type&quot;: &quot;next_question&quot;
+                    },
+                    &quot;label&quot;: &quot;Question &quot; + questionNumToWord,
+                    &quot;say&quot;: {
+                        &quot;script&quot;: &quot;Question &quot; + questionNumToWord + &quot; Message Script&quot;,
+                        &quot;use_wav&quot;: &quot;0&quot;,
+                        &quot;wav_file&quot;: &quot;&quot;
+                    }
+                }
+            }, data = {
+                &quot;questions&quot;: [
+                    question
+                ]
+            },
+            message = &#x27;added &#x27; + question._body.label;
+
+        this.isSaving = true;
+        this.save(data, {
+            patch: true,
+            silent: true,
+            success: function () {
+                _this.isSaving = false;
+
+                // push changes to undo stack
+                _this.snapshot(&#x27;Added &#x27; + question._body.label);
+
+                _this.trigger(&#x27;saved&#x27;);
+                _this.publish(&#x27;change:modelUpdated&#x27; + _this.id, _this);
+                _this.publish(&#x27;change:questionSaved&#x27;, _this, _this.getLastQuestion(), data);
+                _this.publish(&#x27;change:newQuestionAdded&#x27; + _this.id, _this, _this.getLastQuestion(), true);
+                _this.publish(&#x27;change:newQuestionAdded&#x27;, _this, _this.getLastQuestion(), true);
+                _this.publish(&#x27;notify&#x27;, { type: &#x27;save:success&#x27;, msg: message });
+            },
+            error: function () {
+                _this.isSaving = false;
+            }
+        });
+    },
+
+    deleteQuestion: function (qId) {
+        if (this.isSaving) {
+            this.listenToOnce(this, &#x27;saved&#x27;, function () { this.deleteQuestion(qId); } );
+            return;
+        }
+        var _this = this,
+            data = {},
+            question = this.getQuestion(qId),
+            deletedQuestion = null,
+            netgetConflicts = null,
+            netgetParams,
+            message = &#x27;deleted &#x27; + question._body.label;
+
+        this.splice(&#x27;questions&#x27;, this.getIndex(&#x27;questions&#x27;, qId), { silent: true });
+
+        // check for netget parameter relationships with this question, and remove them if any exist
+        netgetParams = this.get(&#x27;post_survey_actions.netget.params&#x27;);
+        netgetConflicts = this.getQuestionNetgetDependencies(netgetParams, question._body.question_number);
+
+        deletedQuestion = _.omit(question, &quot;_body&quot;);
+        data.questions  = [deletedQuestion];
+        if (netgetConflicts.length) {
+            data.post_survey_actions = {netget: {params: {}}};
+            _.each(netgetConflicts, function (con) {
+                data.post_survey_actions.netget.params[con.label] = null;
+            });
+        }
+
+        this.isSaving = true;
+        this.save(data, {
+            patch: true,
+            silent: true,
+            success: function() {
+                _this.isSaving = false;
+
+                // push changes to undo stack
+                _this.snapshot(&#x27;Deleted &#x27; + question._body.label);
+
+                _this.trigger(&#x27;saved&#x27;);
+                _this.publish(&#x27;change:questionDeleted&#x27; + qId, question, _this);
+                _this.publish(&#x27;change:modelUpdated&#x27; + _this.id, _this);
+                _this.publish(&#x27;notify&#x27;, { type: &#x27;save:success&#x27;, msg: message });
+                _this.triggerAuditUpdates();
+            },
+            error: function () {
+                _this.isSaving = false;
+            }
+        });
+    },
+
+    /**
+     *  Checks the list of
+     *  params - list of netget params from this question
+     *  qNumber - relative question number to investigate (not the database primary key)
+     *  return - an array of conflict objects
+     */
+    getQuestionNetgetDependencies : function(params, qNumber) {
+        var c = [];
+        // loop through the params and check their values for the given question number
+        _.each(params, function(element, index) {
+            if (element == &quot;IVRQ&quot; + qNumber) {
+                c.push({
+                    label: index
+                });
+            }
+        });
+        return c;
+    },
+
+    setChoiceAttribute: function (options) {
+        var _this  = this,
+            qId    = options.qId,
+            qIndex = this.getIndex(&#x27;questions&#x27;, qId),
+            choiceId = options.choiceId,
+            cIndex = options.cIndex,
+            deepCObj = {},
+            choice = {
+                &quot;_id&quot;: choiceId,
+                &quot;_body&quot;: {}
+            },
+            data = {
+                &quot;questions&quot;: [{
+                    &quot;_id&quot;: qId,
+                    &quot;_body&quot;: {
+                        &quot;capture&quot;: {
+                            &quot;choices&quot;: []
+                        }
+                    }
+                }]
+            },
+            attribute = options.attribute,
+            attributeBase = choice._body,
+            attributePath = attribute.split(&#x27;.&#x27;),
+            attributePathLength = attributePath.length,
+            fullAttributePath = &#x27;questions.&#x27; + qIndex + &#x27;._body.capture.choices.&#x27; + cIndex + &#x27;._body.&#x27; + attribute;
+
+        // only set if value is different
+        if(this.get(fullAttributePath) !== options.value) {
+            _.each(attributePath, function (attr, index, list) {
+                if (index === attributePathLength - 1) {
+                    attributeBase[attr] = options.value;
+                } else {
+                    attributeBase[attr] = {};
+                    attributeBase = attributeBase[attr];
+                }
+            });
+
+            data.questions[0]._body.capture.choices.push(choice);
+
+            deepCObj[fullAttributePath] = options.value;
+            this.set(deepCObj, { silent: true, validate: true });
+
+            options.name = &#x27;Choice: &#x27;;
+            options.name += options.attribute === &#x27;label&#x27; ? options.value : this.getFlatChoice(qId, choiceId).label;
+            options.attributeName = this.getAttributeName(&#x27;choice.&#x27; + options.attribute);
+
+            if (!options.silent) {
+                _this.isSaving = true;
+                _this.trigger(&#x27;changeChoice&#x27;, this, data, _this.getQuestion(qId), options);
+            }
+        }
+    },
+
+    getTTSFilter: function () {
+        return this.ttsAnswerFilter;
+    },
+
+    updateTTSFilter: function () {
+        var questions = this.get(&#x27;questions&#x27;),
+            ttsFilter = {};
+
+        _.each(questions, function(value, key) {
+            var q = value._body,
+                qtype = q.capture ? q.capture.type : false;
+
+            if (qtype) {
+                ttsFilter[&#x27;@IVRQ&#x27; + q.question_number] = {
+                    shortLabel: _.reduce(q.label.split(&#x27; &#x27;), function (base, word) {
+                                    return base + word.charAt(0).toUpperCase() + word.slice(1);
+                                }, q.question_number + &#x27;.&#x27;),
+                    fullLabel: q.question_number + &#x27;.&#x27; + q.label
+                }
+            }
+        });
+
+        this.ttsAnswerFilter = ttsFilter;
+        return this.ttsAnswerFilter;
+    },
+
+    getQuestionAnswerCGPValues: function() {
+        var questions = this.get(&#x27;questions&#x27;),
+            CGPKeys = [];
+
+        _.each(questions, function(value, key) {
+            var q = value._body,
+                qtype = q.capture ? q.capture.type : false;
+
+            if (qtype) {
+                CGPKeys.push(&#x27;IVRQ&#x27; + q.question_number);
+            }
+        });
+
+        return CGPKeys;
+    },
+
+    push: function (key, val, options) {
+        var path       = key.split(&#x27;.&#x27;),
+            pathLength = path.length,
+            attribute  = this.attributes,
+            i = 0;
+
+        options || (options = {});
+
+        for (i; i &lt; pathLength; i++) {
+            attribute = attribute[path[i]];
+        }
+
+        attribute || (attribute = []);
+
+        attribute.push(val);
+
+        if (!options.silent) {
+            this.trigger(&#x27;change:&#x27; + key, this, val, options);
+            this.trigger(&#x27;change&#x27;, this, options);
+        }
+
+        return this;
+    },
+
+    splice: function (key, index, options) {
+        var path       = key.split(&#x27;.&#x27;),
+            pathLength = path.length,
+            attribute  = this.attributes,
+            i = 0;
+
+        options || (options = {});
+
+        for (i; i &lt; pathLength; i++) {
+            attribute = attribute[path[i]];
+        }
+
+        attribute.splice(index, 1);
+
+        if (!options.silent) {
+            this.trigger(&#x27;change&#x27;, this, options);
+        }
+
+        return this;
+    },
+
+    getAttributeName: function (key) {
+        if (!_.isString(key)) {
+            key = _.keys(this.flatten(key))[0];
+        }
+
+        key = key ? key : &#x27;name&#x27;;
+
+        if (key.indexOf(&#x27;post_survey_actions.netget.params&#x27;) == 0) {
+            key = &#x27;post_survey_actions.netget.params&#x27;;
+        }
+
+        return this.names[key] || null;
+    },
+
+    makeNotificationMessage: function (key, type) {
+        var verb = type === &#x27;error&#x27; ? &#x27;saving&#x27; : &#x27;saved&#x27;;
+        key = this.getAttributeName(key) || key;
+        return verb + &#x27; &#x27; + key;
+    },
+
+    pushSnapshot: function (snapshot) {
+        // allow 25 undos (plus 1 to undo 25th change)
+        if (this.undoStack.length === 26) {
+            // discard oldest snapshot
+            this.undoStack.shift();
+        }
+        this.undoStack.push(snapshot);
+    },
+
+    popSnapshot: function () {
+        if (this.undoStack.length === 1) {
+            // keep earliest snapshot
+            return;
+        }
+
+        this.undoStack.pop();
+    },
+
+    snapshot: function (text) {
+        var snapshot = {
+            model: $.extend(true, {}, this.attributes),
+            timestamp: moment().format(&#x27;h:mm A&#x27;),
+            description: Ibp.Utils.truncate(text, 37)
+        };
+
+        this.pushSnapshot(snapshot);
+    },
+
+    undo: function (howMany) {
+        var _this = this,
+            data,
+            url;
+
+        while (howMany) {
+            this.popSnapshot();
+            howMany--;
+        }
+
+        // get the snapshot from the top of the stack
+        data = _.last(this.undoStack).model;
+        // set current hash
+        data.version_hash = this.get(&#x27;version_hash&#x27;);
+
+        // set this model&#x27;s properties
+        this.attributes = $.extend(true, {}, data);
+
+        // add url parameter for undo
+        url = this.url() + &#x27;?force=1&#x27;;
+
+        this.isSaving = true;
+        this.publish(&#x27;notify&#x27;, { type: &#x27;save:saving&#x27; });
+        this.save(data, {
+            url: url,
+            patch: true,
+            silent: true,
+            success: function () {
+                _this.isSaving = false;
+
+                _this.trigger(&#x27;saved&#x27;);
+                _this.publish(&#x27;undo:success&#x27;);
+                _this.publish(&#x27;notify&#x27;, { type: &#x27;save:success&#x27;, msg: &#x27;Undo successful&#x27;, title: &#x27;&#x27; });
+                _this.publish(&#x27;change:modelUpdated&#x27; + _this.id, _this);
+            },
+            error: function () {
+                _this.isSaving = false;
+
+                _this.publish(&#x27;notify&#x27;, { type: &#x27;error&#x27;, msg: &#x27;Undo failed&#x27; });
+            }
+        });
+    },
+
+    fetchRespondentsCount: function () {
+        return $.getJSON(&quot;/v1/stats/survey/&quot; + this.get(&quot;id&quot;));
+    },
+
+    getTotalRespondentsCount: function () {
+
+        var action = this.get(&#x27;post_survey_actions.result_action_type&#x27;),
+            dbActions = [2, 3, 6, 8];
+
+        if (this.respondentsCount === null) {
+            return &quot;&quot;;
+        } else {
+            return $.inArray(action, dbActions) == -1 ? &quot;N/A&quot; : this.respondentsCount;
+        }
+
+    },
+
+    deleteRespondentData: function () {
+        return $.ajax({ type: &#x27;DELETE&#x27;, url: &#x27;/v1/report/survey/&#x27; + this.get(&#x27;id&#x27;)});
+    },
+
+    /**
+     * The audit property of the logical model contains server-side calculated warnings about the
+     * validity of a user&#x27;s IVR configuration. It is used in our application to display suggestions
+     * for improving the quality or functionality of an IVR without outright refusing a set of changes
+     * as invalid.
+     *
+     * The format of an audit set in the logical model looks like the following example:
+     *
+     *  [
+            {
+                type:   &#x27;empty_email_list&#x27; | &#x27;tts_token_order&#x27; | &#x27;tts_token_capture&#x27; |
+                        &#x27;empty_webhook_target&#x27; | &#x27;closed_question_loop&#x27; | &#x27;misconfigured_audio_file&#x27;,
+                details: {
+                    greeting: &#x27;inbound&#x27; | &#x27;voicemail&#x27; | &#x27;human&#x27; | &#x27;confirm&#x27;,
+                    questionIds: [1, 2, 3]
+                }
+            }
+        ]
+     *
+     * The &quot;type&quot; string (one of the six values shown) determines the nature of the configuration error,
+     * and will determine the template used to print the warning in our test modal.
+     *
+     * The details object contains information that is useful in matching the given error type to the
+     * offending parts of the IVR. For now this will either be one of the four greetings types or a list
+     * of question IDs. These are the physical usr_survey_id values, and not the relative question numbers.
+     *
+     * The output of this function is the same audit array that is retrieved from the model, with an additional
+     * array of objects added to the details object. It will have the following format:
+     *
+     * {
+            details: {
+                ...
+                questions: [
+                    {
+                        id: 12345,
+                        label: &quot;Question One&quot;,
+                        question_number: 3
+                    }
+                ]
+                ...
+            }
+     * }
+     *
+     * Every entry in the questionIds array will have a corresponding object in questions. This object contains, in
+     * the following order: the physical usr_survey_id, the text label string and the relative question number.
+     *
+     * This object is used by the template to render the alert text, highlighting the question details in a different color.
+     */
+    getEnrichedAuditData: function () {
+        var audit = this.get(&#x27;audit&#x27;),
+            enriched = [],
+            _this = this;
+
+        _.each(audit, function (auditAlert) {
+
+            /**
+             * Store any data that the templates will need to render the audit strings.
+             * Questions will be shown in the following format: &quot;Question #. Label&quot;.
+             * start with a copy of the original audit data
+             */
+            var e = auditAlert;
+
+            if (e.details &amp;&amp; e.details.questionIds) {
+                var questions = [];
+
+                _.each(e.details.questionIds, function (qId) {
+
+                    var flatQ = _this.getFlatQuestion(qId),
+                        questionDetails = {
+                            id: qId,
+                            label: flatQ.label,
+                            question_number: flatQ.question_number
+                        };
+
+                    questions.push(questionDetails);
+                });
+                e.details.questions = questions;
+            }
+
+            enriched.push(e);
+        });
+
+        return enriched;
+    }
+});
+
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>../../../application/modules/sourcetrak/resources/js/views/view.wizard.js - Sourcetrak</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="icon" href="../assets/favicon.ico">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+                <h1><img src="../assets/css/logo.png" title="Sourcetrak" width="117" height="52"></h1>
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/aa.html">aa</a></li>
+                                <li><a href="../classes/act_on.html">act_on</a></li>
+                                <li><a href="../classes/Collections.Activities.html">Collections.Activities</a></li>
+                                <li><a href="../classes/Collections.DomainSets.html">Collections.DomainSets</a></li>
+                                <li><a href="../classes/Collections.Locations.html">Collections.Locations</a></li>
+                                <li><a href="../classes/Collections.PaginatedActivities.html">Collections.PaginatedActivities</a></li>
+                                <li><a href="../classes/Collections.PaginatedLocations.html">Collections.PaginatedLocations</a></li>
+                                <li><a href="../classes/Collections.Patterns.html">Collections.Patterns</a></li>
+                                <li><a href="../classes/Collections.Pools.html">Collections.Pools</a></li>
+                                <li><a href="../classes/Collections.ReplacementNumbers.html">Collections.ReplacementNumbers</a></li>
+                                <li><a href="../classes/Collections.Routing.html">Collections.Routing</a></li>
+                                <li><a href="../classes/Collections.Schedules.html">Collections.Schedules</a></li>
+                                <li><a href="../classes/Collections.SubCollection.html">Collections.SubCollection</a></li>
+                                <li><a href="../classes/hubspot.html">hubspot</a></li>
+                                <li><a href="../classes/Mixins.AudioFileUploadBtn.html">Mixins.AudioFileUploadBtn</a></li>
+                                <li><a href="../classes/Mixins.Autosave.html">Mixins.Autosave</a></li>
+                                <li><a href="../classes/Mixins.Autoset.html">Mixins.Autoset</a></li>
+                                <li><a href="../classes/Mixins.ClientPagination.html">Mixins.ClientPagination</a></li>
+                                <li><a href="../classes/Mixins.HighlightInvalid.html">Mixins.HighlightInvalid</a></li>
+                                <li><a href="../classes/Mixins.Loading.html">Mixins.Loading</a></li>
+                                <li><a href="../classes/Mixins.Transform.html">Mixins.Transform</a></li>
+                                <li><a href="../classes/Models.Activity.html">Models.Activity</a></li>
+                                <li><a href="../classes/Models.Location.html">Models.Location</a></li>
+                                <li><a href="../classes/Models.Pattern.html">Models.Pattern</a></li>
+                                <li><a href="../classes/Models.Pool.html">Models.Pool</a></li>
+                                <li><a href="../classes/Models.Routing.html">Models.Routing</a></li>
+                                <li><a href="../classes/Models.Schedule.html">Models.Schedule</a></li>
+                                <li><a href="../classes/Models.State.html">Models.State</a></li>
+                                <li><a href="../classes/Models.SubModel.html">Models.SubModel</a></li>
+                                <li><a href="../classes/op.html">op</a></li>
+                                <li><a href="../classes/Validator.html">Validator</a></li>
+                                <li><a href="../classes/Views.Activity.html">Views.Activity</a></li>
+                                <li><a href="../classes/Views.ActivityAdd.html">Views.ActivityAdd</a></li>
+                                <li><a href="../classes/Views.ActivityCreate.html">Views.ActivityCreate</a></li>
+                                <li><a href="../classes/Views.ActivityDestroy.html">Views.ActivityDestroy</a></li>
+                                <li><a href="../classes/Views.ActivityDisplay.html">Views.ActivityDisplay</a></li>
+                                <li><a href="../classes/Views.ActivityEdit.html">Views.ActivityEdit</a></li>
+                                <li><a href="../classes/Views.ActivityEditAdvanced.html">Views.ActivityEditAdvanced</a></li>
+                                <li><a href="../classes/Views.ActivityList.html">Views.ActivityList</a></li>
+                                <li><a href="../classes/Views.ActivityPool.html">Views.ActivityPool</a></li>
+                                <li><a href="../classes/Views.ActivityPoolEdit.html">Views.ActivityPoolEdit</a></li>
+                                <li><a href="../classes/Views.AdvancedOptionsModal.html">Views.AdvancedOptionsModal</a></li>
+                                <li><a href="../classes/Views.CopyToClipboard.html">Views.CopyToClipboard</a></li>
+                                <li><a href="../classes/Views.DeleteLocationModal.html">Views.DeleteLocationModal</a></li>
+                                <li><a href="../classes/Views.DomainSetItem.html">Views.DomainSetItem</a></li>
+                                <li><a href="../classes/Views.DomainsPopover.html">Views.DomainsPopover</a></li>
+                                <li><a href="../classes/Views.EditPoolToolbar.html">Views.EditPoolToolbar</a></li>
+                                <li><a href="../classes/Views.Graph.html">Views.Graph</a></li>
+                                <li><a href="../classes/Views.listControls.html">Views.listControls</a></li>
+                                <li><a href="../classes/Views.LocationItem.html">Views.LocationItem</a></li>
+                                <li><a href="../classes/Views.LocationsList.html">Views.LocationsList</a></li>
+                                <li><a href="../classes/Views.Main.html">Views.Main</a></li>
+                                <li><a href="../classes/Views.Modal.html">Views.Modal</a></li>
+                                <li><a href="../classes/Views.Modal2.html">Views.Modal2</a></li>
+                                <li><a href="../classes/Views.ModalPageView.html">Views.ModalPageView</a></li>
+                                <li><a href="../classes/Views.Numbers.html">Views.Numbers</a></li>
+                                <li><a href="../classes/Views.PageView.html">Views.PageView</a></li>
+                                <li><a href="../classes/Views.Poolbar.html">Views.Poolbar</a></li>
+                                <li><a href="../classes/Views.PoolsDashboard.html">Views.PoolsDashboard</a></li>
+                                <li><a href="../classes/Views.PoolsList.html">Views.PoolsList</a></li>
+                                <li><a href="../classes/Views.PoolsListItem.html">Views.PoolsListItem</a></li>
+                                <li><a href="../classes/Views.Popover.html">Views.Popover</a></li>
+                                <li><a href="../classes/Views.SearchBox.html">Views.SearchBox</a></li>
+                                <li><a href="../classes/Views.SnippetModal.html">Views.SnippetModal</a></li>
+                                <li><a href="../classes/Views.Toolbar.html">Views.Toolbar</a></li>
+                                <li><a href="../classes/Views.VersionHashError.html">Views.VersionHashError</a></li>
+                                <li><a href="../classes/Views.Wizard.html">Views.Wizard</a></li>
+                            </ul>
+                
+                            <ul id="api-modules" class="apis modules">
+                                <li><a href="../modules/Carbon.html">Carbon</a></li>
+                                <li><a href="../modules/Integration.html">Integration</a></li>
+                                <li><a href="../modules/SourceTrak.html">SourceTrak</a></li>
+                                <li><a href="../modules/Sourcetrak.html">Sourcetrak</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: ../../../application/modules/sourcetrak/resources/js/views/view.wizard.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+ * Create new Pool wizard manager View
+ *
+ * @module Sourcetrak
+ * @class Views.Wizard
+ */
+Ibp.Sourcetrak.Views.Wizard = Ibp.Carbon.Views.ModalPageView.extend({
+    name: &#x27;wizard&#x27;,
+    el: &#x27;#pools-wizard&#x27;,
+    template: Ibp.Sourcetrak.Templates.wizard,
+
+    /**
+     * Model to hold view state
+     *
+     * @property state
+     * @type Model
+     */
+    state: null,
+
+    /**
+     * The views object retains references to children views
+     *
+     * @property views
+     * @type Object
+     */
+    views: {},
+
+    /**
+     * Selector for the current wizard view container
+     *
+     * @property wizardViewEl
+     * @type String
+     */
+    wizardViewEl: &#x27;#wizard-current&#x27;,
+
+    /**
+     * The views that correspond to each wizard state
+     *
+     * @property wizardViews
+     * @type Object
+     */
+    wizardTypeTitles: {
+        main: &#x27;Create Main Number&#x27;,
+        pool: &#x27;Create Pool&#x27;,
+        oneToOne: &#x27;Create One-To-One&#x27;,
+        edit: &#x27;Edit &#x27;,
+        location: &#x27;Edit Location Pool&#x27;
+    },
+
+    /**
+     * The views that correspond to each wizard state
+     *
+     * @property wizardViews
+     * @type Object
+     */
+    wizardViews: {
+        numbers:    Ibp.Sourcetrak.Views.Numbers,
+        routing:    Ibp.Sourcetrak.Views.NumberRouting,
+        analytics:  Ibp.Sourcetrak.Views.Analytics,
+        review:     Ibp.Sourcetrak.Views.Review,
+        error:      Ibp.Sourcetrak.Views.PoolError
+    },
+
+    /**
+     * Maps child view events to the child view the wizard should transition to
+     *
+     * @property wizardFlow
+     * @type Object
+     */
+    wizardFlow: {
+        numbers: {
+            prev: null,
+            next: &#x27;routing&#x27;
+        },
+        routing: {
+            prev: &#x27;numbers&#x27;,
+            next: &#x27;analytics&#x27;
+        },
+        analytics: {
+            prev: &#x27;routing&#x27;,
+            next: &#x27;review&#x27;
+        },
+        review: {
+            prev: &#x27;analytics&#x27;,
+            next: null
+        },
+        error: {
+            prev: null,
+            next: null
+        }
+    },
+
+    wizardOrder: [
+        &#x27;numbers&#x27;, &#x27;routing&#x27;, &#x27;analytics&#x27;, &#x27;review&#x27;
+    ],
+
+    /**
+     * The child View currently being shown
+     *
+     * @property currentView
+     * @type View
+     */
+    currentView: null,
+
+    /**
+     * The the default card state to display
+     *
+     * @property DEFAULT_CARD
+     * @type String
+     */
+    DEFAULT_VIEW: &#x27;numbers&#x27;,
+
+    /**
+     * Object to hold data that needs to persist between steps
+     * Passed into each view
+     *
+     * @property wizardData
+     * @type Object
+     */
+    wizardData: null,
+
+    /**
+     * Ref table constants for addon types
+     *
+     * @property addonIds
+     * @type Object
+     */
+    addonIds: {
+        tollfree: 3,
+        local: 6,
+        canadian: 17,
+        true800: 18
+    },
+
+    /**
+     * Url for accessing the Addon endpoint of Organic
+     *
+     * @property addonUrl
+     * @type String
+     */
+    addonUrl: &#x27;/v1/addon&#x27;,
+
+    /**
+     * Url for accessing the Addon endpoint of Organic
+     *
+     * @property numberUrl
+     * @type String
+     */
+    numberUrl: &#x27;/v1/phonenumber&#x27;,
+
+    /**
+    * DOM container for current wizard view
+    *
+    * @property currentViewEl
+    * @type String
+    */
+    currentViewEl: &#x27;#wizard-current&#x27;,
+
+    /**
+    * Selector for the &#x27;previous&#x27; button
+    *
+    * @property prevEl
+    * @type String
+    */
+    prevEl: &#x27;.js-prev&#x27;,
+
+    /**
+     * Reference to prev button
+     *
+     * @property $prev
+     * @type jQuery Object
+     */
+    $prev: null,
+
+    /**
+    * Selector for the &#x27;next&#x27; button
+    *
+    * @property nextEl
+    * @type String
+    */
+    nextEl: &#x27;.js-next&#x27;,
+
+    /**
+     * Reference to next button
+     *
+     * @property $next
+     * @type jQuery Object
+     */
+    $next: null,
+
+    /**
+    * Selector for the &#x27;save&#x27; button
+    *
+    * @property saveEl
+    * @type String
+    */
+    saveEl: &#x27;.js-save&#x27;,
+
+    /**
+     * Reference to save button
+     *
+     * @property $save
+     * @type jQuery Object
+     */
+    $save: null,
+
+    /**
+    * Selector for the &#x27;cancel&#x27; button
+    *
+    * @property cancelEl
+    * @type String
+    */
+    cancelEl: &#x27;.js-cancel&#x27;,
+
+    /**
+     * Reference to cancel button
+     *
+     * @property $cancel
+     * @type jQuery Object
+     */
+    $cancel: null,
+
+    /**
+     * Class for disabling a button
+     *
+     * @property btnDisabledClass
+     * @type String
+     */
+    btnDisabledClass: &#x27;disabled&#x27;,
+
+    /**
+    * Selector for the wizard progress steps
+    *
+    * @property progressEl
+    * @type String
+    */
+    progressEl: &#x27;.wizard-progress &gt; span&#x27;,
+
+    subscriptions: {
+        &#x27;beginLoadStep&#x27;: &#x27;handleBeginLoadStep&#x27;,
+        &#x27;endLoadStep&#x27;: &#x27;handleEndLoadStep&#x27;,
+        &#x27;beginSearch&#x27;: &#x27;handleBeginSearch&#x27;,
+        &#x27;endSearch&#x27;: &#x27;handleEndSearch&#x27;,
+        &#x27;noSlots&#x27;: &#x27;handleNoSlots&#x27;,
+        &#x27;apiError&#x27;: &#x27;handleError&#x27;,
+        &#x27;goToStep&#x27;: &#x27;handleGoToStep&#x27;
+    },
+
+    events:  {
+        &#x27;click .js-prev&#x27;:   &#x27;handlePrev&#x27;,
+        &#x27;click .js-next&#x27;:   &#x27;handleNext&#x27;,
+        &#x27;click .js-cancel&#x27;: &#x27;handleCancel&#x27;,
+        &#x27;click .js-save&#x27;:   &#x27;handleSave&#x27;
+    },
+
+    /**
+     * Init state and render
+     *
+     * @method init
+     */
+    init: function (options) {
+        _.bindAll(this);
+
+        // set initial state
+        this.state = new Ibp.Carbon.Models.State({
+            currentView: options.currentView || this.DEFAULT_VIEW,
+            wizardType: options.type
+        });
+
+        this.wizardData = {
+            addons: {},
+            addonInfo: {},
+            unconfigured: {},
+            numbers: {},
+            currentNumbers: $.extend(true, [], this.model.getAreaCodes().toJSON()),
+            available: {},
+            error: null
+        };
+
+        // snapshot the model before we make changes so we can revert if the user cancels this edit
+        if (!this.model.isNew()) {
+            this.model.snapshot();
+        }
+
+        // listen for card flips and render new card
+        this.listenTo(this.state, &#x27;change:currentView&#x27;, this.handleViewChange);
+    },
+
+    /**
+     * Render
+     *
+     * @method render
+     * @return this view
+     */
+    render: function () {
+        var data = {
+            title: this.wizardTypeTitles[this.state.get(&#x27;wizardType&#x27;)]
+        };
+
+        if (!this.model.isNew() &amp;&amp; this.state.get(&#x27;wizardType&#x27;) !== &#x27;location&#x27;) {
+            data.title += this.model.get(&#x27;description&#x27;);
+        }
+
+        this.$el.removeClass(&#x27;hidden&#x27;);
+
+        this.$el.html(this.template(data));
+
+        this.$prev = this.$(this.prevEl);
+        this.$next = this.$(this.nextEl);
+        this.$save = this.$(this.saveEl);
+        this.$cancel = this.$(this.cancelEl);
+
+        // render the current card state
+        this.renderWizardView();
+
+        return this;
+    },
+
+    /**
+     * Destroy child views on remove
+     *
+     * @method onUnrender
+     */
+    onUnrender: function () {
+        _.invoke(this.views, &#x27;unrender&#x27;);
+    },
+
+    /**
+     * Render Wizard View
+     *
+     * @method render
+     * @return this view
+     */
+    renderWizardView: function () {
+        var View = this.wizardViews[this.state.get(&#x27;currentView&#x27;)];
+
+        if (this.views.currentView) {
+            this.views.currentView.unrender();
+        }
+
+        this.views.currentView = new View({
+            $container: this.$(this.wizardViewEl),
+            type: this.state.get(&#x27;wizardType&#x27;),
+            model: this.model,
+            wizardData: this.wizardData,
+            edit: (this.state.get(&#x27;wizardType&#x27;) === &#x27;edit&#x27;)
+		});
+
+        this.updateFooterNavigation();
+        this.updateWizardProgress();
+    },
+
+    /**
+     * Update Wizard Footer Buttons
+     *
+     * @method updateFooterNavigation
+     */
+    updateFooterNavigation: function () {
+        var flow  = this.wizardFlow[this.state.get(&#x27;currentView&#x27;)];
+
+        // handle previous button
+        if (flow.prev !== null) {
+            this.$prev.removeClass(&#x27;hide&#x27;);
+        }
+        else {
+            this.$prev.addClass(&#x27;hide&#x27;);
+        }
+
+        // handle next button
+        if (flow.next !== null) {
+            this.$next.removeClass(&#x27;hide&#x27;);
+            this.$save.addClass(&#x27;hide&#x27;);
+        }
+        else {
+            this.$next.addClass(&#x27;hide&#x27;);
+            this.$save.removeClass(&#x27;hide&#x27;);
+        }
+    },
+
+    /**
+     * Update Wizard Progress
+     *
+     * @method updateWizardProgress
+     */
+    updateWizardProgress: function () {
+        var index = _.indexOf(this.wizardOrder, this.state.get(&#x27;currentView&#x27;)),
+            progressItems = this.$(this.progressEl);
+
+        progressItems.removeClass(&#x27;completed current&#x27;);
+
+        for(var i = 0; i &lt;= index; i++) {
+            this.$(progressItems[i-1]).addClass(&#x27;completed&#x27;).removeClass(&#x27;current&#x27;);
+            this.$(progressItems[i]).addClass(&#x27;current&#x27;);
+        }
+    },
+
+    /**
+     * Handles the &quot;currentView&quot; state change event
+     *
+     * @method handleViewChange
+     */
+    handleViewChange: function () {
+        this.renderWizardView();
+    },
+
+    /**
+     * Handles click on prev button
+     *
+     * @method handlePrev
+     */
+    handlePrev: function (e) {
+        if ($(e.target).hasClass(this.btnDisabledClass)) {
+            return;
+        }
+
+        this.prev();
+    },
+
+    /**
+     * Handles click on next button
+     *
+     * @method handleNext
+     */
+    handleNext: function (e) {
+        if ($(e.target).hasClass(this.btnDisabledClass)) {
+            return;
+        }
+
+        this.next();
+    },
+
+    /**
+     * Handles click on cancel button
+     *
+     * @method handleCancel
+     */
+    handleCancel: function (e) {
+        if ($(e.target).hasClass(this.btnDisabledClass)) {
+            return;
+        }
+
+        this.cancel();
+    },
+
+    /**
+     * Handles click on cancel button
+     *
+     * @method handleCancel
+     */
+    handleSave: function (e) {
+        if ($(e.target).hasClass(this.btnDisabledClass)) {
+            return;
+        }
+
+        this.save();
+    },
+
+    /**
+     * Handles any &#x27;apiError&#x27; events during save
+     *
+     * @method handleError
+     */
+    handleError: function (error) {
+        this.wizardData.error = error;
+
+        this.unlockNavigation();
+
+        this.publish(&#x27;notify:dismiss&#x27;);
+
+        this.error();
+    },
+
+    /**
+     * Handler for the &#x27;goToStep&#x27; event
+     *
+     * @method handleError
+     */
+    handleGoToStep: function (view) {
+        this.state.set(&#x27;currentView&#x27;, view);
+    },
+
+    /**
+     * Handler for when a new step is navigated to
+     *
+     * @method handleBeginLoadStep
+     */
+    handleBeginLoadStep: function () {
+        this.lockNavigation({lockCancel: false});
+    },
+
+    /**
+     * Handler for when a new step has finished bootstrapping
+     *
+     * @method handleEndLoadStep
+     */
+    handleEndLoadStep: function () {
+        this.unlockNavigation();
+    },
+
+    /**
+     * Handler for when an area code search begins
+     *
+     * @method handleBeginSearch
+     */
+    handleBeginSearch: function () {
+        this.disableNext();
+    },
+
+    /**
+     * Handler for when an area code search ends
+     *
+     * @method handleEndSearch
+     */
+    handleEndSearch: function () {
+        this.enableNext();
+    },
+
+    /**
+     * Handler for when the addon and number order requests complete
+     *
+     * @method handleOrderComplete
+     */
+    handleOrderComplete: function () {
+        this.saveModel();
+    },
+
+    /**
+     * Navigate to previous wizard view
+     *
+     * @method prev
+     */
+    prev: function () {
+        if (this.model.isValid()) {
+            var flow = this.wizardFlow[this.state.get(&#x27;currentView&#x27;)];
+
+            this.publish(&#x27;notify:dismiss&#x27;);
+
+            if (flow.prev !== null) {
+                this.state.set(&#x27;currentView&#x27;, flow.prev);
+            }
+        }
+    },
+
+    /**
+     * Navigate to next wizard view
+     * Validates model and only navigates if it is valid
+     *
+     * @method next
+     */
+    next: function () {
+        if (this.model.isValid()) {
+            var flow = this.wizardFlow[this.state.get(&#x27;currentView&#x27;)];
+
+            this.publish(&#x27;notify:dismiss&#x27;);
+
+            if (flow.next !== null) {
+                this.state.set(&#x27;currentView&#x27;, flow.next);
+            }
+        }
+    },
+
+    /**
+     * Cancel the wizard
+     *
+     * @method cancel
+     */
+    cancel: function () {
+        var url = this.model.isNew() ? &#x27;pools&#x27; : &#x27;pools/&#x27; + this.model.id;
+
+        if (this.model.isNew()) {
+            this.model.trigger(&#x27;remove&#x27;, this.model);
+        }
+        else {
+            this.model.revert();
+        }
+
+        if (this.state.get(&#x27;wizardType&#x27;) === &#x27;location&#x27;) {
+            this.publish(&#x27;modal:unrender&#x27;);
+
+            return;
+        }
+
+        //TODO: Be More Smartlike, DUH
+        this.publish(&#x27;navigate&#x27;, url);
+    },
+
+    error: function () {
+        this.state.set(&#x27;currentView&#x27;, &#x27;error&#x27;);
+    },
+
+    // TODO: Error handling
+    /**
+     * Save the wizard configuration
+     *
+     * @method cance
+     */
+    save: function () {
+        this.lockNavigation();
+
+        this.orderAddons()
+            .then(this.orderNumbers)
+            .done(this.handleOrderComplete);
+    },
+
+    /**
+     * Sends the addon purchase request
+     *
+     * @method orderAddons
+     * @return {Deferred} Promise with the results of the addon order
+     */
+    orderAddons: function () {
+        var type = _.keys(this.wizardData.addons)[0],
+            quantity = this.wizardData.addons[type],
+            order = {
+                item_id: this.addonIds[type],
+                quantity: quantity
+            },
+            deferred;
+
+        if (quantity) {
+            this.publish(&#x27;notify&#x27;, {type: &#x27;warn&#x27;, msg: &#x27;Purchasing Add-Ons...&#x27;});
+
+            deferred = $.post(this.addonUrl, order);
+        } else {
+            deferred = new $.Deferred();
+
+            // resolve it now so we can proceed immediately to the next request
+            deferred.resolve();
+        }
+
+        return deferred;
+    },
+
+    /**
+     * Sends the number purchase request
+     *
+     * @method orderNumbers
+     * @return {Deferred} Promise with the results of the number order
+     */
+    orderNumbers: function () {
+        var order = _.map(this.wizardData.numbers, function (quantity, code) {
+                return {
+                    search: code,
+                    quantity: quantity,
+                    allOrNothing: true
+                };
+            }),
+            deferred;
+
+        if (!_.isEmpty(order)) {
+            this.publish(&#x27;notify&#x27;, {type: &#x27;warn&#x27;, msg: &#x27;Ordering Phone Numbers...&#x27;});
+
+            deferred = $.ajax({
+                url: this.numberUrl,
+                type: &#x27;post&#x27;,
+                data: JSON.stringify(order),
+                dataType: &#x27;json&#x27;,
+                contentType: &#x27;application/json&#x27;
+            });
+        } else {
+            deferred = new $.Deferred();
+
+            // resolve it now so we can proceed immediately to the next request
+            deferred.resolve();
+        }
+
+        return deferred;
+    },
+
+    /**
+     * Saves the model after the addon and number orders are complete
+     *
+     * @method saveModel
+     */
+    saveModel: function () {
+        var event,
+            handleSync;
+
+        // handle locations
+        if (this.state.get(&#x27;wizardType&#x27;) === &#x27;location&#x27;) {
+            event = &#x27;save&#x27;;
+
+            // go back to domain set edit page
+            handleSync = function () {
+                this.publish(&#x27;modal:unrender&#x27;);
+            };
+        }
+        // handle new pools
+        else if (this.model.isNew()) {
+            event = &#x27;create&#x27;;
+
+            // go back to pool modal dashboard
+            handleSync = function () {
+                this.publish(&#x27;navigate&#x27;, &#x27;pools&#x27;);
+            };
+        }
+        // handle existing pools
+        else {
+            event = &#x27;save&#x27;;
+
+            // go back to pool edit modal
+            handleSync = function () {
+                this.publish(&#x27;navigate&#x27;, &#x27;pools/&#x27; + this.model.id);
+            };
+        }
+
+        this.model.trigger(event, this.model, this.model.attributes);
+
+        this.listenToOnce(this.model, &#x27;sync&#x27;, handleSync.bind(this));
+
+        this.listenToOnce(this.model, &#x27;error&#x27;, function () {
+            this.unlockNavigation();
+        }.bind(this));
+    },
+
+    /**
+     * Enables the next button
+     *
+     * @method enableNext
+     */
+    enableNext: function () {
+        this.$next.removeClass(this.btnDisabledClass);
+    },
+
+    /**
+     * Disables the next button
+     *
+     * @method disableNext
+     */
+    disableNext: function () {
+        this.$next.addClass(this.btnDisabledClass);
+    },
+
+    /**
+     * Disables all nav buttons
+     *
+     * @method lockNavigation
+     * @param options
+     * @param options.lockCancel {Boolean} Specifies if the Cancel button should be locked
+     */
+    lockNavigation: function (options) {
+        this.$prev.addClass(this.btnDisabledClass);
+        this.$next.addClass(this.btnDisabledClass);
+        this.$save.addClass(this.btnDisabledClass);
+
+        // leave cancel unlocked if explicitly told to do so
+        if (options &amp;&amp; options.lockCancel !== false) {
+            this.$cancel.addClass(this.btnDisabledClass);
+        }
+    },
+
+    /**
+     * Enables all nav buttons
+     *
+     * @method unlockNavigation
+     */
+    unlockNavigation: function () {
+        this.$prev.removeClass(this.btnDisabledClass);
+        this.$next.removeClass(this.btnDisabledClass);
+        this.$save.removeClass(this.btnDisabledClass);
+        this.$cancel.removeClass(this.btnDisabledClass);
+    }
+});
+
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>
