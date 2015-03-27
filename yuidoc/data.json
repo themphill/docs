@@ -631,7 +631,9 @@
         "../../../application/modules/sourcetrak/resources/js/views/view.domain.js": {
             "name": "../../../application/modules/sourcetrak/resources/js/views/view.domain.js",
             "modules": {},
-            "classes": {},
+            "classes": {
+                "Views.Domain": 1
+            },
             "fors": {},
             "namespaces": {}
         },
@@ -1223,6 +1225,7 @@
                 "Views.ActivityPool": 1,
                 "Views.ActivityPoolEdit": 1,
                 "Views.SnippetModal": 1,
+                "Views.Domain": 1,
                 "Views.listControls": 1,
                 "Views.LocationItem": 1,
                 "Views.LocationsList": 1
@@ -1941,6 +1944,20 @@
             "file": "../../../application/modules/sourcetrak/resources/js/views/view.deleteLocationModal.js",
             "line": 1,
             "description": "Modal to warn user before deleting a location and allows\nthem to confirm the deletion, and remove the location model,\nor cancel the deletion, which re-renders the full page, closing the modal."
+        },
+        "Views.Domain": {
+            "name": "Views.Domain",
+            "shortname": "Views.Domain",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "SourceTrak",
+            "namespace": "",
+            "file": "../../../application/modules/sourcetrak/resources/js/views/view.domain.js",
+            "line": 1,
+            "description": "Displays a single domain of a domain set"
         },
         "Views.DomainSetItem": {
             "name": "Views.DomainSetItem",
@@ -8816,21 +8833,21 @@
         },
         {
             "file": "../../../application/modules/sourcetrak/resources/js/views/view.domain.js",
-            "line": 5,
+            "line": 12,
             "description": "DOM Event handlers",
             "itemtype": "property",
             "name": "events",
-            "class": "Views.DomainSetItem",
-            "module": "Sourcetrak"
+            "class": "Views.Domain",
+            "module": "SourceTrak"
         },
         {
             "file": "../../../application/modules/sourcetrak/resources/js/views/view.domain.js",
-            "line": 27,
+            "line": 34,
             "description": "Destroys the domain",
             "itemtype": "method",
             "name": "destroy",
-            "class": "Views.DomainSetItem",
-            "module": "Sourcetrak"
+            "class": "Views.Domain",
+            "module": "SourceTrak"
         },
         {
             "file": "../../../application/modules/sourcetrak/resources/js/views/view.domainSetItem.js",

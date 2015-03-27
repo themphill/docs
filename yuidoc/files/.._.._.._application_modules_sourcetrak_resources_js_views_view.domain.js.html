@@ -82,6 +82,7 @@
                                 <li><a href="../classes/Views.AdvancedOptionsModal.html">Views.AdvancedOptionsModal</a></li>
                                 <li><a href="../classes/Views.CopyToClipboard.html">Views.CopyToClipboard</a></li>
                                 <li><a href="../classes/Views.DeleteLocationModal.html">Views.DeleteLocationModal</a></li>
+                                <li><a href="../classes/Views.Domain.html">Views.Domain</a></li>
                                 <li><a href="../classes/Views.DomainSetItem.html">Views.DomainSetItem</a></li>
                                 <li><a href="../classes/Views.DomainsPopover.html">Views.DomainsPopover</a></li>
                                 <li><a href="../classes/Views.EditPoolToolbar.html">Views.EditPoolToolbar</a></li>
@@ -149,6 +150,13 @@
 
 <div class="file">
     <pre class="code prettyprint linenums">
+/**
+ * Displays a single domain of a domain set
+ *
+ * @module SourceTrak
+ * @class Views.Domain
+ * @extends Ibp.Backbone.View
+ */
 Ibp.Sourcetrak.Views.Domain = Ibp.Carbon.Views.PageView.extend({
     name: &#x27;Domain&#x27;,
     template: Ibp.Sourcetrak.Templates.domain,

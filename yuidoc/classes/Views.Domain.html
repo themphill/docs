@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>../../../application/modules/sourcetrak/resources/js/views/view.poolsListItemEmpty.js - Sourcetrak</title>
+    <title>Views.Domain - Sourcetrak</title>
     <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
     <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
     <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
@@ -146,39 +146,130 @@
             <div class="apidocs">
                 <div id="docs-main">
                     <div class="content">
-<h1 class="file-heading">File: ../../../application/modules/sourcetrak/resources/js/views/view.poolsListItemEmpty.js</h1>
+<h1>Views.Domain Class</h1>
+<div class="box meta">
 
-<div class="file">
-    <pre class="code prettyprint linenums">
-Ibp.Sourcetrak.Views.PoolsListItemEmpty = Ibp.Backbone.View.extend({
-    name:&#x27;PoolsListItemEmpty&#x27;,
-    template: Ibp.Sourcetrak.Templates.pools_list_item_empty,
 
-    /**
-    * Sets Pools List container and renders view
-    *
-    * @method init
-    */
-    init: function (options) {
-        this.$container = options.$container;
+        <div class="foundat">
+            Defined in: <a href="../files/.._.._.._application_modules_sourcetrak_resources_js_views_view.domain.js.html#l1"><code>..&#x2F;..&#x2F;..&#x2F;application&#x2F;modules&#x2F;sourcetrak&#x2F;resources&#x2F;js&#x2F;views&#x2F;view.domain.js:1</code></a>
+        </div>
 
-        this.render();
-    },
+            Module: <a href="../modules/SourceTrak.html">SourceTrak</a>
 
-    /**
-    * Renders empty row with &quot;no pools or one-to-ones found&quot; message 
-    *
-    * @method init
-    */
-    render: function () {
-        this.$el = $(this.template());
-        this.$container.append(this.$el);
+</div>
 
-        return this;
-    }
-});
 
-    </pre>
+<div class="box intro">
+    <p>Displays a single domain of a domain set</p>
+
+</div>
+
+
+<div id="classdocs" class="tabview">
+    <ul class="api-class-tabs">
+        <li class="api-class-tab index"><a href="#index">Index</a></li>
+
+            <li class="api-class-tab methods"><a href="#methods">Methods</a></li>
+            <li class="api-class-tab properties"><a href="#properties">Properties</a></li>
+    </ul>
+
+    <div>
+        <div id="index" class="api-class-tabpanel index">
+            <h2 class="off-left">Item Index</h2>
+
+                <div class="index-section methods">
+                    <h3>Methods</h3>
+
+                    <ul class="index-list methods">
+                            <li class="index-item method">
+                                <a href="#method_destroy">destroy</a>
+
+                            </li>
+                    </ul>
+                </div>
+
+                <div class="index-section properties">
+                    <h3>Properties</h3>
+
+                    <ul class="index-list properties">
+                            <li class="index-item property">
+                                <a href="#property_events">events</a>
+
+                            </li>
+                    </ul>
+                </div>
+
+
+        </div>
+
+            <div id="methods" class="api-class-tabpanel">
+                <h2 class="off-left">Methods</h2>
+
+<div id="method_destroy" class="method item">
+    <h3 class="name"><code>destroy</code></h3>
+
+        <span class="paren">()</span>
+
+
+
+
+
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/.._.._.._application_modules_sourcetrak_resources_js_views_view.domain.js.html#l34"><code>..&#x2F;..&#x2F;..&#x2F;application&#x2F;modules&#x2F;sourcetrak&#x2F;resources&#x2F;js&#x2F;views&#x2F;view.domain.js:34</code></a>
+        </p>
+
+
+
+    </div>
+
+    <div class="description">
+        <p>Destroys the domain</p>
+
+    </div>
+
+
+
+
+</div>
+            </div>
+
+            <div id="properties" class="api-class-tabpanel">
+                <h2 class="off-left">Properties</h2>
+
+                    <div id="property_events" class="property item">
+                        <h3 class="name"><code>events</code></h3>
+                        <span class="type">Unknown</span>
+                    
+                    
+                    
+                    
+                    
+                        <div class="meta">
+                                    <p>
+                                    Defined in
+                            <a href="../files/.._.._.._application_modules_sourcetrak_resources_js_views_view.domain.js.html#l12"><code>..&#x2F;..&#x2F;..&#x2F;application&#x2F;modules&#x2F;sourcetrak&#x2F;resources&#x2F;js&#x2F;views&#x2F;view.domain.js:12</code></a>
+                            </p>
+                    
+                    
+                        </div>
+                    
+                        <div class="description">
+                            <p>DOM Event handlers</p>
+                    
+                        </div>
+                    
+                    
+                    
+                    </div>
+            </div>
+
+
+    </div>
 </div>
                     </div>
                 </div>

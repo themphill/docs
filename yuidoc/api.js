@@ -41,6 +41,7 @@ YUI.add("yuidoc-meta", function(Y) {
         "Views.AdvancedOptionsModal",
         "Views.CopyToClipboard",
         "Views.DeleteLocationModal",
+        "Views.Domain",
         "Views.DomainSetItem",
         "Views.DomainsPopover",
         "Views.EditPoolToolbar",
